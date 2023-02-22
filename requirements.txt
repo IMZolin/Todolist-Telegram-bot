@@ -1,3 +1,4 @@
 aiogram~=2.25.1
 python-dotenv~=0.21.1
 peewee~=3.15.4
+SQLAlchemy~=2.0.4

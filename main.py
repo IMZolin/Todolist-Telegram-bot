@@ -1,33 +1,49 @@
+import asyncio
+import logging
 import os
+from typing import Callable
+
 from aiogram import Bot, types
-from aiogram.dispatcher import Dispatcher
-from aiogram.utils import executor
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.dispatcher import Dispatcher, storage
+from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, AsyncEngine
+from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
-bot = Bot(token=TOKEN)
-dp = Dispatcher(bot)
+from config import load_config
+from filters.admin import AdminFilter
+from handlers import setup_handlers
+from utils.notify_admins import notify_admins
+from utils.set_bot_commands import set_default_commands
 
 
-@dp.message_handler(commands=['start'])
-async def cmd_start(message: types.Message):
-    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    button_to_do = types.KeyboardButton(text="View the to-do list")
-    keyboard.add(button_to_do)
-    button_completed = types.KeyboardButton(text="View a list of completed cases")
-    keyboard.add(button_completed)
-    await bot.send_message(message.from_user.id,
-                           "Welcome!\nI can help you create and manage your tasks with a calendar and a reminder!",
-                           reply_markup=keyboard)
+async def main():
+    logging.basicConfig(filename='main.log', filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s')
+    config = load_config()
+    storage = MemoryStorage()
+    engine: AsyncEngine = create_async_engine(
+        f'postgresql+asyncpg://{config.db.username}:{config.db.password}@{config.db.host}/'
+        f'{config.db.database}', echo=False, future=True)
+    db_sessionmaker: Callable = sessionmaker(engine, expire_on_commit=False, class_=AsyncSession)
+    bot = Bot(token=config.bot.token)
+    dp = Dispatcher(bot, storage=storage)
+    dp.filters_factory.bind(AdminFilter)
 
-
-@dp.message_handler(commands=['help'])
-async def cmd_help(message: types.Message):
-    await message.reply(
-        "I can help you create and manage your tasks with a calendar and a reminder!\\ You can control me by sending "
-        "these commands:\\some command")
+    setup_handlers(dp)
+    await set_default_commands(dp)
+    await notify_admins(dp, config.bot.admins)
+    try:
+        logging.warning('Bot started!')
+        await dp.start_polling()
+    finally:
+        await dp.storage.close()
+        await dp.storage.wait_closed()
+        await (await bot.get_session()).close()
+        await engine.dispose()
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    try:
+        asyncio.run(main())
+    except (KeyboardInterrupt, SystemExit):
+        logging.warning('Bot stopped!')
