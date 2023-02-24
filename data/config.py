@@ -8,6 +8,16 @@ from pathlib import Path
 DIR = Path(__file__).absolute().parent
 I18N_DOMAIN = 'bot'
 LOCALES_DIR = f'{DIR}/locales'
+ADMINS = [int(_) for _ in os.getenv('ADMINS', default='').split()]
+RATE_LIMIT = os.getenv('RATE_LIMIT')
+
+
+@dataclass
+class WebhookConfig:
+    host: str
+    port: str
+    path: str
+
 
 @dataclass
 class DatabaseConfig:

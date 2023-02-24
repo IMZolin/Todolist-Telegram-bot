@@ -1,5 +1,5 @@
 # Translations template for bot.
-# Copyright (C) 2023 ORGANIZATION
+# Copyright (C) 2022 ORGANIZATION
 # This file is distributed under the same license as the bot project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
@@ -17,20 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
+#: bot/commands/admin.py:11
+msgid "export users to csv"
+msgstr ""
+
+#: bot/commands/admin.py:12
+msgid "count users who contacted the bot"
+msgstr ""
+
+#: bot/commands/admin.py:13
+msgid "count active users (who didn't block the bot)"
+msgstr ""
+
 #: bot/commands/default.py:8
 msgid "start bot"
 msgstr ""
 
-#: bot/keyboards/default/default.py:9
-msgid "Help 🆘"
-msgstr ""
-
 #: bot/commands/default.py:9
 msgid "how it works?"
-msgstr ""
-
-#: bot/keyboards/default/default.py:9
-msgid "Settings 🛠"
 msgstr ""
 
 #: bot/commands/default.py:10
@@ -39,6 +43,18 @@ msgstr ""
 
 #: bot/commands/default.py:11
 msgid "open bot settings"
+msgstr ""
+
+#: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
+msgid "Total users: {count}"
+msgstr ""
+
+#: bot/handlers/users/admin_menu.py:49
+msgid "Active users: {count}"
+msgstr ""
+
+#: bot/handlers/users/helpers.py:10
+msgid "Choose an action from the menu 👇"
 msgstr ""
 
 #: bot/handlers/users/settings.py:21
@@ -51,14 +67,30 @@ msgstr ""
 msgid "Choose your language"
 msgstr ""
 
-#: bot/handlers/users/helpers.py:10
-msgid "Choose an action from the menu 👇"
-msgstr ""
-
 #: bot/handlers/users/start.py:15
 msgid ""
 "Hi {full_name}!\n"
 "Choose your language"
+msgstr ""
+
+#: bot/keyboards/default/default.py:9
+msgid "Help 🆘"
+msgstr ""
+
+#: bot/keyboards/default/default.py:9
+msgid "Settings 🛠"
+msgstr ""
+
+#: bot/keyboards/default/default.py:12
+msgid "Export users 📁"
+msgstr ""
+
+#: bot/keyboards/default/default.py:13
+msgid "Count users 👥"
+msgstr ""
+
+#: bot/keyboards/default/default.py:14
+msgid "Count active users 👥"
 msgstr ""
 
 #: bot/middlewares/throttling.py:35

@@ -19,6 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
+#: bot/commands/admin.py:11
+msgid "export users to csv"
+msgstr "экспортировать пользователей в файл csv"
+
+#: bot/commands/admin.py:12
+msgid "count users who contacted the bot"
+msgstr "количество пользователей, которые связывались с ботом"
+
+#: bot/commands/admin.py:13
+msgid "count active users (who didn't block the bot)"
+msgstr "количество активных пользователей (которые не заблокировали бота)"
+
 #: bot/commands/default.py:8
 msgid "start bot"
 msgstr "запустить бота"
@@ -34,6 +46,14 @@ msgstr "изменить язык"
 #: bot/commands/default.py:11
 msgid "open bot settings"
 msgstr "открыть настройки бота"
+
+#: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
+msgid "Total users: {count}"
+msgstr "Всего пользователей: {count}"
+
+#: bot/handlers/users/admin_menu.py:49
+msgid "Active users: {count}"
+msgstr "Активных пользователей: {count}"
 
 #: bot/handlers/users/helpers.py:10
 msgid "Choose an action from the menu 👇"
@@ -66,6 +86,18 @@ msgstr "Помощь 🆘"
 #: bot/keyboards/default/default.py:9
 msgid "Settings 🛠"
 msgstr "Настройки 🛠"
+
+#: bot/keyboards/default/default.py:12
+msgid "Export users 📁"
+msgstr "Экспорт пользователей 📁"
+
+#: bot/keyboards/default/default.py:13
+msgid "Count users 👥"
+msgstr "Количество пользователей 👥"
+
+#: bot/keyboards/default/default.py:14
+msgid "Count active users 👥"
+msgstr "Количество активных пользователей 👥"
 
 #: bot/middlewares/throttling.py:35
 msgid "Too many requests!"

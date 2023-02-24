@@ -8,6 +8,11 @@ def get_default_markup(user):
 
     markup.add(_('Help 🆘'), _('Settings 🛠'))
 
+    if user.is_admin:
+        markup.add(_('Export users 📁'))
+        markup.add(_('Count users 👥'))
+        markup.add(_('Count active users 👥'))
+
     if len(markup.keyboard) < 1:
         return ReplyKeyboardRemove()
 
