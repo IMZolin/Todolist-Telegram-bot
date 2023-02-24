@@ -1,12 +1,33 @@
 version: "3"
 
 services:
-  web:
+  bot:
     build: .
+    entrypoint:
+      - ./bin/entrypoint.sh
+    depends_on:
+      - postgres
     image: ${IMAGE_NAME}:v1
     container_name: ${CONTAINER_NAME}
-    command: python main.py
-    ports:
-      - ${PORT}:${PORT2}
+    environment:
+      BOT_TOKEN: ${BOT_TOKEN}
+      RATE_LIMIT: ${RATE_LIMIT:-0.5}
+
+      DATABASE_USER: ${DB_USER}
+      DATABASE_PASS: ${DB_PASSWORD}
+      DATABASE_HOST: ${DB_HOST}
+      DATABASE_PORT: ${DB_PORT}
+
+      DATABASE_NAME: ${DB_NAME}
+
     volumes:
       - ./:/app
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+volumes:
+  postgres_data:
