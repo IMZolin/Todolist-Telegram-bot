@@ -1,0 +1,21 @@
+[2023-02-24T13:22:45.621915+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:23:18.386900+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:26:11.448923+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:26:36.940368+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:27:36.152132+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:30:27.052485+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:32:33.254398+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:36:56.106957+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:40:19.186192+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:42:00.064695+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:54:39.206364+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T13:57:37.398127+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T14:01:14.781339+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-24T14:01:22.598066+0300] [INFO] [users.py:41]  New user 448470724
+[2023-02-24T14:01:22.598921+0300] [DEBUG] [logging.py:11]  Received message [ID:140] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-24T14:01:31.713890+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:141] in chat [ID:448470724]
+[2023-02-24T14:01:37.627976+0300] [DEBUG] [logging.py:11]  Received message [ID:143] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-24T14:01:42.199945+0300] [DEBUG] [logging.py:11]  Received message [ID:145] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-02-24T14:01:43.736124+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:146] in chat [ID:448470724]
+[2023-02-24T14:01:47.264090+0300] [DEBUG] [logging.py:11]  Received message [ID:148] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-24T14:01:49.846094+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:149] in chat [ID:448470724]
