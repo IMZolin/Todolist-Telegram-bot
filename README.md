@@ -56,7 +56,7 @@ pw_migrate migrate --database $(python _get_database_url.py) --directory ./migra
 # or if you have make you can simply type 
 make db_upgrade
 # run pooling
-python main.py
+python task_handler.py
 ```
 
 ### Configure environment variables

@@ -7,6 +7,7 @@ def get_default_markup(user):
     markup = ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
 
     markup.add(_('Help 🆘'), _('Settings 🛠'))
+    markup.add(_('View to-do list 📃'), _('View a list of completed cases 🏆'))
 
     if user.is_admin:
         markup.add(_('Export users 📁'))

@@ -1,14 +1,14 @@
-# Russian translations for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# Russian translations for bot.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the bot project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-02 14:54+0300\n"
-"PO-Revision-Date: 2022-03-24 14:03+0200\n"
+"POT-Creation-Date: 2023-02-25 10:12+0300\n"
+"PO-Revision-Date: 2023-02-25 10:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -47,6 +47,21 @@ msgstr "изменить язык"
 msgid "open bot settings"
 msgstr "открыть настройки бота"
 
+#: bot/commands/default.py:12
+#, fuzzy
+msgid "view the to-do list"
+msgstr "Посмотреть список текущих дел 📃"
+
+#: bot/commands/default.py:13
+#, fuzzy
+msgid "view a list of completed cases"
+msgstr "Посмотреть список выполненных дел 🏆"
+
+#: bot/handlers/tasks/task_handler.py:15 bot/handlers/tasks/task_handler.py:27
+#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:9
+msgid "Help 🆘"
+msgstr "Помощь 🆘"
+
 #: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
 msgstr "Всего пользователей: {count}"
@@ -71,7 +86,7 @@ msgstr ""
 msgid "Choose your language"
 msgstr "Выберите свой язык"
 
-#: bot/handlers/users/start.py:15
+#: bot/handlers/users/start.py:12
 msgid ""
 "Hi {full_name}!\n"
 "Choose your language"
@@ -80,25 +95,325 @@ msgstr ""
 "Выберите свой язык"
 
 #: bot/keyboards/default/default.py:9
-msgid "Help 🆘"
-msgstr "Помощь 🆘"
-
-#: bot/keyboards/default/default.py:9
 msgid "Settings 🛠"
 msgstr "Настройки 🛠"
 
-#: bot/keyboards/default/default.py:12
+#: bot/keyboards/default/default.py:10
+msgid "View to-do list 📃"
+msgstr "Посмотреть список текущих дел 📃"
+
+#: bot/keyboards/default/default.py:10
+msgid "View a list of completed cases 🏆"
+msgstr "Посмотреть список выполненных дел 🏆"
+
+#: bot/keyboards/default/default.py:13
 msgid "Export users 📁"
 msgstr "Экспорт пользователей 📁"
 
-#: bot/keyboards/default/default.py:13
+#: bot/keyboards/default/default.py:14
 msgid "Count users 👥"
 msgstr "Количество пользователей 👥"
 
-#: bot/keyboards/default/default.py:14
+#: bot/keyboards/default/default.py:15
 msgid "Count active users 👥"
 msgstr "Количество активных пользователей 👥"
 
-#: bot/middlewares/throttling.py:35
-msgid "Too many requests!"
-msgstr "Слишком много запросов!"
+#: venv/Lib/site-packages/click/_termui_impl.py:496
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: venv/Lib/site-packages/click/_termui_impl.py:500
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1097
+msgid "Aborted!"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1282
+#: venv/Lib/site-packages/click/decorators.py:495
+msgid "Show this message and exit."
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1313
+#: venv/Lib/site-packages/click/core.py:1339
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1357
+msgid "Options"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1385
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/core.py:1398
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1605
+msgid "Commands"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1637
+msgid "Missing command."
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:1715
+msgid "No such command {name!r}."
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:2271
+msgid "Value must be an iterable."
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:2293
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/core.py:2734
+msgid "env var: {var}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:2764
+msgid "(dynamic)"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:2777
+msgid "default: {default}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/core.py:2790
+msgid "required"
+msgstr ""
+
+#: venv/Lib/site-packages/click/decorators.py:400
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: venv/Lib/site-packages/click/decorators.py:464
+msgid "Show the version and exit."
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:43
+#: venv/Lib/site-packages/click/exceptions.py:79
+msgid "Error: {message}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:71
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:120
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:122
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:178
+msgid "Missing argument"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:180
+msgid "Missing option"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:182
+msgid "Missing parameter"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:184
+msgid "Missing {param_type}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:191
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:211
+msgid "No such option: {name}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:225
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/exceptions.py:261
+msgid "unknown error"
+msgstr ""
+
+#: venv/Lib/site-packages/click/exceptions.py:268
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: venv/Lib/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: venv/Lib/site-packages/click/parser.py:473
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/shell_completion.py:315
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: venv/Lib/site-packages/click/shell_completion.py:322
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:160
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:176
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:178
+msgid "Error: {e.message}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:189
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:245
+msgid "Error: invalid input"
+msgstr ""
+
+#: venv/Lib/site-packages/click/termui.py:776
+msgid "Press any key to continue..."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:265
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:299
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/types.py:389
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/click/types.py:409
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:465
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:606
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:630
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:811
+msgid "file"
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:813
+msgid "directory"
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:815
+msgid "path"
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:861
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:870
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:878
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:887
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:896
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:905
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: venv/Lib/site-packages/click/types.py:971
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:404
+#, python-format
+msgid "Content purported to be compressed with %s but failed to decompress."
+msgstr ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:568
+#, python-format
+msgid "Unsupported value for qop: %s."
+msgstr ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:572
+#: venv/Lib/site-packages/httplib2/__init__.py:650
+#, python-format
+msgid "Unsupported value for algorithm: %s.algorithm"
+msgstr ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:645
+msgid "The challenge doesn't contain a server nonce, or this one is empty."
+msgstr ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:655
+#, python-format
+msgid "Unsupported value for pw-algorithm: %s.pw-algorithm"
+msgstr ""
+
+#: venv/Lib/site-packages/httplib2/__init__.py:1464
+msgid "Redirected but the response is missing a Location: header."
+msgstr ""
+
+#~ msgid "Too many requests!"
+#~ msgstr "Слишком много запросов!"
+

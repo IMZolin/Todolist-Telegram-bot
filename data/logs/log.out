@@ -68,3 +68,45 @@
 [2023-02-24T16:55:09.517406+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:217] in chat [ID:448470724]
 [2023-02-24T16:55:11.886693+0300] [DEBUG] [logging.py:11]  Received message [ID:219] from user [ID:448470724] in chat [ID:448470724] text "Export users 📁"
 [2023-02-24T16:55:21.671625+0300] [DEBUG] [logging.py:11]  Received message [ID:221] from user [ID:448470724] in chat [ID:448470724] text "Count active users 👥"
+[2023-02-25T09:06:24.407930+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T09:06:26.135783+0300] [DEBUG] [logging.py:11]  Received message [ID:223] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T09:06:26.266769+0300] [DEBUG] [logging.py:11]  Received message [ID:224] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T09:06:51.661276+0300] [DEBUG] [logging.py:11]  Received message [ID:230] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T09:06:54.220390+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:231] in chat [ID:448470724]
+[2023-02-25T10:02:38.880486+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:03:02.734455+0300] [DEBUG] [logging.py:11]  Received message [ID:233] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:03:05.525049+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:234] in chat [ID:448470724]
+[2023-02-25T10:03:10.124718+0300] [DEBUG] [logging.py:11]  Received message [ID:236] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-25T10:03:20.569977+0300] [DEBUG] [logging.py:11]  Received message [ID:238] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-25T10:03:27.325370+0300] [DEBUG] [logging.py:11]  Received message [ID:240] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:03:28.763851+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:241] in chat [ID:448470724]
+[2023-02-25T10:05:18.155925+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:05:23.315196+0300] [DEBUG] [logging.py:11]  Received message [ID:243] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:05:26.280719+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:244] in chat [ID:448470724]
+[2023-02-25T10:05:29.085294+0300] [DEBUG] [logging.py:11]  Received message [ID:246] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T10:05:32.520719+0300] [DEBUG] [logging.py:11]  Received message [ID:248] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-02-25T10:05:34.206557+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:249] in chat [ID:448470724]
+[2023-02-25T10:06:58.878829+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:07:01.770274+0300] [DEBUG] [logging.py:11]  Received message [ID:251] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:07:03.296900+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:252] in chat [ID:448470724]
+[2023-02-25T10:07:05.857018+0300] [DEBUG] [logging.py:11]  Received message [ID:254] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-25T10:07:11.077401+0300] [DEBUG] [logging.py:11]  Received message [ID:256] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:07:12.520835+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:257] in chat [ID:448470724]
+[2023-02-25T10:13:37.255685+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:13:43.256388+0300] [DEBUG] [logging.py:11]  Received message [ID:259] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:13:46.115501+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:260] in chat [ID:448470724]
+[2023-02-25T10:13:52.342261+0300] [DEBUG] [logging.py:11]  Received message [ID:262] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:13:53.977570+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:263] in chat [ID:448470724]
+[2023-02-25T10:13:59.353986+0300] [DEBUG] [logging.py:11]  Received message [ID:265] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:14:00.588953+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:266] in chat [ID:448470724]
+[2023-02-25T10:14:08.605480+0300] [DEBUG] [logging.py:11]  Received message [ID:268] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T10:14:10.311091+0300] [DEBUG] [logging.py:11]  Received message [ID:270] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-02-25T10:14:11.834046+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:271] in chat [ID:448470724]
+[2023-02-25T10:14:48.412756+0300] [DEBUG] [logging.py:11]  Received message [ID:273] from user [ID:448470724] in chat [ID:448470724] text "/help"
+[2023-02-25T10:14:49.810274+0300] [DEBUG] [logging.py:11]  Received message [ID:275] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-02-25T10:14:50.865373+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:276] in chat [ID:448470724]
+[2023-02-25T10:21:24.032582+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:21:32.632591+0300] [DEBUG] [logging.py:11]  Received message [ID:278] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:21:36.697499+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:279] in chat [ID:448470724]
+[2023-02-25T10:21:40.010481+0300] [DEBUG] [logging.py:11]  Received message [ID:281] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:21:41.028569+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:282] in chat [ID:448470724]
