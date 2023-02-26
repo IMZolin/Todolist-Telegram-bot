@@ -16,7 +16,7 @@ class Task(BaseModel):
     created_at = DateTimeField(default=lambda: datetime.utcnow())
 
     def __repr__(self) -> str:
-        return f'<Task {self.name}>'
+        return f'<Task {self.text}>'
 
     class Meta:
         table_name = 'tasks'

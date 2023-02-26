@@ -8,7 +8,7 @@ class LoggingMiddleware(BaseMiddleware):
     @staticmethod
     async def on_process_message(message: Message, data: dict[str]):
         if message.content_type == 'text':
-            logger.debug(f'Received message [ID:{message.message_id}] from user [ID:{message.from_user.id}] '
+            logger.debug(f'Received message [AQID:{message.message_id}] from user [ID:{message.from_user.id}] '
                          f'in chat [ID:{message.chat.id}] text "{message.text}"')
         elif message.content_type == 'web_app_data':
             logger.debug(f'Received web app data [ID:{message.message_id}] from user [ID:{message.from_user.id}] '

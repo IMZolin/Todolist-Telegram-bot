@@ -110,3 +110,170 @@
 [2023-02-25T10:21:36.697499+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:279] in chat [ID:448470724]
 [2023-02-25T10:21:40.010481+0300] [DEBUG] [logging.py:11]  Received message [ID:281] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
 [2023-02-25T10:21:41.028569+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:282] in chat [ID:448470724]
+[2023-02-25T10:31:21.767330+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:31:28.859550+0300] [DEBUG] [logging.py:11]  Received message [ID:284] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:31:32.172860+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:285] in chat [ID:448470724]
+[2023-02-25T10:31:35.874408+0300] [DEBUG] [logging.py:11]  Received message [ID:287] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-25T10:31:55.484915+0300] [DEBUG] [logging.py:11]  Received message [ID:289] from user [ID:448470724] in chat [ID:448470724] text "Export users 📁"
+[2023-02-25T10:32:27.483565+0300] [DEBUG] [logging.py:11]  Received message [ID:291] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-25T10:33:35.339792+0300] [DEBUG] [logging.py:11]  Received message [ID:293] from user [ID:448470724] in chat [ID:448470724] text "hello"
+[2023-02-25T10:40:09.604439+0300] [DEBUG] [logging.py:11]  Received message [ID:295] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T10:40:12.677189+0300] [DEBUG] [logging.py:11]  Received message [ID:297] from user [ID:448470724] in chat [ID:448470724] text "/todolist"
+[2023-02-25T10:40:33.570302+0300] [DEBUG] [logging.py:11]  Received message [ID:299] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-25T10:42:11.116599+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:42:14.856720+0300] [DEBUG] [logging.py:11]  Received message [ID:301] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:42:17.387619+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:302] in chat [ID:448470724]
+[2023-02-25T10:42:20.125949+0300] [DEBUG] [logging.py:11]  Received message [ID:304] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-25T10:42:54.120927+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:42:57.231038+0300] [DEBUG] [logging.py:11]  Received message [ID:306] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:43:00.109174+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:307] in chat [ID:448470724]
+[2023-02-25T10:43:01.753981+0300] [DEBUG] [logging.py:11]  Received message [ID:309] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-25T10:43:04.792372+0300] [DEBUG] [logging.py:11]  Received message [ID:311] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-25T10:48:31.262897+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:48:35.619831+0300] [DEBUG] [logging.py:11]  Received message [ID:313] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:48:37.346524+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:314] in chat [ID:448470724]
+[2023-02-25T10:48:39.153474+0300] [DEBUG] [logging.py:11]  Received message [ID:316] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-25T10:51:18.188739+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T10:51:21.091905+0300] [DEBUG] [logging.py:11]  Received message [ID:318] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T10:51:23.506051+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:319] in chat [ID:448470724]
+[2023-02-25T10:51:26.109789+0300] [DEBUG] [logging.py:11]  Received message [ID:321] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-25T10:51:32.113231+0300] [DEBUG] [logging.py:11]  Received message [ID:323] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T10:51:33.855831+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:324] in chat [ID:448470724]
+[2023-02-25T10:51:36.312932+0300] [DEBUG] [logging.py:11]  Received message [ID:326] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-02-25T10:51:39.520574+0300] [DEBUG] [logging.py:11]  Received message [ID:328] from user [ID:448470724] in chat [ID:448470724] text "/completedcases"
+[2023-02-25T10:52:30.086716+0300] [DEBUG] [logging.py:11]  Received message [ID:330] from user [ID:448470724] in chat [ID:448470724] text "/todolist"
+[2023-02-25T13:44:15.782818+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T13:44:22.180003+0300] [DEBUG] [logging.py:11]  Received message [AQID:332] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T13:44:24.846892+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:333] in chat [ID:448470724]
+[2023-02-25T13:44:33.108389+0300] [DEBUG] [logging.py:11]  Received message [AQID:335] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-25T13:44:38.888209+0300] [DEBUG] [logging.py:11]  Received message [AQID:337] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T13:44:41.781184+0300] [DEBUG] [logging.py:11]  Received message [AQID:339] from user [ID:448470724] in chat [ID:448470724] text "/completedcases"
+[2023-02-25T13:44:50.121365+0300] [DEBUG] [logging.py:11]  Received message [AQID:341] from user [ID:448470724] in chat [ID:448470724] text "Count active users 👥"
+[2023-02-25T13:46:18.011893+0300] [DEBUG] [logging.py:11]  Received message [AQID:343] from user [ID:946882418] in chat [ID:946882418] text "Помощь 🆘"
+[2023-02-25T13:46:32.664739+0300] [DEBUG] [logging.py:11]  Received message [AQID:345] from user [ID:946882418] in chat [ID:946882418] text "/completedcases"
+[2023-02-25T13:46:46.711122+0300] [DEBUG] [logging.py:11]  Received message [AQID:347] from user [ID:946882418] in chat [ID:946882418] text "Настройки 🛠"
+[2023-02-25T13:46:48.339412+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:946882418] for message [ID:348] in chat [ID:946882418]
+[2023-02-25T13:47:19.497392+0300] [DEBUG] [logging.py:11]  Received message [AQID:350] from user [ID:946882418] in chat [ID:946882418] text "Settings 🛠"
+[2023-02-25T13:47:20.987388+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:946882418] for message [ID:351] in chat [ID:946882418]
+[2023-02-25T15:00:55.841847+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-25T15:00:56.360235+0300] [DEBUG] [logging.py:11]  Received message [AQID:353] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T15:00:56.448210+0300] [DEBUG] [logging.py:11]  Received message [AQID:357] from user [ID:448470724] in chat [ID:448470724] text "Export users 📁"
+[2023-02-25T15:00:56.512019+0300] [DEBUG] [logging.py:11]  Received message [AQID:358] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T15:00:56.515935+0300] [DEBUG] [logging.py:11]  Received message [AQID:359] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-25T15:00:56.743753+0300] [DEBUG] [logging.py:11]  Received message [AQID:361] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-25T15:01:07.938894+0300] [DEBUG] [logging.py:11]  Received message [AQID:373] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-25T15:10:21.760781+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T10:17:07.712831+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T10:17:08.531841+0300] [DEBUG] [logging.py:11]  Received message [AQID:375] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-26T10:17:24.006022+0300] [DEBUG] [logging.py:11]  Received message [AQID:377] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T10:17:54.592206+0300] [DEBUG] [logging.py:11]  Received message [AQID:379] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-26T10:18:00.148671+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:380] in chat [ID:448470724]
+[2023-02-26T10:18:19.692513+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:378] in chat [ID:448470724]
+[2023-02-26T10:18:36.615738+0300] [DEBUG] [logging.py:11]  Received message [AQID:383] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-26T10:18:38.274997+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:384] in chat [ID:448470724]
+[2023-02-26T10:22:40.617033+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T10:22:46.442281+0300] [DEBUG] [logging.py:11]  Received message [AQID:386] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T10:22:48.756459+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:387] in chat [ID:448470724]
+[2023-02-26T10:22:57.629196+0300] [DEBUG] [logging.py:11]  Received message [AQID:389] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-02-26T10:22:59.184714+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:390] in chat [ID:448470724]
+[2023-02-26T10:27:00.732511+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T10:27:05.537749+0300] [DEBUG] [logging.py:11]  Received message [AQID:392] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T10:27:08.751064+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:393] in chat [ID:448470724]
+[2023-02-26T10:27:13.944464+0300] [DEBUG] [logging.py:11]  Received message [AQID:395] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-26T10:27:15.171285+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:396] in chat [ID:448470724]
+[2023-02-26T10:29:36.171055+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T10:29:39.929491+0300] [DEBUG] [logging.py:11]  Received message [AQID:398] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T10:29:46.376066+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:399] in chat [ID:448470724]
+[2023-02-26T10:29:57.873182+0300] [DEBUG] [logging.py:11]  Received message [AQID:401] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-26T10:30:02.250332+0300] [DEBUG] [logging.py:11]  Received message [AQID:403] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-26T10:30:05.500165+0300] [DEBUG] [logging.py:11]  Received message [AQID:405] from user [ID:448470724] in chat [ID:448470724] text "Add a new task 🆕"
+[2023-02-26T10:33:20.956527+0300] [DEBUG] [logging.py:11]  Received message [AQID:407] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-26T11:24:38.956092+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:24:48.581207+0300] [DEBUG] [logging.py:11]  Received message [AQID:409] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:24:51.856359+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:410] in chat [ID:448470724]
+[2023-02-26T11:24:54.240478+0300] [DEBUG] [logging.py:11]  Received message [AQID:412] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T11:34:12.000837+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:34:20.076586+0300] [DEBUG] [logging.py:11]  Received message [AQID:414] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:34:24.399877+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:415] in chat [ID:448470724]
+[2023-02-26T11:34:30.378580+0300] [DEBUG] [logging.py:11]  Received message [AQID:417] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-02-26T11:34:44.972786+0300] [DEBUG] [logging.py:11]  Received message [AQID:420] from user [ID:448470724] in chat [ID:448470724] text "Добавить новую задачу 🆕"
+[2023-02-26T11:35:21.533394+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:35:33.203866+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:35:39.916364+0300] [DEBUG] [logging.py:11]  Received message [AQID:426] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:35:53.584415+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:35:57.989395+0300] [DEBUG] [logging.py:11]  Received message [AQID:428] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:35:59.839469+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:429] in chat [ID:448470724]
+[2023-02-26T11:36:01.779121+0300] [DEBUG] [logging.py:11]  Received message [AQID:431] from user [ID:448470724] in chat [ID:448470724] text "Добавить новую задачу 🆕"
+[2023-02-26T11:36:06.808566+0300] [DEBUG] [logging.py:11]  Received message [AQID:433] from user [ID:448470724] in chat [ID:448470724] text "Добавить новую задачу 🆕"
+[2023-02-26T11:36:57.374147+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:37:04.027653+0300] [DEBUG] [logging.py:11]  Received message [AQID:435] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:37:05.747988+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:436] in chat [ID:448470724]
+[2023-02-26T11:37:08.058288+0300] [DEBUG] [logging.py:11]  Received message [AQID:438] from user [ID:448470724] in chat [ID:448470724] text "Add a new task 🆕"
+[2023-02-26T11:37:09.469629+0300] [DEBUG] [logging.py:11]  Received message [AQID:440] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-26T11:38:41.824636+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:38:44.514967+0300] [DEBUG] [logging.py:11]  Received message [AQID:444] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:38:46.142761+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:445] in chat [ID:448470724]
+[2023-02-26T11:38:48.295391+0300] [DEBUG] [logging.py:11]  Received message [AQID:447] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список выполненных дел 🏆"
+[2023-02-26T11:38:52.177459+0300] [DEBUG] [logging.py:11]  Received message [AQID:449] from user [ID:448470724] in chat [ID:448470724] text "Добавить новую задачу 🆕"
+[2023-02-26T11:38:53.379819+0300] [DEBUG] [logging.py:11]  Received message [AQID:451] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T11:39:06.825889+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:39:10.279400+0300] [DEBUG] [logging.py:11]  Received message [AQID:453] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:39:12.263083+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:454] in chat [ID:448470724]
+[2023-02-26T11:39:13.926687+0300] [DEBUG] [logging.py:11]  Received message [AQID:456] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-26T11:39:19.933030+0300] [DEBUG] [logging.py:11]  Received message [AQID:458] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-02-26T11:39:33.284278+0300] [DEBUG] [logging.py:11]  Received message [AQID:460] from user [ID:448470724] in chat [ID:448470724] text "/newtask"
+[2023-02-26T11:50:17.352640+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:50:22.529375+0300] [DEBUG] [logging.py:11]  Received message [AQID:462] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:50:25.151875+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:463] in chat [ID:448470724]
+[2023-02-26T11:50:29.952300+0300] [DEBUG] [logging.py:11]  Received message [AQID:465] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T11:50:48.877369+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:50:54.096392+0300] [DEBUG] [logging.py:11]  Received message [AQID:467] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:50:57.583896+0300] [DEBUG] [logging.py:11]  Received message [AQID:469] from user [ID:448470724] in chat [ID:448470724] text "/completed"
+[2023-02-26T11:51:30.456400+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:51:32.720371+0300] [DEBUG] [logging.py:11]  Received message [AQID:471] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T11:51:36.278457+0300] [DEBUG] [logging.py:11]  Received message [AQID:473] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-02-26T11:51:38.788809+0300] [DEBUG] [logging.py:11]  Received message [AQID:475] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T11:58:44.195696+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T11:58:49.350556+0300] [DEBUG] [logging.py:11]  Received message [AQID:477] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-02-26T11:58:59.810065+0300] [DEBUG] [logging.py:11]  Received message [AQID:480] from user [ID:448470724] in chat [ID:448470724] text "Добавить новую задачу 🆕"
+[2023-02-26T11:59:02.666632+0300] [DEBUG] [logging.py:11]  Received message [AQID:482] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список выполненных дел 🏆"
+[2023-02-26T11:59:04.603979+0300] [DEBUG] [logging.py:11]  Received message [AQID:484] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T11:59:44.661122+0300] [DEBUG] [logging.py:11]  Received message [AQID:488] from user [ID:448470724] in chat [ID:448470724] text "/settings"
+[2023-02-26T12:00:24.171779+0300] [DEBUG] [logging.py:11]  Received message [AQID:490] from user [ID:448470724] in chat [ID:448470724] text "Настройки 🛠"
+[2023-02-26T12:00:26.260199+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:491] in chat [ID:448470724]
+[2023-02-26T12:00:28.005064+0300] [DEBUG] [logging.py:11]  Received message [AQID:493] from user [ID:448470724] in chat [ID:448470724] text "Add a new task 🆕"
+[2023-02-26T12:03:06.903161+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:03:16.645376+0300] [DEBUG] [logging.py:11]  Received message [AQID:496] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2023-02-26T12:03:26.734978+0300] [DEBUG] [logging.py:11]  Received message [AQID:500] from user [ID:448470724] in chat [ID:448470724] text "Add a new task 🆕"
+[2023-02-26T12:06:23.711869+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:06:27.892989+0300] [DEBUG] [logging.py:11]  Received message [AQID:502] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:06:30.709872+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:503] in chat [ID:448470724]
+[2023-02-26T12:08:40.400712+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:08:43.875374+0300] [DEBUG] [logging.py:11]  Received message [AQID:509] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:08:45.759017+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:510] in chat [ID:448470724]
+[2023-02-26T12:08:47.984882+0300] [DEBUG] [logging.py:11]  Received message [AQID:512] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-26T12:08:56.828936+0300] [DEBUG] [logging.py:11]  Received message [AQID:515] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-26T12:09:02.965954+0300] [DEBUG] [logging.py:11]  Received message [AQID:517] from user [ID:448470724] in chat [ID:448470724] text "Add a new task 🆕"
+[2023-02-26T12:09:16.266485+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:09:21.904897+0300] [DEBUG] [logging.py:11]  Received message [AQID:519] from user [ID:448470724] in chat [ID:448470724] text "View a list of completed cases 🏆"
+[2023-02-26T12:10:33.471740+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:10:36.644869+0300] [DEBUG] [logging.py:11]  Received message [AQID:522] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:10:39.227987+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:523] in chat [ID:448470724]
+[2023-02-26T12:10:43.831264+0300] [DEBUG] [logging.py:11]  Received message [AQID:525] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список выполненных дел 🏆"
+[2023-02-26T12:10:54.798625+0300] [DEBUG] [logging.py:11]  Received message [AQID:527] from user [ID:448470724] in chat [ID:448470724] text "/settings"
+[2023-02-26T12:13:32.987245+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:13:38.123924+0300] [DEBUG] [logging.py:11]  Received message [AQID:530] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:13:40.265653+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:531] in chat [ID:448470724]
+[2023-02-26T12:13:43.632037+0300] [DEBUG] [logging.py:11]  Received message [AQID:533] from user [ID:448470724] in chat [ID:448470724] text "/newtask"
+[2023-02-26T12:15:03.000429+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:15:12.861218+0300] [DEBUG] [logging.py:11]  Received message [AQID:535] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:15:15.093940+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:536] in chat [ID:448470724]
+[2023-02-26T12:15:17.926850+0300] [DEBUG] [logging.py:11]  Received message [AQID:538] from user [ID:448470724] in chat [ID:448470724] text "Посмотреть список текущих дел 📃"
+[2023-02-26T12:15:28.645689+0300] [DEBUG] [logging.py:11]  Received message [AQID:540] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-02-26T12:18:05.662184+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:18:13.694165+0300] [DEBUG] [logging.py:11]  Received message [AQID:542] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T12:18:15.626268+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:543] in chat [ID:448470724]
+[2023-02-26T12:18:18.576637+0300] [DEBUG] [logging.py:11]  Received message [AQID:545] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-26T12:18:25.671638+0300] [DEBUG] [logging.py:11]  Received message [AQID:547] from user [ID:448470724] in chat [ID:448470724] text "/completed"
+[2023-02-26T12:18:45.720553+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T12:18:49.522196+0300] [DEBUG] [logging.py:11]  Received message [AQID:549] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"

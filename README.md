@@ -19,7 +19,9 @@ Todolist Telegram bot that can create reminders (delete) with attachments, view,
         * [Migrations](#migrations)
             * [Create revision](#create-revision)
             * [Upgrade database](#upgrade-database)
-  
+    * [I18n locales](#i18n-locales)
+        * [Create locales](#create-locales)
+        * [Update locales](#update-locales)
 <hr>
 
 ## Bot structure
@@ -29,6 +31,7 @@ Todolist Telegram bot that can create reminders (delete) with attachments, view,
 │   ├───filters         # some aiogram filters
 │   ├───handlers
 │   │   ├───errors      # error handlers
+│   │   ├───tasks       # tasks handlers
 │   │   └───users       # message handlers
 │   ├───keyboards
 │   │   ├───default     # aiogram markups
@@ -56,7 +59,7 @@ pw_migrate migrate --database $(python _get_database_url.py) --directory ./migra
 # or if you have make you can simply type 
 make db_upgrade
 # run pooling
-python task_handler.py
+python main.py
 ```
 
 ### Configure environment variables
@@ -95,60 +98,91 @@ Sqlite by default but if you want to use postgres you can configurate it
 
 ```bash
 # Dababase postgres
-DATABASE_USER=<some username>
-DATABASE_PASS=<some password>
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_NAME=<some database name>
+DB_USER=<some username>
+DB_PASSWORD=<some password>
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=<some database name>
 ```
 
 ## Docker 
 ### Start bot
 ```bash
 # grant execution rights
-$ chmod +x ./bin/entrypoint.sh
-$ docker-compose up -d --force-recreate
+chmod +x ./bin/entrypoint.sh
+docker-compose up -d --force-recreate
 # or if you have make you can simply type 
-$ make run
+make run
 # or only make
-$ make 
+make 
 ```
 ### Manage bot container
 ```bash
-$ docker-compose exec bot /bin/bash
+docker-compose exec bot /bin/bash
 # or if you have make you can simply type 
-$ make exec
+make exec
 ```
 ### View bot logs
 ```bash
-$ docker-compose logs -f bot
+docker-compose logs -f bot
 # or if you have make you can simply type 
-$ make logs
+make logs
 ```
 
 ### Stop bot
 ```bash
-$ docker-compose stop
+docker-compose stop
 # or if you have make you can simply type 
-$ make stop
+make stop
 ```
 ### Database postgres
 #### Manage postgres via psql
 ```bash
-$ docker-compose exec postgres psql -U postgres postgres
+docker-compose exec postgres psql -U postgres postgres
 # or if you have make you can simply type 
-$ make psql
+make psql
 ```
 #### Migrations
 ##### Create revision
 ```bash
-$ pw_migrate create --auto --database $(python _get_database_url.py) --directory ./migrations "<some revision message>"
+pw_migrate create --auto --database $(python _get_database_url.py) --directory ./migrations "<some revision message>"
 # or if you have make you can simply type 
-$ make db_revision "<some revision message>"
+make db_revision "<some revision message>"
 ```
 ##### Upgrade database
 ```bash
-$ pw_migrate migrate --database $(python _get_database_url.py) --directory ./migrations
+pw_migrate migrate --database $(python _get_database_url.py) --directory ./migrations
 # or if you have make you can simply type 
-$ make db_upgrade
+make db_upgrade
 ```
+
+### I18n locales
+
+#### Create locales
+
+first you should extract all messages from bot
+```bash
+pybabel extract --input-dirs=. -o data/locales/bot.pot --project=bot
+# or if you have make you can simply type 
+make pybabel_extract
+```
+then init languages
+```bash
+pybabel init -i data/locales/bot.pot -d data/locales -D bot -l <language code>
+# or if you have make you can simply type 
+$ make pybabel_init <language code>
+```
+finaly translate messages in `/data/locales/<language code>/LC_MESSAGES/bot.po` and compile translations
+```bash
+pybabel compile -d data/locales -D bot --statistics
+# or if you have make you can simply type 
+make pybabel_compile
+```
+#### Update locales
+to add new messages to already existing translations you should `extract again` and then write this command
+```bash
+pybabel update -i data/locales/bot.pot -d data/locales -D bot
+# or if you have make you can simply type 
+make pybabel_update
+```
+and finaly translate and `compile again`

@@ -8,7 +8,7 @@ def get_default_markup(user):
 
     markup.add(_('Help 🆘'), _('Settings 🛠'))
     markup.add(_('View to-do list 📃'), _('View a list of completed cases 🏆'))
-
+    markup.add(_('Add a new task 🆕'))
     if user.is_admin:
         markup.add(_('Export users 📁'))
         markup.add(_('Count users 👥'))

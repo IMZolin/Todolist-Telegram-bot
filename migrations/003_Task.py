@@ -1,5 +1,5 @@
 """
-Peewee migrations -- 002_Init.py.
+Peewee migrations -- 003_Task.py.
 Some examples (model - class or model name)::
     > Model = migrator.orm['model_name']            # Return model in current state by name
     > migrator.sql(sql)                             # Run custom SQL
@@ -51,6 +51,19 @@ def migrate(migrator, database, fake=False, **kwargs):
 
         class Meta:
             table_name = "users"
+
+    @migrator.create_model
+    class Task(pw.Model):
+        id = pw.BigIntegerField(primary_key=True)
+        author = pw.ForeignKeyField(User)
+        text = pw.CharField(default=None)
+        time = pw.DateTimeField(formats='%Y-%m-%d %H:%M:%S', null=True)
+        is_done = pw.BooleanField(default=False, null=True)
+        is_periodic = pw.BooleanField(default=False, null=True)
+        created_at = pw.DateTimeField()
+
+        class Meta:
+            table_name = 'tasks'
 
 
 

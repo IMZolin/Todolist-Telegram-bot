@@ -4,8 +4,8 @@ services:
   bot:
     build: .
     restart: always
-    entrypoint:
-      - ./bin/entrypoint.sh
+    env_file:
+      - .env
     depends_on:
       - postgres
     image: ${IMAGE_NAME}:v1
@@ -25,6 +25,8 @@ services:
   postgres:
     image: postgres
     restart: always
+    env_file:
+      - .env
     environment:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:

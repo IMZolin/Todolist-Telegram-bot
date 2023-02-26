@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-02-25 10:12+0300\n"
+"POT-Creation-Date: 2023-02-26 10:25+0300\n"
 "PO-Revision-Date: 2023-02-25 10:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -48,21 +48,20 @@ msgid "open bot settings"
 msgstr "открыть настройки бота"
 
 #: bot/commands/default.py:12
-#, fuzzy
 msgid "view the to-do list"
-msgstr "Посмотреть список текущих дел 📃"
+msgstr "посмотреть список текущих дел"
 
 #: bot/commands/default.py:13
-#, fuzzy
 msgid "view a list of completed cases"
-msgstr "Посмотреть список выполненных дел 🏆"
+msgstr "посмотреть список выполненных дел"
 
-#: bot/handlers/tasks/task_handler.py:15 bot/handlers/tasks/task_handler.py:27
-#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:9
-msgid "Help 🆘"
-msgstr "Помощь 🆘"
+#: bot/commands/default.py:14
+msgid "add a new task"
+msgstr "добавить задачу"
 
-#: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
+#: bot/handlers/tasks/task_handler.py:16 bot/handlers/tasks/task_handler.py:24
+#: bot/handlers/tasks/task_handler.py:32 bot/handlers/users/admin_menu.py:25
+#: bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
 msgstr "Всего пользователей: {count}"
 
@@ -94,6 +93,10 @@ msgstr ""
 "Привет, {full_name}!\n"
 "Выберите свой язык"
 
+#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:9
+msgid "Help 🆘"
+msgstr "Помощь 🆘"
+
 #: bot/keyboards/default/default.py:9
 msgid "Settings 🛠"
 msgstr "Настройки 🛠"
@@ -105,6 +108,10 @@ msgstr "Посмотреть список текущих дел 📃"
 #: bot/keyboards/default/default.py:10
 msgid "View a list of completed cases 🏆"
 msgstr "Посмотреть список выполненных дел 🏆"
+
+#: bot/keyboards/default/default.py:11
+msgid "Add a new task 🆕"
+msgstr "Добавить новую задачу 🆕"
 
 #: bot/keyboards/default/default.py:13
 msgid "Export users 📁"

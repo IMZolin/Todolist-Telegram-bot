@@ -34,4 +34,4 @@ RUN chown -R app:app ./* && chmod -R 777 ./*
 
 USER app
 
-ENTRYPOINT ['/bin/entrypoint.sh']
+ENTRYPOINT ['./bin/entrypoint.sh']
