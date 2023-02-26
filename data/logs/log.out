@@ -277,3 +277,6 @@
 [2023-02-26T12:18:25.671638+0300] [DEBUG] [logging.py:11]  Received message [AQID:547] from user [ID:448470724] in chat [ID:448470724] text "/completed"
 [2023-02-26T12:18:45.720553+0300] [INFO] [main.py:10]  Bot startup
 [2023-02-26T12:18:49.522196+0300] [DEBUG] [logging.py:11]  Received message [AQID:549] from user [ID:448470724] in chat [ID:448470724] text "View to-do list 📃"
+[2023-02-26T13:00:18.397835+0300] [INFO] [main.py:10]  Bot startup
+[2023-02-26T13:00:19.439335+0300] [DEBUG] [logging.py:11]  Received message [AQID:551] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-02-26T13:00:24.852993+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:552] in chat [ID:448470724]
