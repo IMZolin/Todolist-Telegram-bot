@@ -8,3 +8,4 @@ def get_language_inline_markup():
     markup.add(InlineKeyboardButton('🇷🇺 Русский', callback_data='lang_ru'))
 
     return markup
+

@@ -3,12 +3,14 @@ from aiogram import executor
 
 from bot.commands import set_default_commands
 from loader import dp, bot
+from data.config import ADMINS
 from utils.misc.logging import logger
 
 
 async def on_startup(dispatcher: Dispatcher):
     logger.info('Bot startup')
-    # await bot.send_message('bot started')
+    for admin_id in ADMINS:
+        await bot.send_message(admin_id, 'bot started')
 
     await set_default_commands()
 

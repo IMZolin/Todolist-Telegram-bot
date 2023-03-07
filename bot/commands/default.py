@@ -11,7 +11,8 @@ def get_default_commands(lang: str = 'en') -> list[BotCommand]:
         BotCommand('/settings', _('open bot settings', locale=lang)),
         BotCommand('/todo', _('view the to-do list', locale=lang)),
         BotCommand('/completed', _('view a list of completed cases', locale=lang)),
-        BotCommand('/new_task', _('add a new task', locale=lang))
+        BotCommand('/new_task', _('add a new task', locale=lang)),
+        BotCommand('/edit_task', _('edit the specific task', locale=lang))
     ]
 
     return commands
