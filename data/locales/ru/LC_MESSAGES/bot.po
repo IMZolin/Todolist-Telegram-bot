@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-02-26 10:25+0300\n"
+"POT-Creation-Date: 2023-03-08 00:09+0300\n"
 "PO-Revision-Date: 2023-02-25 10:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -59,19 +59,40 @@ msgstr "посмотреть список выполненных дел"
 msgid "add a new task"
 msgstr "добавить задачу"
 
-#: bot/handlers/tasks/task_handler.py:16 bot/handlers/tasks/task_handler.py:24
-#: bot/handlers/tasks/task_handler.py:32 bot/handlers/users/admin_menu.py:25
-#: bot/handlers/users/admin_menu.py:33
+#: bot/commands/default.py:15
+msgid "edit the specific task"
+msgstr "редактировать конкретную задачу"
+
+#: bot/handlers/tasks/helpers.py:8
+msgid "Please select a date: "
+msgstr "Пожалуйста выберете дату: "
+
+#: bot/handlers/tasks/helpers.py:17
+msgid "You selected "
+msgstr "Вы выбрали "
+
+#: bot/handlers/tasks/task_handler.py:11 bot/handlers/tasks/task_handler.py:17
+#, fuzzy
+msgid "Your new task"
+msgstr "добавить задачу"
+
+#: bot/handlers/tasks/task_handler.py:23
+#, fuzzy
+msgid "Your to-do list"
+msgstr "Посмотреть список текущих дел"
+
+#: bot/handlers/tasks/task_handler.py:31
+#, fuzzy
+msgid "Your list of completed cases"
+msgstr "Посмотреть список выполненных дел"
+
+#: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
 msgstr "Всего пользователей: {count}"
 
 #: bot/handlers/users/admin_menu.py:49
 msgid "Active users: {count}"
 msgstr "Активных пользователей: {count}"
-
-#: bot/handlers/users/helpers.py:10
-msgid "Choose an action from the menu 👇"
-msgstr "Выберите действие в меню 👇"
 
 #: bot/handlers/users/settings.py:21
 msgid ""
@@ -93,25 +114,29 @@ msgstr ""
 "Привет, {full_name}!\n"
 "Выберите свой язык"
 
-#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:9
+#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:11
 msgid "Help 🆘"
 msgstr "Помощь 🆘"
 
 #: bot/keyboards/default/default.py:9
-msgid "Settings 🛠"
-msgstr "Настройки 🛠"
+msgid "To-do list 📃"
+msgstr "Список текущих дел 📃"
+
+#: bot/keyboards/default/default.py:9
+msgid "Completed cases 🏆"
+msgstr "Выполненные дела 🏆"
 
 #: bot/keyboards/default/default.py:10
-msgid "View to-do list 📃"
-msgstr "Посмотреть список текущих дел 📃"
+msgid "New task 🆕"
+msgstr "Новая задача 🆕"
 
 #: bot/keyboards/default/default.py:10
-msgid "View a list of completed cases 🏆"
-msgstr "Посмотреть список выполненных дел 🏆"
+msgid "Edit task ✏"
+msgstr "Редактировать задачу ✏"
 
 #: bot/keyboards/default/default.py:11
-msgid "Add a new task 🆕"
-msgstr "Добавить новую задачу 🆕"
+msgid "Settings 🛠"
+msgstr "Настройки 🛠"
 
 #: bot/keyboards/default/default.py:13
 msgid "Export users 📁"
@@ -423,4 +448,7 @@ msgstr ""
 
 #~ msgid "Too many requests!"
 #~ msgstr "Слишком много запросов!"
+
+#~ msgid "Choose an action from the menu 👇"
+#~ msgstr "Выберите действие в меню 👇"
 

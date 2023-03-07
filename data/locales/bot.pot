@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-02-26 10:25+0300\n"
+"POT-Creation-Date: 2023-03-08 00:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,18 +57,36 @@ msgstr ""
 msgid "add a new task"
 msgstr ""
 
-#: bot/handlers/tasks/task_handler.py:16 bot/handlers/tasks/task_handler.py:24
-#: bot/handlers/tasks/task_handler.py:32 bot/handlers/users/admin_menu.py:25
-#: bot/handlers/users/admin_menu.py:33
+#: bot/commands/default.py:15
+msgid "edit the specific task"
+msgstr ""
+
+#: bot/handlers/tasks/helpers.py:8
+msgid "Please select a date: "
+msgstr ""
+
+#: bot/handlers/tasks/helpers.py:17
+msgid "You selected "
+msgstr ""
+
+#: bot/handlers/tasks/task_handler.py:11 bot/handlers/tasks/task_handler.py:17
+msgid "Your new task"
+msgstr ""
+
+#: bot/handlers/tasks/task_handler.py:23
+msgid "Your to-do list"
+msgstr ""
+
+#: bot/handlers/tasks/task_handler.py:31
+msgid "Your list of completed cases"
+msgstr ""
+
+#: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
 msgstr ""
 
 #: bot/handlers/users/admin_menu.py:49
 msgid "Active users: {count}"
-msgstr ""
-
-#: bot/handlers/users/helpers.py:10
-msgid "Choose an action from the menu 👇"
 msgstr ""
 
 #: bot/handlers/users/settings.py:21
@@ -87,24 +105,28 @@ msgid ""
 "Choose your language"
 msgstr ""
 
-#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:9
+#: bot/handlers/users/start.py:23 bot/keyboards/default/default.py:11
 msgid "Help 🆘"
 msgstr ""
 
 #: bot/keyboards/default/default.py:9
-msgid "Settings 🛠"
+msgid "To-do list 📃"
+msgstr ""
+
+#: bot/keyboards/default/default.py:9
+msgid "Completed cases 🏆"
 msgstr ""
 
 #: bot/keyboards/default/default.py:10
-msgid "View to-do list 📃"
+msgid "New task 🆕"
 msgstr ""
 
 #: bot/keyboards/default/default.py:10
-msgid "View a list of completed cases 🏆"
+msgid "Edit task ✏"
 msgstr ""
 
 #: bot/keyboards/default/default.py:11
-msgid "Add a new task 🆕"
+msgid "Settings 🛠"
 msgstr ""
 
 #: bot/keyboards/default/default.py:13

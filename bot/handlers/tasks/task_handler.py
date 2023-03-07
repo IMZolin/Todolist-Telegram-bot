@@ -17,13 +17,13 @@ async def _edit_task(message: Message, user: User):
     await message.answer(_('Your new task'))
 
 
-@dp.message_handler(i18n_text='View to-do list 📃')
+@dp.message_handler(i18n_text='To-do list 📃')
 @dp.message_handler(commands=['todo'])
 async def _to_do_list(message: Message, user: User):
     await message.answer(_('Your to-do list'))
 
 
-@dp.message_handler(i18n_text='View a list of completed cases 🏆')
+@dp.message_handler(i18n_text='Completed cases 🏆')
 @dp.message_handler(commands=['completed'])
 async def _completed_cases(message: Message, user: User):
     count = count_users()
