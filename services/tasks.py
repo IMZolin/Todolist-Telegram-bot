@@ -1,54 +1,33 @@
-from peewee import fn
+from datetime import datetime
+from typing import List
 
 from models import User
-from utils.misc.logging import logger
+from models.task import Task
 
 
-def count_tasks(user) -> int:
-    query = User.get_or_none(User.id == user.id).select(fn.COUNT(User.id))
-    return query.scalar()
+def get_tasks(user_id: int) -> List[Task]:
+    return Task.select().where(Task.author == user_id)
 
 
-def get_tasks() -> list[User]:
-    query = User.select()
-
-    return list(query)
-
-
-def get_task(id: int) -> User:
-    return User.get_or_none(User.id == id)
+def get_to_do(user_id: int) -> List[Task]:
+    tasks = get_tasks(user_id)
+    return [task for task in tasks if not task.is_done]
 
 
-def update_task(user: User, name: str, username: str = None) -> User:
-    user.name = name
-    user.username = username
-    user.save()
-
-    return user
+def get_completed(user_id: int) -> List[Task]:
+    tasks = get_tasks(user_id)
+    return [task for task in tasks if task.is_done]
 
 
-def edit_user_language(id: int, language: str):
-    query = User.update(language=language).where(User.id == id)
-    query.execute()
+def create_task(user_id: int, task_name: str, task_date: datetime, task_time: datetime, periodicity: str):
+    user = User.get(User.id == user_id)
+    new_task = Task.create(author=user, text=task_name, date=task_date, time=task_time, periodicity=periodicity)
+    new_task.save()
+    return new_task.id
 
 
-def create_user(id: int, name: str, username: str = None, language: str = None) -> User:
-    new_user = User.create(id=id, name=name, username=username, language=language)
-
-    new_user.is_admin = False
-    new_user.save()
-
-    logger.info(f'New user {new_user}')
-
-    return new_user
+def get_task_by_id(id: int) -> Task:
+    return Task.get_or_none(Task.id == id)
 
 
-def get_or_create_task(id: int, name: str, username: str = None, language: str = None) -> User:
-    user = get_task(id)
 
-    if user:
-        user = update_task(user, name, username)
-
-        return user
-
-    return create_user(id, name, username, language)

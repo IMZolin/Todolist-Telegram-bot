@@ -79,3 +79,1224 @@
 [2023-03-08T00:17:57.771364+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:675] in chat [ID:448470724]
 [2023-03-08T00:18:01.457160+0300] [DEBUG] [logging.py:11]  Received message [AQID:677] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
 [2023-03-08T00:18:03.179087+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:678] in chat [ID:448470724]
+[2023-03-14T14:22:26.717680+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-14T14:22:31.885764+0300] [DEBUG] [logging.py:11]  Received message [AQID:701] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-14T14:22:39.033868+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:702] in chat [ID:448470724]
+[2023-03-14T14:22:45.087989+0300] [DEBUG] [logging.py:11]  Received message [AQID:704] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-03-14T14:23:05.301696+0300] [DEBUG] [logging.py:11]  Received message [AQID:708] from user [ID:448470724] in chat [ID:448470724] text "Экспорт пользователей 📁"
+[2023-03-14T14:23:08.613442+0300] [DEBUG] [logging.py:11]  Received message [AQID:710] from user [ID:448470724] in chat [ID:448470724] text "Экспорт пользователей 📁"
+[2023-03-14T14:24:49.017492+0300] [DEBUG] [logging.py:11]  Received message [AQID:713] from user [ID:448470724] in chat [ID:448470724] text "Настройки 🛠"
+[2023-03-14T14:24:49.592796+0300] [DEBUG] [logging.py:11]  Received message [AQID:714] from user [ID:448470724] in chat [ID:448470724] text "/lang"
+[2023-03-14T14:24:49.599846+0300] [DEBUG] [logging.py:11]  Received message [AQID:715] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-14T14:25:05.652569+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:718] in chat [ID:448470724]
+[2023-03-14T15:01:39.763705+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-14T15:07:50.847847+0300] [DEBUG] [logging.py:11]  Received message [AQID:722] from user [ID:448470724] in chat [ID:448470724] text "/date"
+[2023-03-14T15:07:59.000020+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:3"] from user [ID:448470724] for message [ID:723] in chat [ID:448470724]
+[2023-03-14T15:13:28.961449+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-14T15:13:37.687216+0300] [DEBUG] [logging.py:11]  Received message [AQID:725] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-14T15:13:43.343139+0300] [DEBUG] [logging.py:11]  Received message [AQID:727] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-15T21:45:13.732773+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-15T21:45:14.971030+0300] [INFO] [error_handler.py:34]  Unauthorized: Forbidden: bot was blocked by the user
+[2023-03-15T21:46:10.262925+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-15T21:46:15.143637+0300] [DEBUG] [logging.py:11]  Received message [AQID:730] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-15T21:46:18.989866+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:731] in chat [ID:448470724]
+[2023-03-15T21:46:22.255190+0300] [DEBUG] [logging.py:11]  Received message [AQID:733] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-03-16T11:10:19.435871+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-16T11:10:24.407664+0300] [DEBUG] [logging.py:11]  Received message [AQID:735] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-16T11:10:26.284716+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:736] in chat [ID:448470724]
+[2023-03-16T11:10:28.690939+0300] [DEBUG] [logging.py:11]  Received message [AQID:738] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-03-16T11:10:35.978880+0300] [DEBUG] [logging.py:11]  Received message [AQID:740] from user [ID:448470724] in chat [ID:448470724] text "Редактировать задачу ✏"
+[2023-03-16T11:10:49.114147+0300] [DEBUG] [logging.py:11]  Received message [AQID:741] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-03-16T11:10:54.228583+0300] [DEBUG] [logging.py:11]  Received message [AQID:743] from user [ID:448470724] in chat [ID:448470724] text "Выполненные дела 🏆"
+[2023-03-17T12:31:27.827731+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T12:31:45.425828+0300] [DEBUG] [logging.py:11]  Received message [AQID:745] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-03-17T12:34:44.310909+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T12:34:51.047227+0300] [DEBUG] [logging.py:11]  Received message [AQID:748] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T12:34:53.114119+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:749] in chat [ID:448470724]
+[2023-03-17T12:34:55.168386+0300] [DEBUG] [logging.py:11]  Received message [AQID:751] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T12:35:00.205015+0300] [DEBUG] [logging.py:11]  Received message [AQID:753] from user [ID:448470724] in chat [ID:448470724] text "Task 2"
+[2023-03-17T12:37:29.179699+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T12:37:33.219979+0300] [DEBUG] [logging.py:11]  Received message [AQID:756] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T12:37:34.621117+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:757] in chat [ID:448470724]
+[2023-03-17T12:37:36.560482+0300] [DEBUG] [logging.py:11]  Received message [AQID:759] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T12:37:41.120324+0300] [DEBUG] [logging.py:11]  Received message [AQID:761] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T14:54:30.718375+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T14:54:40.975069+0300] [DEBUG] [logging.py:11]  Received message [AQID:764] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T14:54:42.741683+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:765] in chat [ID:448470724]
+[2023-03-17T14:54:44.436737+0300] [DEBUG] [logging.py:11]  Received message [AQID:767] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T14:54:51.977266+0300] [DEBUG] [logging.py:11]  Received message [AQID:769] from user [ID:448470724] in chat [ID:448470724] text "Task 4"
+[2023-03-17T14:56:37.904491+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T14:56:43.506868+0300] [DEBUG] [logging.py:11]  Received message [AQID:771] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T14:56:44.982290+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:772] in chat [ID:448470724]
+[2023-03-17T14:56:46.872636+0300] [DEBUG] [logging.py:11]  Received message [AQID:774] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T14:56:51.315726+0300] [DEBUG] [logging.py:11]  Received message [AQID:776] from user [ID:448470724] in chat [ID:448470724] text "task 1"
+[2023-03-17T14:57:52.143785+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T14:57:56.626075+0300] [DEBUG] [logging.py:11]  Received message [AQID:778] from user [ID:448470724] in chat [ID:448470724] text "/help"
+[2023-03-17T14:57:58.915748+0300] [DEBUG] [logging.py:11]  Received message [AQID:780] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T14:58:03.053617+0300] [DEBUG] [logging.py:11]  Received message [AQID:782] from user [ID:448470724] in chat [ID:448470724] text "task"
+[2023-03-17T15:00:53.396511+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:00:59.048621+0300] [DEBUG] [logging.py:11]  Received message [AQID:784] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:01:04.674802+0300] [DEBUG] [logging.py:11]  Received message [AQID:786] from user [ID:448470724] in chat [ID:448470724] text "task"
+[2023-03-17T15:02:47.371030+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:02:59.010838+0300] [DEBUG] [logging.py:11]  Received message [AQID:788] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:03:04.341906+0300] [DEBUG] [logging.py:11]  Received message [AQID:790] from user [ID:448470724] in chat [ID:448470724] text "task"
+[2023-03-17T15:04:29.477229+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:04:32.563552+0300] [DEBUG] [logging.py:11]  Received message [AQID:792] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:04:38.620337+0300] [DEBUG] [logging.py:11]  Received message [AQID:794] from user [ID:448470724] in chat [ID:448470724] text "ads"
+[2023-03-17T15:05:26.269112+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:05:32.761291+0300] [DEBUG] [logging.py:11]  Received message [AQID:796] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:05:36.176037+0300] [DEBUG] [logging.py:11]  Received message [AQID:798] from user [ID:448470724] in chat [ID:448470724] text "asd"
+[2023-03-17T15:06:34.810119+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:06:38.000376+0300] [DEBUG] [logging.py:11]  Received message [AQID:800] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:06:41.509951+0300] [DEBUG] [logging.py:11]  Received message [AQID:802] from user [ID:448470724] in chat [ID:448470724] text "asd"
+[2023-03-17T15:07:26.623325+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:07:28.964826+0300] [DEBUG] [logging.py:11]  Received message [AQID:804] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:07:33.092428+0300] [DEBUG] [logging.py:11]  Received message [AQID:806] from user [ID:448470724] in chat [ID:448470724] text "dafe"
+[2023-03-17T15:07:38.019434+0300] [DEBUG] [logging.py:11]  Received message [AQID:807] from user [ID:448470724] in chat [ID:448470724] text "12:40"
+[2023-03-17T15:07:38.050541+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178916992, "message": {"message_id": 807, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679065660, "text": "12:40"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T15:10:57.734461+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:11:02.501821+0300] [DEBUG] [logging.py:11]  Received message [AQID:808] from user [ID:448470724] in chat [ID:448470724] text "/date"
+[2023-03-17T15:11:04.915473+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:809] in chat [ID:448470724]
+[2023-03-17T15:12:45.815898+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:12:49.147921+0300] [DEBUG] [logging.py:11]  Received message [AQID:811] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:12:52.516646+0300] [DEBUG] [logging.py:11]  Received message [AQID:813] from user [ID:448470724] in chat [ID:448470724] text "daeafe"
+[2023-03-17T15:13:48.991363+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:13:51.632332+0300] [DEBUG] [logging.py:11]  Received message [AQID:815] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:13:54.217075+0300] [DEBUG] [logging.py:11]  Received message [AQID:817] from user [ID:448470724] in chat [ID:448470724] text "ddawda"
+[2023-03-17T15:13:54.219183+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178916999, "message": {"message_id": 817, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679066036, "text": "ddawda"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 47, in _process_text
+    await _select_date()
+TypeError: _select_date() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T15:14:41.626608+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:14:46.247594+0300] [DEBUG] [logging.py:11]  Received message [AQID:818] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:14:51.748564+0300] [DEBUG] [logging.py:11]  Received message [AQID:820] from user [ID:448470724] in chat [ID:448470724] text "dwdwd"
+[2023-03-17T15:15:46.027053+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:15:49.954614+0300] [DEBUG] [logging.py:11]  Received message [AQID:822] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:15:53.142731+0300] [DEBUG] [logging.py:11]  Received message [AQID:824] from user [ID:448470724] in chat [ID:448470724] text "ffww"
+[2023-03-17T15:18:07.267870+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:18:10.030331+0300] [DEBUG] [logging.py:11]  Received message [AQID:826] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:18:13.974020+0300] [DEBUG] [logging.py:11]  Received message [AQID:828] from user [ID:448470724] in chat [ID:448470724] text "ffff"
+[2023-03-17T15:24:21.118778+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:24:26.870064+0300] [DEBUG] [logging.py:11]  Received message [AQID:830] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:24:29.642796+0300] [DEBUG] [logging.py:11]  Received message [AQID:832] from user [ID:448470724] in chat [ID:448470724] text "ccc"
+[2023-03-17T15:25:16.012611+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:25:17.239979+0300] [DEBUG] [logging.py:11]  Received message [AQID:834] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:25:20.241933+0300] [DEBUG] [logging.py:11]  Received message [AQID:836] from user [ID:448470724] in chat [ID:448470724] text "ugoyc"
+[2023-03-17T15:27:54.012106+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:27:58.339116+0300] [DEBUG] [logging.py:11]  Received message [AQID:838] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:28:00.797467+0300] [DEBUG] [logging.py:11]  Received message [AQID:840] from user [ID:448470724] in chat [ID:448470724] text "fssffe"
+[2023-03-17T15:28:02.324107+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:841] in chat [ID:448470724]
+[2023-03-17T15:36:49.064748+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:36:52.141924+0300] [DEBUG] [logging.py:11]  Received message [AQID:843] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:36:56.508192+0300] [DEBUG] [logging.py:11]  Received message [AQID:845] from user [ID:448470724] in chat [ID:448470724] text "fafa"
+[2023-03-17T15:36:58.630570+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:28"] from user [ID:448470724] for message [ID:846] in chat [ID:448470724]
+[2023-03-17T15:37:27.159708+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:37:28.508352+0300] [DEBUG] [logging.py:11]  Received message [AQID:849] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:37:32.807584+0300] [DEBUG] [logging.py:11]  Received message [AQID:851] from user [ID:448470724] in chat [ID:448470724] text "fssee"
+[2023-03-17T15:37:34.048678+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:852] in chat [ID:448470724]
+[2023-03-17T15:37:51.352209+0300] [DEBUG] [logging.py:11]  Received message [AQID:855] from user [ID:448470724] in chat [ID:448470724] text "12:40"
+[2023-03-17T15:37:51.354910+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917025, "message": {"message_id": 855, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679067473, "text": "12:40"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T15:38:26.152963+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:38:30.258786+0300] [DEBUG] [logging.py:11]  Received message [AQID:856] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:38:33.322447+0300] [DEBUG] [logging.py:11]  Received message [AQID:858] from user [ID:448470724] in chat [ID:448470724] text "sfse"
+[2023-03-17T15:38:34.973578+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:29"] from user [ID:448470724] for message [ID:859] in chat [ID:448470724]
+[2023-03-17T15:38:41.806112+0300] [DEBUG] [logging.py:11]  Received message [AQID:862] from user [ID:448470724] in chat [ID:448470724] text "1:23"
+[2023-03-17T15:38:41.810285+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917029, "message": {"message_id": 862, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679067524, "text": "1:23"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T15:39:04.662634+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:39:08.000496+0300] [DEBUG] [logging.py:11]  Received message [AQID:863] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:39:11.592222+0300] [DEBUG] [logging.py:11]  Received message [AQID:865] from user [ID:448470724] in chat [ID:448470724] text "dawf"
+[2023-03-17T15:39:13.476855+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:11"] from user [ID:448470724] for message [ID:866] in chat [ID:448470724]
+[2023-03-17T15:39:58.998715+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:40:06.829857+0300] [DEBUG] [logging.py:11]  Received message [AQID:868] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:40:10.408336+0300] [DEBUG] [logging.py:11]  Received message [AQID:870] from user [ID:448470724] in chat [ID:448470724] text "asad"
+[2023-03-17T15:40:12.570473+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:13"] from user [ID:448470724] for message [ID:871] in chat [ID:448470724]
+[2023-03-17T15:40:13.077324+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917035, "callback_query": {"id": "1926167096425378799", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 871, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679067613, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2023:3:1"}, {"text": "March 2023", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2023:3:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2023:3:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2023:3:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2023:3:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2023:3:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2023:3:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2023:3:5"}], [{"text": "6", "callback_data": "simple_calendar:DAY:2023:3:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2023:3:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2023:3:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2023:3:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2023:3:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2023:3:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2023:3:12"}], [{"text": "13", "callback_data": "simple_calendar:DAY:2023:3:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2023:3:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2023:3:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2023:3:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2023:3:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2023:3:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2023:3:19"}], [{"text": "20", "callback_data": "simple_calendar:DAY:2023:3:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2023:3:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2023:3:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2023:3:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2023:3:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2023:3:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2023:3:26"}], [{"text": "27", "callback_data": "simple_calendar:DAY:2023:3:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2023:3:28"}, {"text": "29", "callback_data": "simple_calendar:DAY:2023:3:29"}, {"text": "30", "callback_data": "simple_calendar:DAY:2023:3:30"}, {"text": "31", "callback_data": "simple_calendar:DAY:2023:3:31"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2023:3:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:DAY:2023:3:13"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 57, in _process_date
+    if await _is_input_earlier_today(date):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 115, in _is_input_earlier_today
+    return datetime.now().date() > input_date
+TypeError: can't compare datetime.datetime to datetime.date
+
+NoneType: None
+[2023-03-17T15:43:50.598281+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:43:54.820766+0300] [DEBUG] [logging.py:11]  Received message [AQID:873] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:43:57.664454+0300] [DEBUG] [logging.py:11]  Received message [AQID:875] from user [ID:448470724] in chat [ID:448470724] text "ffss"
+[2023-03-17T15:43:58.876063+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:876] in chat [ID:448470724]
+[2023-03-17T15:44:14.530583+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:44:16.598020+0300] [DEBUG] [logging.py:11]  Received message [AQID:879] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:44:19.364141+0300] [DEBUG] [logging.py:11]  Received message [AQID:881] from user [ID:448470724] in chat [ID:448470724] text "farq3"
+[2023-03-17T15:44:21.774678+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:7"] from user [ID:448470724] for message [ID:882] in chat [ID:448470724]
+[2023-03-17T15:45:37.406787+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:45:40.568145+0300] [DEBUG] [logging.py:11]  Received message [AQID:884] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:45:43.787159+0300] [DEBUG] [logging.py:11]  Received message [AQID:886] from user [ID:448470724] in chat [ID:448470724] text "xbfxb"
+[2023-03-17T15:45:46.369161+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:2"] from user [ID:448470724] for message [ID:887] in chat [ID:448470724]
+[2023-03-17T15:46:46.280160+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:46:49.060742+0300] [DEBUG] [logging.py:11]  Received message [AQID:889] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:46:51.942083+0300] [DEBUG] [logging.py:11]  Received message [AQID:891] from user [ID:448470724] in chat [ID:448470724] text "dawdafwee"
+[2023-03-17T15:46:53.967659+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:9"] from user [ID:448470724] for message [ID:892] in chat [ID:448470724]
+[2023-03-17T15:48:02.172985+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:48:07.726389+0300] [DEBUG] [logging.py:11]  Received message [AQID:895] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:48:10.983059+0300] [DEBUG] [logging.py:11]  Received message [AQID:897] from user [ID:448470724] in chat [ID:448470724] text "dawdef"
+[2023-03-17T15:48:12.623688+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:4"] from user [ID:448470724] for message [ID:898] in chat [ID:448470724]
+[2023-03-17T15:48:13.223036+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T15:54:20.652598+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T15:54:27.506515+0300] [DEBUG] [logging.py:11]  Received message [AQID:901] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T15:54:31.170255+0300] [DEBUG] [logging.py:11]  Received message [AQID:903] from user [ID:448470724] in chat [ID:448470724] text "afefa"
+[2023-03-17T15:54:33.251794+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:7"] from user [ID:448470724] for message [ID:904] in chat [ID:448470724]
+[2023-03-17T15:54:34.862715+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T16:00:37.888937+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:00:49.188540+0300] [DEBUG] [logging.py:11]  Received message [AQID:907] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:00:53.293929+0300] [DEBUG] [logging.py:11]  Received message [AQID:909] from user [ID:448470724] in chat [ID:448470724] text "fsegg"
+[2023-03-17T16:00:54.794095+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:9"] from user [ID:448470724] for message [ID:910] in chat [ID:448470724]
+[2023-03-17T16:00:55.604325+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T16:06:39.056394+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:06:42.344224+0300] [DEBUG] [logging.py:11]  Received message [AQID:913] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:06:48.492538+0300] [DEBUG] [logging.py:11]  Received message [AQID:915] from user [ID:448470724] in chat [ID:448470724] text "hesgurh"
+[2023-03-17T16:06:50.545866+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:3"] from user [ID:448470724] for message [ID:916] in chat [ID:448470724]
+[2023-03-17T16:06:51.248413+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T16:08:22.994657+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:08:27.956820+0300] [DEBUG] [logging.py:11]  Received message [AQID:919] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:08:30.757429+0300] [DEBUG] [logging.py:11]  Received message [AQID:921] from user [ID:448470724] in chat [ID:448470724] text "dawafe"
+[2023-03-17T16:08:33.455121+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:2"] from user [ID:448470724] for message [ID:922] in chat [ID:448470724]
+[2023-03-17T16:08:34.185288+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T16:08:37.960789+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:924] in chat [ID:448470724]
+[2023-03-17T16:09:16.362389+0300] [DEBUG] [logging.py:11]  Received message [AQID:927] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T16:09:16.366478+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917064, "message": {"message_id": 927, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069358, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:16:58.175254+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:17:04.017858+0300] [DEBUG] [logging.py:11]  Received message [AQID:928] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:17:07.009367+0300] [DEBUG] [logging.py:11]  Received message [AQID:930] from user [ID:448470724] in chat [ID:448470724] text "aefed"
+[2023-03-17T16:17:10.476091+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:931] in chat [ID:448470724]
+[2023-03-17T16:17:16.552828+0300] [DEBUG] [logging.py:11]  Received message [AQID:934] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T16:17:16.554817+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917068, "message": {"message_id": 934, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069838, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:17:28.088902+0300] [DEBUG] [logging.py:11]  Received message [AQID:935] from user [ID:448470724] in chat [ID:448470724] text "1:10"
+[2023-03-17T16:17:28.091983+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917069, "message": {"message_id": 935, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069850, "text": "1:10"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:18:00.489861+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:18:08.632705+0300] [DEBUG] [logging.py:11]  Received message [AQID:936] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:18:13.422252+0300] [DEBUG] [logging.py:11]  Received message [AQID:938] from user [ID:448470724] in chat [ID:448470724] text "srgwr"
+[2023-03-17T16:18:15.401136+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:939] in chat [ID:448470724]
+[2023-03-17T16:18:20.761577+0300] [DEBUG] [logging.py:11]  Received message [AQID:942] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T16:18:20.763578+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917073, "message": {"message_id": 942, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069903, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:18:34.029434+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:18:36.206425+0300] [DEBUG] [logging.py:11]  Received message [AQID:943] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:18:39.314874+0300] [DEBUG] [logging.py:11]  Received message [AQID:945] from user [ID:448470724] in chat [ID:448470724] text "dadfwf"
+[2023-03-17T16:18:41.421072+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:946] in chat [ID:448470724]
+[2023-03-17T16:18:44.603834+0300] [DEBUG] [logging.py:11]  Received message [AQID:949] from user [ID:448470724] in chat [ID:448470724] text "aef"
+[2023-03-17T16:18:44.607313+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917077, "message": {"message_id": 949, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069926, "text": "aef"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:19:30.752657+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:19:41.518807+0300] [DEBUG] [logging.py:11]  Received message [AQID:950] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:19:44.744610+0300] [DEBUG] [logging.py:11]  Received message [AQID:952] from user [ID:448470724] in chat [ID:448470724] text "dafeafe"
+[2023-03-17T16:19:47.153845+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:25"] from user [ID:448470724] for message [ID:953] in chat [ID:448470724]
+[2023-03-17T16:19:51.821388+0300] [DEBUG] [logging.py:11]  Received message [AQID:956] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T16:19:51.823396+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917081, "message": {"message_id": 956, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679069994, "text": "12:30"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1404, in wrapper
+    task = asyncio.create_task(func(*args, **kwargs))
+TypeError: process_time() missing 1 required positional argument: 'message'
+
+NoneType: None
+[2023-03-17T16:20:30.660885+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:20:33.356249+0300] [DEBUG] [logging.py:11]  Received message [AQID:957] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:20:35.751152+0300] [DEBUG] [logging.py:11]  Received message [AQID:959] from user [ID:448470724] in chat [ID:448470724] text "fdasg"
+[2023-03-17T16:20:37.225937+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:21"] from user [ID:448470724] for message [ID:960] in chat [ID:448470724]
+[2023-03-17T16:20:41.379067+0300] [DEBUG] [logging.py:11]  Received message [AQID:963] from user [ID:448470724] in chat [ID:448470724] text "12:10"
+[2023-03-17T16:21:03.223846+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:22:39.995025+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:22:42.160306+0300] [DEBUG] [logging.py:11]  Received message [AQID:964] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:22:44.814208+0300] [DEBUG] [logging.py:11]  Received message [AQID:966] from user [ID:448470724] in chat [ID:448470724] text "feaef"
+[2023-03-17T16:22:46.666267+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:967] in chat [ID:448470724]
+[2023-03-17T16:22:53.400537+0300] [DEBUG] [logging.py:11]  Received message [AQID:970] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T16:22:53.404617+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917089, "message": {"message_id": 970, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679070175, "text": "12:30"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 71, in process_time
+    time = datetime.strptime(callback_query.message.text, '%H:%M').time()
+AttributeError: 'Message' object has no attribute 'message'
+
+NoneType: None
+[2023-03-17T16:27:59.790889+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:28:11.898300+0300] [DEBUG] [logging.py:11]  Received message [AQID:971] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:28:18.975632+0300] [DEBUG] [logging.py:11]  Received message [AQID:973] from user [ID:448470724] in chat [ID:448470724] text "fsogjuh"
+[2023-03-17T16:28:21.028864+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:974] in chat [ID:448470724]
+[2023-03-17T16:28:30.625947+0300] [DEBUG] [logging.py:11]  Received message [AQID:977] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T16:30:33.819148+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:30:37.504066+0300] [DEBUG] [logging.py:11]  Received message [AQID:979] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:30:40.631425+0300] [DEBUG] [logging.py:11]  Received message [AQID:981] from user [ID:448470724] in chat [ID:448470724] text "fsedrrh"
+[2023-03-17T16:30:42.494313+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:982] in chat [ID:448470724]
+[2023-03-17T16:30:46.313497+0300] [DEBUG] [logging.py:11]  Received message [AQID:985] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T16:47:34.430206+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:47:39.412682+0300] [DEBUG] [logging.py:11]  Received message [AQID:987] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:47:43.659102+0300] [DEBUG] [logging.py:11]  Received message [AQID:989] from user [ID:448470724] in chat [ID:448470724] text "sgrhbiyegr"
+[2023-03-17T16:47:45.192763+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:29"] from user [ID:448470724] for message [ID:990] in chat [ID:448470724]
+[2023-03-17T16:47:50.028689+0300] [DEBUG] [logging.py:11]  Received message [AQID:993] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T16:48:03.871634+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:48:05.257932+0300] [DEBUG] [logging.py:11]  Received message [AQID:995] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:48:09.090358+0300] [DEBUG] [logging.py:11]  Received message [AQID:997] from user [ID:448470724] in chat [ID:448470724] text "sirgirg"
+[2023-03-17T16:48:10.535489+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:998] in chat [ID:448470724]
+[2023-03-17T16:48:14.955540+0300] [DEBUG] [logging.py:11]  Received message [AQID:1001] from user [ID:448470724] in chat [ID:448470724] text "13:20"
+[2023-03-17T16:48:47.323529+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:48:51.777107+0300] [DEBUG] [logging.py:11]  Received message [AQID:1003] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:48:55.987900+0300] [DEBUG] [logging.py:11]  Received message [AQID:1005] from user [ID:448470724] in chat [ID:448470724] text "daefsgr"
+[2023-03-17T16:48:59.213774+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1006] in chat [ID:448470724]
+[2023-03-17T16:49:03.341386+0300] [DEBUG] [logging.py:11]  Received message [AQID:1009] from user [ID:448470724] in chat [ID:448470724] text "13:50"
+[2023-03-17T16:59:36.476844+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T16:59:43.218843+0300] [DEBUG] [logging.py:11]  Received message [AQID:1011] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T16:59:46.182635+0300] [DEBUG] [logging.py:11]  Received message [AQID:1013] from user [ID:448470724] in chat [ID:448470724] text "gsrrh"
+[2023-03-17T16:59:47.831361+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:25"] from user [ID:448470724] for message [ID:1014] in chat [ID:448470724]
+[2023-03-17T16:59:51.671844+0300] [DEBUG] [logging.py:11]  Received message [AQID:1017] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T16:59:52.982553+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1018] in chat [ID:448470724]
+[2023-03-17T17:09:52.326840+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:09:56.983815+0300] [DEBUG] [logging.py:11]  Received message [AQID:1019] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:10:10.658531+0300] [DEBUG] [logging.py:11]  Received message [AQID:1021] from user [ID:448470724] in chat [ID:448470724] text "fhsougrh"
+[2023-03-17T17:10:12.990519+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1022] in chat [ID:448470724]
+[2023-03-17T17:10:16.990304+0300] [DEBUG] [logging.py:11]  Received message [AQID:1025] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T17:10:19.818923+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1026] in chat [ID:448470724]
+[2023-03-17T17:10:19.953866+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917126, "callback_query": {"id": "1926167095332665208", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1026, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679073019, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 102, in process_periodicity
+    task_text = state.get_data()['text']
+TypeError: 'coroutine' object is not subscriptable
+
+NoneType: None
+[2023-03-17T17:13:05.178340+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:13:08.937274+0300] [DEBUG] [logging.py:11]  Received message [AQID:1028] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:13:12.570003+0300] [DEBUG] [logging.py:11]  Received message [AQID:1030] from user [ID:448470724] in chat [ID:448470724] text "fwheiyg"
+[2023-03-17T17:13:14.960345+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1031] in chat [ID:448470724]
+[2023-03-17T17:13:19.802799+0300] [DEBUG] [logging.py:11]  Received message [AQID:1034] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T17:13:28.149655+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1035] in chat [ID:448470724]
+[2023-03-17T17:14:11.645158+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:14:13.794038+0300] [DEBUG] [logging.py:11]  Received message [AQID:1037] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:14:16.320226+0300] [DEBUG] [logging.py:11]  Received message [AQID:1039] from user [ID:448470724] in chat [ID:448470724] text "f'hgero[u"
+[2023-03-17T17:14:17.872937+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1040] in chat [ID:448470724]
+[2023-03-17T17:14:21.461121+0300] [DEBUG] [logging.py:11]  Received message [AQID:1043] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T17:14:22.770628+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1044] in chat [ID:448470724]
+[2023-03-17T17:14:51.671407+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1044] in chat [ID:448470724]
+[2023-03-17T17:14:55.083701+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1044] in chat [ID:448470724]
+[2023-03-17T17:16:11.444505+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:16:15.010599+0300] [DEBUG] [logging.py:11]  Received message [AQID:1049] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:16:17.712884+0300] [DEBUG] [logging.py:11]  Received message [AQID:1051] from user [ID:448470724] in chat [ID:448470724] text "gsrg"
+[2023-03-17T17:16:19.060805+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:28"] from user [ID:448470724] for message [ID:1052] in chat [ID:448470724]
+[2023-03-17T17:16:22.928057+0300] [DEBUG] [logging.py:11]  Received message [AQID:1055] from user [ID:448470724] in chat [ID:448470724] text "23:10"
+[2023-03-17T17:16:25.634038+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1056] in chat [ID:448470724]
+[2023-03-17T17:16:32.349241+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1056] in chat [ID:448470724]
+[2023-03-17T17:22:27.906119+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:22:31.708125+0300] [DEBUG] [logging.py:11]  Received message [AQID:1059] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:22:34.100184+0300] [DEBUG] [logging.py:11]  Received message [AQID:1061] from user [ID:448470724] in chat [ID:448470724] text "jhsrihg"
+[2023-03-17T17:22:35.621439+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:29"] from user [ID:448470724] for message [ID:1062] in chat [ID:448470724]
+[2023-03-17T17:22:38.416593+0300] [DEBUG] [logging.py:11]  Received message [AQID:1065] from user [ID:448470724] in chat [ID:448470724] text "doshgu"
+[2023-03-17T17:22:44.913866+0300] [DEBUG] [logging.py:11]  Received message [AQID:1067] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T17:22:47.202683+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1068] in chat [ID:448470724]
+[2023-03-17T17:22:51.869129+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1068] in chat [ID:448470724]
+[2023-03-17T17:29:17.814932+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:29:21.738299+0300] [DEBUG] [logging.py:11]  Received message [AQID:1072] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:29:24.588575+0300] [DEBUG] [logging.py:11]  Received message [AQID:1074] from user [ID:448470724] in chat [ID:448470724] text "fbihasegfi"
+[2023-03-17T17:29:26.331106+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1075] in chat [ID:448470724]
+[2023-03-17T17:29:30.663915+0300] [DEBUG] [logging.py:11]  Received message [AQID:1078] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T17:29:48.995551+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:29:51.157708+0300] [DEBUG] [logging.py:11]  Received message [AQID:1080] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:29:53.351873+0300] [DEBUG] [logging.py:11]  Received message [AQID:1082] from user [ID:448470724] in chat [ID:448470724] text "hsu"
+[2023-03-17T17:29:55.955370+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1083] in chat [ID:448470724]
+[2023-03-17T17:30:00.477871+0300] [DEBUG] [logging.py:11]  Received message [AQID:1086] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T17:30:30.028204+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:30:32.905838+0300] [DEBUG] [logging.py:11]  Received message [AQID:1088] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:30:35.406882+0300] [DEBUG] [logging.py:11]  Received message [AQID:1090] from user [ID:448470724] in chat [ID:448470724] text "fsirygi"
+[2023-03-17T17:30:36.956138+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:1091] in chat [ID:448470724]
+[2023-03-17T17:30:40.617674+0300] [DEBUG] [logging.py:11]  Received message [AQID:1094] from user [ID:448470724] in chat [ID:448470724] text "12:40"
+[2023-03-17T17:30:40.624251+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917165, "message": {"message_id": 1094, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679074242, "text": "12:40"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 73, in process_time
+    print(state.get_data()['date'])
+TypeError: 'coroutine' object is not subscriptable
+
+NoneType: None
+[2023-03-17T17:33:30.551184+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:33:37.551130+0300] [DEBUG] [logging.py:11]  Received message [AQID:1095] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:33:40.599508+0300] [DEBUG] [logging.py:11]  Received message [AQID:1097] from user [ID:448470724] in chat [ID:448470724] text "gdrt"
+[2023-03-17T17:33:41.986268+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:28"] from user [ID:448470724] for message [ID:1098] in chat [ID:448470724]
+[2023-03-17T17:33:46.238022+0300] [DEBUG] [logging.py:11]  Received message [AQID:1101] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T17:34:15.372427+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:34:18.749961+0300] [DEBUG] [logging.py:11]  Received message [AQID:1103] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:34:22.462012+0300] [DEBUG] [logging.py:11]  Received message [AQID:1105] from user [ID:448470724] in chat [ID:448470724] text "grsg"
+[2023-03-17T17:34:24.114181+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1106] in chat [ID:448470724]
+[2023-03-17T17:34:31.580685+0300] [DEBUG] [logging.py:11]  Received message [AQID:1109] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T17:48:41.547765+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:48:45.630673+0300] [DEBUG] [logging.py:11]  Received message [AQID:1111] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:49:40.100558+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:49:42.871734+0300] [DEBUG] [logging.py:11]  Received message [AQID:1112] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:53:57.231327+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:53:59.675903+0300] [DEBUG] [logging.py:11]  Received message [AQID:1113] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:54:05.614768+0300] [DEBUG] [logging.py:11]  Received message [AQID:1115] from user [ID:448470724] in chat [ID:448470724] text "daefef"
+[2023-03-17T17:54:10.541702+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1116] in chat [ID:448470724]
+[2023-03-17T17:54:17.283064+0300] [DEBUG] [logging.py:11]  Received message [AQID:1119] from user [ID:448470724] in chat [ID:448470724] text "11:11"
+[2023-03-17T17:54:18.859470+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1120] in chat [ID:448470724]
+[2023-03-17T17:54:19.015660+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917180, "callback_query": {"id": "1926167094709043767", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1120, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679075659, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 108, in process_periodicity
+    task_text = state.get_data()['text']
+TypeError: 'coroutine' object is not subscriptable
+
+NoneType: None
+[2023-03-17T17:56:51.370765+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:56:54.664739+0300] [DEBUG] [logging.py:11]  Received message [AQID:1122] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:56:57.216049+0300] [DEBUG] [logging.py:11]  Received message [AQID:1124] from user [ID:448470724] in chat [ID:448470724] text "f9yef"
+[2023-03-17T17:56:59.077397+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1125] in chat [ID:448470724]
+[2023-03-17T17:57:03.119878+0300] [DEBUG] [logging.py:11]  Received message [AQID:1128] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T17:57:04.707740+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1129] in chat [ID:448470724]
+[2023-03-17T17:57:10.582963+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1129] in chat [ID:448470724]
+[2023-03-17T17:57:38.278231+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:57:40.874149+0300] [DEBUG] [logging.py:11]  Received message [AQID:1131] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:57:43.790741+0300] [DEBUG] [logging.py:11]  Received message [AQID:1133] from user [ID:448470724] in chat [ID:448470724] text "f9yuegf"
+[2023-03-17T17:57:45.582289+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1134] in chat [ID:448470724]
+[2023-03-17T17:57:49.446093+0300] [DEBUG] [logging.py:11]  Received message [AQID:1137] from user [ID:448470724] in chat [ID:448470724] text "13:30"
+[2023-03-17T17:59:19.431493+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T17:59:28.265053+0300] [DEBUG] [logging.py:11]  Received message [AQID:1139] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T17:59:30.801760+0300] [DEBUG] [logging.py:11]  Received message [AQID:1141] from user [ID:448470724] in chat [ID:448470724] text "biwgr"
+[2023-03-17T17:59:32.075022+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1142] in chat [ID:448470724]
+[2023-03-17T17:59:35.842746+0300] [DEBUG] [logging.py:11]  Received message [AQID:1145] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T18:02:41.480049+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:02:44.626192+0300] [DEBUG] [logging.py:11]  Received message [AQID:1147] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:02:48.123183+0300] [DEBUG] [logging.py:11]  Received message [AQID:1149] from user [ID:448470724] in chat [ID:448470724] text "gpfyeag"
+[2023-03-17T18:02:50.033504+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1150] in chat [ID:448470724]
+[2023-03-17T18:02:53.970567+0300] [DEBUG] [logging.py:11]  Received message [AQID:1153] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T18:02:55.484361+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1154] in chat [ID:448470724]
+[2023-03-17T18:03:14.273833+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1154] in chat [ID:448470724]
+[2023-03-17T18:04:09.471623+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:04:12.697700+0300] [DEBUG] [logging.py:11]  Received message [AQID:1157] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:04:15.540651+0300] [DEBUG] [logging.py:11]  Received message [AQID:1159] from user [ID:448470724] in chat [ID:448470724] text "fsugh"
+[2023-03-17T18:04:18.494413+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1160] in chat [ID:448470724]
+[2023-03-17T18:04:23.417832+0300] [DEBUG] [logging.py:11]  Received message [AQID:1163] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T18:04:25.054408+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1164] in chat [ID:448470724]
+[2023-03-17T18:05:48.119438+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:05:51.871607+0300] [DEBUG] [logging.py:11]  Received message [AQID:1166] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:06:17.940379+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:06:21.236809+0300] [DEBUG] [logging.py:11]  Received message [AQID:1167] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:07:11.652714+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:07:16.005096+0300] [DEBUG] [logging.py:11]  Received message [AQID:1169] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:07:24.713237+0300] [DEBUG] [logging.py:11]  Received message [AQID:1171] from user [ID:448470724] in chat [ID:448470724] text "suyfsyf"
+[2023-03-17T18:07:28.389759+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:25"] from user [ID:448470724] for message [ID:1172] in chat [ID:448470724]
+[2023-03-17T18:07:33.900468+0300] [DEBUG] [logging.py:11]  Received message [AQID:1175] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T18:07:37.050786+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1176] in chat [ID:448470724]
+[2023-03-17T18:09:29.075810+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:09:33.701607+0300] [DEBUG] [logging.py:11]  Received message [AQID:1178] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:09:36.629513+0300] [DEBUG] [logging.py:11]  Received message [AQID:1180] from user [ID:448470724] in chat [ID:448470724] text "fiysgefi"
+[2023-03-17T18:09:38.296551+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1181] in chat [ID:448470724]
+[2023-03-17T18:09:42.343926+0300] [DEBUG] [logging.py:11]  Received message [AQID:1184] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T18:09:43.918430+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1185] in chat [ID:448470724]
+[2023-03-17T18:09:43.985788+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917221, "callback_query": {"id": "1926167093235715503", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1185, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679076584, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 111, in process_periodicity
+    create_task(user.id, **task_data)
+TypeError: create_task() missing 4 required positional arguments: 'task_name', 'task_date', 'task_time', and 'periodicity'
+
+NoneType: None
+[2023-03-17T18:18:44.386165+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:18:53.280765+0300] [DEBUG] [logging.py:11]  Received message [AQID:1187] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:18:56.116112+0300] [DEBUG] [logging.py:11]  Received message [AQID:1189] from user [ID:448470724] in chat [ID:448470724] text "fiwuyge"
+[2023-03-17T18:18:58.543675+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1190] in chat [ID:448470724]
+[2023-03-17T18:19:02.587692+0300] [DEBUG] [logging.py:11]  Received message [AQID:1193] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T18:19:04.106651+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1194] in chat [ID:448470724]
+[2023-03-17T18:19:04.210747+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917226, "callback_query": {"id": "1926167095600655085", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1194, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077145, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 111, in process_periodicity
+    create_task(user.id, data['text'], data['date'], data['time'], data['periodicity'])
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\storage.py", line 439, in __getitem__
+    return self._data[item]
+KeyError: 'text'
+
+NoneType: None
+[2023-03-17T18:21:59.883345+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:22:02.184321+0300] [DEBUG] [logging.py:11]  Received message [AQID:1196] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:22:04.644467+0300] [DEBUG] [logging.py:11]  Received message [AQID:1198] from user [ID:448470724] in chat [ID:448470724] text "fhef9uyg"
+[2023-03-17T18:22:06.230016+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1199] in chat [ID:448470724]
+[2023-03-17T18:22:09.957773+0300] [DEBUG] [logging.py:11]  Received message [AQID:1202] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T18:22:11.194764+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1203] in chat [ID:448470724]
+[2023-03-17T18:22:11.285536+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917231, "callback_query": {"id": "1926167095337895711", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1203, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077332, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 113, in process_periodicity
+    create_task(user.id, data['text'], data['date'], data['time'], data['periodicity'])
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\storage.py", line 439, in __getitem__
+    return self._data[item]
+KeyError: 'text'
+
+NoneType: None
+[2023-03-17T18:28:35.362114+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:28:40.721431+0300] [DEBUG] [logging.py:11]  Received message [AQID:1205] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:28:47.112271+0300] [DEBUG] [logging.py:11]  Received message [AQID:1207] from user [ID:448470724] in chat [ID:448470724] text "Task 1"
+[2023-03-17T18:28:49.275767+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:NEXT-YEAR:2023:3:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:28:49.365102+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917234, "callback_query": {"id": "1926167096123812715", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2023:3:1"}, {"text": "March 2023", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2023:3:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2023:3:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2023:3:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2023:3:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2023:3:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2023:3:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2023:3:5"}], [{"text": "6", "callback_data": "simple_calendar:DAY:2023:3:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2023:3:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2023:3:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2023:3:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2023:3:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2023:3:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2023:3:12"}], [{"text": "13", "callback_data": "simple_calendar:DAY:2023:3:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2023:3:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2023:3:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2023:3:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2023:3:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2023:3:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2023:3:19"}], [{"text": "20", "callback_data": "simple_calendar:DAY:2023:3:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2023:3:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2023:3:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2023:3:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2023:3:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2023:3:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2023:3:26"}], [{"text": "27", "callback_data": "simple_calendar:DAY:2023:3:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2023:3:28"}, {"text": "29", "callback_data": "simple_calendar:DAY:2023:3:29"}, {"text": "30", "callback_data": "simple_calendar:DAY:2023:3:30"}, {"text": "31", "callback_data": "simple_calendar:DAY:2023:3:31"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2023:3:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:3:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2023:3:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:NEXT-YEAR:2023:3:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:28:55.451173+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:PREV-YEAR:2024:2:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:28:55.540521+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917235, "callback_query": {"id": "1926167095313766189", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077731, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2024:2:1"}, {"text": "February 2024", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2024:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2024:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2024:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2024:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2024:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2024:2:4"}], [{"text": "5", "callback_data": "simple_calendar:DAY:2024:2:5"}, {"text": "6", "callback_data": "simple_calendar:DAY:2024:2:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2024:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2024:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2024:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2024:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2024:2:11"}], [{"text": "12", "callback_data": "simple_calendar:DAY:2024:2:12"}, {"text": "13", "callback_data": "simple_calendar:DAY:2024:2:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2024:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2024:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2024:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2024:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2024:2:18"}], [{"text": "19", "callback_data": "simple_calendar:DAY:2024:2:19"}, {"text": "20", "callback_data": "simple_calendar:DAY:2024:2:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2024:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2024:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2024:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2024:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2024:2:25"}], [{"text": "26", "callback_data": "simple_calendar:DAY:2024:2:26"}, {"text": "27", "callback_data": "simple_calendar:DAY:2024:2:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2024:2:28"}, {"text": "29", "callback_data": "simple_calendar:DAY:2024:2:29"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2024:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:PREV-YEAR:2024:2:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:28:57.476317+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:PREV-YEAR:2023:2:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:28:57.621803+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917236, "callback_query": {"id": "1926167096654134158", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077737, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2023:2:1"}, {"text": "February 2023", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2023:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2023:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2023:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2023:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2023:2:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2023:2:5"}], [{"text": "6", "callback_data": "simple_calendar:DAY:2023:2:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2023:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2023:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2023:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2023:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2023:2:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2023:2:12"}], [{"text": "13", "callback_data": "simple_calendar:DAY:2023:2:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2023:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2023:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2023:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2023:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2023:2:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2023:2:19"}], [{"text": "20", "callback_data": "simple_calendar:DAY:2023:2:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2023:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2023:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2023:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2023:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2023:2:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2023:2:26"}], [{"text": "27", "callback_data": "simple_calendar:DAY:2023:2:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2023:2:28"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2023:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:PREV-YEAR:2023:2:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:28:58.835954+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:NEXT-YEAR:2022:2:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:28:58.925918+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917237, "callback_query": {"id": "1926167095387408786", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077740, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2022:2:1"}, {"text": "February 2022", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2022:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2022:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2022:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2022:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2022:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2022:2:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2022:2:5"}, {"text": "6", "callback_data": "simple_calendar:DAY:2022:2:6"}], [{"text": "7", "callback_data": "simple_calendar:DAY:2022:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2022:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2022:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2022:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2022:2:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2022:2:12"}, {"text": "13", "callback_data": "simple_calendar:DAY:2022:2:13"}], [{"text": "14", "callback_data": "simple_calendar:DAY:2022:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2022:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2022:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2022:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2022:2:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2022:2:19"}, {"text": "20", "callback_data": "simple_calendar:DAY:2022:2:20"}], [{"text": "21", "callback_data": "simple_calendar:DAY:2022:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2022:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2022:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2022:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2022:2:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2022:2:26"}, {"text": "27", "callback_data": "simple_calendar:DAY:2022:2:27"}], [{"text": "28", "callback_data": "simple_calendar:DAY:2022:2:28"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2022:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2022:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2022:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:NEXT-YEAR:2022:2:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:28:59.492622+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:NEXT-YEAR:2023:2:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:28:59.642355+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917238, "callback_query": {"id": "1926167093605893619", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077741, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2023:2:1"}, {"text": "February 2023", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2023:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2023:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2023:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2023:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2023:2:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2023:2:5"}], [{"text": "6", "callback_data": "simple_calendar:DAY:2023:2:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2023:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2023:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2023:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2023:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2023:2:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2023:2:12"}], [{"text": "13", "callback_data": "simple_calendar:DAY:2023:2:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2023:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2023:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2023:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2023:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2023:2:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2023:2:19"}], [{"text": "20", "callback_data": "simple_calendar:DAY:2023:2:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2023:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2023:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2023:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2023:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2023:2:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2023:2:26"}], [{"text": "27", "callback_data": "simple_calendar:DAY:2023:2:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2023:2:28"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2023:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:NEXT-YEAR:2023:2:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:29:00.575360+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:PREV-YEAR:2024:2:1"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:29:00.708782+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917239, "callback_query": {"id": "1926167096800291725", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077742, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2024:2:1"}, {"text": "February 2024", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2024:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2024:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2024:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2024:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2024:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2024:2:4"}], [{"text": "5", "callback_data": "simple_calendar:DAY:2024:2:5"}, {"text": "6", "callback_data": "simple_calendar:DAY:2024:2:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2024:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2024:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2024:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2024:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2024:2:11"}], [{"text": "12", "callback_data": "simple_calendar:DAY:2024:2:12"}, {"text": "13", "callback_data": "simple_calendar:DAY:2024:2:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2024:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2024:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2024:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2024:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2024:2:18"}], [{"text": "19", "callback_data": "simple_calendar:DAY:2024:2:19"}, {"text": "20", "callback_data": "simple_calendar:DAY:2024:2:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2024:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2024:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2024:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2024:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2024:2:25"}], [{"text": "26", "callback_data": "simple_calendar:DAY:2024:2:26"}, {"text": "27", "callback_data": "simple_calendar:DAY:2024:2:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2024:2:28"}, {"text": "29", "callback_data": "simple_calendar:DAY:2024:2:29"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2024:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2024:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2024:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:PREV-YEAR:2024:2:1"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:29:01.749919+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:NEXT-MONTH:2023:2:0"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:29:01.904880+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917240, "callback_query": {"id": "1926167094341997161", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1208, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077729, "edit_date": 1679077743, "text": "When should the task be done?", "reply_markup": {"inline_keyboard": [[{"text": "<<", "callback_data": "simple_calendar:PREV-YEAR:2023:2:1"}, {"text": "February 2023", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">>", "callback_data": "simple_calendar:NEXT-YEAR:2023:2:1"}], [{"text": "Mo", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Tu", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "We", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Th", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Fr", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Sa", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "Su", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": "1", "callback_data": "simple_calendar:DAY:2023:2:1"}, {"text": "2", "callback_data": "simple_calendar:DAY:2023:2:2"}, {"text": "3", "callback_data": "simple_calendar:DAY:2023:2:3"}, {"text": "4", "callback_data": "simple_calendar:DAY:2023:2:4"}, {"text": "5", "callback_data": "simple_calendar:DAY:2023:2:5"}], [{"text": "6", "callback_data": "simple_calendar:DAY:2023:2:6"}, {"text": "7", "callback_data": "simple_calendar:DAY:2023:2:7"}, {"text": "8", "callback_data": "simple_calendar:DAY:2023:2:8"}, {"text": "9", "callback_data": "simple_calendar:DAY:2023:2:9"}, {"text": "10", "callback_data": "simple_calendar:DAY:2023:2:10"}, {"text": "11", "callback_data": "simple_calendar:DAY:2023:2:11"}, {"text": "12", "callback_data": "simple_calendar:DAY:2023:2:12"}], [{"text": "13", "callback_data": "simple_calendar:DAY:2023:2:13"}, {"text": "14", "callback_data": "simple_calendar:DAY:2023:2:14"}, {"text": "15", "callback_data": "simple_calendar:DAY:2023:2:15"}, {"text": "16", "callback_data": "simple_calendar:DAY:2023:2:16"}, {"text": "17", "callback_data": "simple_calendar:DAY:2023:2:17"}, {"text": "18", "callback_data": "simple_calendar:DAY:2023:2:18"}, {"text": "19", "callback_data": "simple_calendar:DAY:2023:2:19"}], [{"text": "20", "callback_data": "simple_calendar:DAY:2023:2:20"}, {"text": "21", "callback_data": "simple_calendar:DAY:2023:2:21"}, {"text": "22", "callback_data": "simple_calendar:DAY:2023:2:22"}, {"text": "23", "callback_data": "simple_calendar:DAY:2023:2:23"}, {"text": "24", "callback_data": "simple_calendar:DAY:2023:2:24"}, {"text": "25", "callback_data": "simple_calendar:DAY:2023:2:25"}, {"text": "26", "callback_data": "simple_calendar:DAY:2023:2:26"}], [{"text": "27", "callback_data": "simple_calendar:DAY:2023:2:27"}, {"text": "28", "callback_data": "simple_calendar:DAY:2023:2:28"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}], [{"text": "<", "callback_data": "simple_calendar:PREV-MONTH:2023:2:0"}, {"text": " ", "callback_data": "simple_calendar:IGNORE:2023:2:0"}, {"text": ">", "callback_data": "simple_calendar:NEXT-MONTH:2023:2:0"}]]}}, "chat_instance": "1646365164926244667", "data": "simple_calendar:NEXT-MONTH:2023:2:0"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 55, in _process_date
+    data['date'] = date.strftime("%d.%m.%Y")
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T18:29:06.107356+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1208] in chat [ID:448470724]
+[2023-03-17T18:29:11.587568+0300] [DEBUG] [logging.py:11]  Received message [AQID:1211] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T18:29:13.874361+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1212] in chat [ID:448470724]
+[2023-03-17T18:29:13.977518+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917243, "callback_query": {"id": "1926167094673273364", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1212, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679077754, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 113, in process_periodicity
+    create_task(user.id, 'Task 1', '02.04.2023', '12:20', 'no')
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\services\tasks.py", line 14, in create_task
+    user = User.get(User.user_id == user_id)
+AttributeError: type object 'User' has no attribute 'user_id'
+
+NoneType: None
+[2023-03-17T18:31:16.526070+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:31:19.284149+0300] [DEBUG] [logging.py:11]  Received message [AQID:1214] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:31:22.415643+0300] [DEBUG] [logging.py:11]  Received message [AQID:1216] from user [ID:448470724] in chat [ID:448470724] text "fgwsieyfg"
+[2023-03-17T18:31:24.173745+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1217] in chat [ID:448470724]
+[2023-03-17T18:31:29.374613+0300] [DEBUG] [logging.py:11]  Received message [AQID:1220] from user [ID:448470724] in chat [ID:448470724] text "12:40"
+[2023-03-17T18:31:31.459634+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1221] in chat [ID:448470724]
+[2023-03-17T18:32:47.167478+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:32:48.781986+0300] [DEBUG] [logging.py:11]  Received message [AQID:1224] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T18:32:52.629310+0300] [DEBUG] [logging.py:11]  Received message [AQID:1226] from user [ID:448470724] in chat [ID:448470724] text "fhfh"
+[2023-03-17T18:32:54.533024+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1227] in chat [ID:448470724]
+[2023-03-17T18:32:58.640693+0300] [DEBUG] [logging.py:11]  Received message [AQID:1230] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T18:33:00.999883+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1231] in chat [ID:448470724]
+[2023-03-17T18:59:37.180352+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T18:59:49.622740+0300] [DEBUG] [logging.py:11]  Received message [AQID:1234] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T18:59:50.949712+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:1235] in chat [ID:448470724]
+[2023-03-17T18:59:56.216494+0300] [DEBUG] [logging.py:11]  Received message [AQID:1237] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:00:07.778850+0300] [DEBUG] [logging.py:11]  Received message [AQID:1238] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-17T19:00:20.908402+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:00:31.271528+0300] [DEBUG] [logging.py:11]  Received message [AQID:1240] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:01:14.090587+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:01:17.144556+0300] [DEBUG] [logging.py:11]  Received message [AQID:1242] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:19:09.087686+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:19:20.061005+0300] [DEBUG] [logging.py:11]  Received message [AQID:1244] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:20:05.005056+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:20:07.684322+0300] [DEBUG] [logging.py:11]  Received message [AQID:1246] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:22:41.171990+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:22:43.432086+0300] [DEBUG] [logging.py:11]  Received message [AQID:1248] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:22:46.097067+0300] [DEBUG] [logging.py:11]  Received message [AQID:1250] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-17T19:31:32.013113+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:31:35.797532+0300] [DEBUG] [logging.py:11]  Received message [AQID:1252] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T19:31:43.614920+0300] [DEBUG] [logging.py:11]  Received message [AQID:1254] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-17T19:36:00.083478+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:36:03.300094+0300] [DEBUG] [logging.py:11]  Received message [AQID:1256] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T19:36:06.777496+0300] [DEBUG] [logging.py:11]  Received message [AQID:1258] from user [ID:448470724] in chat [ID:448470724] text "fyefgyes"
+[2023-03-17T19:36:09.454050+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1259] in chat [ID:448470724]
+[2023-03-17T19:36:15.787941+0300] [DEBUG] [logging.py:11]  Received message [AQID:1262] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T19:36:47.413406+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:36:54.399750+0300] [DEBUG] [logging.py:11]  Received message [AQID:1264] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T19:36:57.665866+0300] [DEBUG] [logging.py:11]  Received message [AQID:1266] from user [ID:448470724] in chat [ID:448470724] text "vsgi"
+[2023-03-17T19:36:59.959012+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1267] in chat [ID:448470724]
+[2023-03-17T19:37:04.138633+0300] [DEBUG] [logging.py:11]  Received message [AQID:1270] from user [ID:448470724] in chat [ID:448470724] text "12:49"
+[2023-03-17T19:46:33.364946+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:46:42.284477+0300] [DEBUG] [logging.py:11]  Received message [AQID:1272] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T19:46:45.455252+0300] [DEBUG] [logging.py:11]  Received message [AQID:1274] from user [ID:448470724] in chat [ID:448470724] text "ivhsgriy"
+[2023-03-17T19:46:47.199447+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1275] in chat [ID:448470724]
+[2023-03-17T19:47:01.574621+0300] [DEBUG] [logging.py:11]  Received message [AQID:1278] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T19:47:01.602895+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917277, "message": {"message_id": 1278, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679082424, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 80, in process_time
+    if _is_input_time_earlier_now_time(data['date'], time):
+UnboundLocalError: local variable 'data' referenced before assignment
+
+NoneType: None
+[2023-03-17T19:48:12.074852+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:48:14.682962+0300] [DEBUG] [logging.py:11]  Received message [AQID:1279] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T19:48:17.107661+0300] [DEBUG] [logging.py:11]  Received message [AQID:1281] from user [ID:448470724] in chat [ID:448470724] text "fhugh"
+[2023-03-17T19:48:22.848093+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1282] in chat [ID:448470724]
+[2023-03-17T19:48:28.504804+0300] [DEBUG] [logging.py:11]  Received message [AQID:1285] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T19:48:28.507759+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917281, "message": {"message_id": 1285, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679082511, "text": "12:30"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 80, in process_time
+    data['time'] = time
+UnboundLocalError: local variable 'time' referenced before assignment
+
+NoneType: None
+[2023-03-17T19:55:28.612695+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T19:55:37.545137+0300] [DEBUG] [logging.py:11]  Received message [AQID:1286] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T19:55:40.714163+0300] [DEBUG] [logging.py:11]  Received message [AQID:1288] from user [ID:448470724] in chat [ID:448470724] text "fsrg"
+[2023-03-17T19:55:42.356343+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:21"] from user [ID:448470724] for message [ID:1289] in chat [ID:448470724]
+[2023-03-17T19:55:49.333220+0300] [DEBUG] [logging.py:11]  Received message [AQID:1292] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T19:55:49.338949+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917285, "message": {"message_id": 1292, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679082952, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 78, in process_time
+    print(state.get_data().get('date'))
+AttributeError: 'coroutine' object has no attribute 'get'
+
+NoneType: None
+[2023-03-17T20:00:01.634100+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:00:06.029812+0300] [DEBUG] [logging.py:11]  Received message [AQID:1293] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:00:09.631484+0300] [DEBUG] [logging.py:11]  Received message [AQID:1295] from user [ID:448470724] in chat [ID:448470724] text "fouheswf"
+[2023-03-17T20:00:11.607496+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1296] in chat [ID:448470724]
+[2023-03-17T20:00:18.440408+0300] [DEBUG] [logging.py:11]  Received message [AQID:1299] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T20:00:18.449163+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917289, "message": {"message_id": 1299, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679083221, "text": "12:20"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 78, in process_time
+    input_date = state.get_data()['date']
+TypeError: 'coroutine' object is not subscriptable
+
+NoneType: None
+[2023-03-17T20:03:43.318438+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:03:48.875454+0300] [DEBUG] [logging.py:11]  Received message [AQID:1300] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:03:52.293530+0300] [DEBUG] [logging.py:11]  Received message [AQID:1302] from user [ID:448470724] in chat [ID:448470724] text "bisryg"
+[2023-03-17T20:03:53.989068+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1303] in chat [ID:448470724]
+[2023-03-17T20:03:58.836011+0300] [DEBUG] [logging.py:11]  Received message [AQID:1306] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T20:11:40.571336+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:12:12.260808+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:12:14.246341+0300] [DEBUG] [logging.py:11]  Received message [AQID:1369] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T20:12:21.213231+0300] [DEBUG] [logging.py:11]  Received message [AQID:1371] from user [ID:448470724] in chat [ID:448470724] text "iuyfpytfo"
+[2023-03-17T20:12:24.066982+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1372] in chat [ID:448470724]
+[2023-03-17T20:12:28.941278+0300] [DEBUG] [logging.py:11]  Received message [AQID:1375] from user [ID:448470724] in chat [ID:448470724] text "13:45"
+[2023-03-17T20:14:02.554554+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:14:28.245993+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:14:48.971377+0300] [DEBUG] [logging.py:11]  Received message [AQID:1377] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:14:52.140747+0300] [DEBUG] [logging.py:11]  Received message [AQID:1379] from user [ID:448470724] in chat [ID:448470724] text "srgseg"
+[2023-03-17T20:14:53.621722+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1380] in chat [ID:448470724]
+[2023-03-17T20:14:58.531412+0300] [DEBUG] [logging.py:11]  Received message [AQID:1383] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:15:35.598702+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:15:41.824028+0300] [DEBUG] [logging.py:11]  Received message [AQID:1385] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:15:44.383305+0300] [DEBUG] [logging.py:11]  Received message [AQID:1387] from user [ID:448470724] in chat [ID:448470724] text "fgpyaegf"
+[2023-03-17T20:15:45.470035+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1388] in chat [ID:448470724]
+[2023-03-17T20:15:51.165465+0300] [DEBUG] [logging.py:11]  Received message [AQID:1391] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:16:26.055973+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:16:33.918735+0300] [DEBUG] [logging.py:11]  Received message [AQID:1393] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:16:36.649730+0300] [DEBUG] [logging.py:11]  Received message [AQID:1395] from user [ID:448470724] in chat [ID:448470724] text "fdpygsepf8"
+[2023-03-17T20:16:37.938276+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:1396] in chat [ID:448470724]
+[2023-03-17T20:16:41.549912+0300] [DEBUG] [logging.py:11]  Received message [AQID:1399] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:17:32.506890+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:17:36.150310+0300] [DEBUG] [logging.py:11]  Received message [AQID:1401] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:17:38.744770+0300] [DEBUG] [logging.py:11]  Received message [AQID:1403] from user [ID:448470724] in chat [ID:448470724] text "dyegf"
+[2023-03-17T20:17:40.202525+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:28"] from user [ID:448470724] for message [ID:1404] in chat [ID:448470724]
+[2023-03-17T20:17:43.204025+0300] [DEBUG] [logging.py:11]  Received message [AQID:1407] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:18:56.523041+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:19:01.327291+0300] [DEBUG] [logging.py:11]  Received message [AQID:1409] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:19:04.212256+0300] [DEBUG] [logging.py:11]  Received message [AQID:1411] from user [ID:448470724] in chat [ID:448470724] text "fgp9gwe"
+[2023-03-17T20:19:06.587589+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1412] in chat [ID:448470724]
+[2023-03-17T20:19:10.688194+0300] [DEBUG] [logging.py:11]  Received message [AQID:1415] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T20:19:42.243879+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:19:47.254287+0300] [DEBUG] [logging.py:11]  Received message [AQID:1417] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:19:49.309970+0300] [DEBUG] [logging.py:11]  Received message [AQID:1419] from user [ID:448470724] in chat [ID:448470724] text "fuwp9fug"
+[2023-03-17T20:19:51.435798+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1420] in chat [ID:448470724]
+[2023-03-17T20:19:55.076515+0300] [DEBUG] [logging.py:11]  Received message [AQID:1423] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T20:20:28.092824+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:20:39.889216+0300] [DEBUG] [logging.py:11]  Received message [AQID:1425] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:20:42.732244+0300] [DEBUG] [logging.py:11]  Received message [AQID:1427] from user [ID:448470724] in chat [ID:448470724] text "fh9ues"
+[2023-03-17T20:20:44.598123+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:29"] from user [ID:448470724] for message [ID:1428] in chat [ID:448470724]
+[2023-03-17T20:20:48.279054+0300] [DEBUG] [logging.py:11]  Received message [AQID:1431] from user [ID:448470724] in chat [ID:448470724] text "21:00"
+[2023-03-17T20:21:48.688177+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:21:55.257879+0300] [DEBUG] [logging.py:11]  Received message [AQID:1433] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:21:57.671988+0300] [DEBUG] [logging.py:11]  Received message [AQID:1435] from user [ID:448470724] in chat [ID:448470724] text "fh9pfueh"
+[2023-03-17T20:22:00.071298+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:11"] from user [ID:448470724] for message [ID:1436] in chat [ID:448470724]
+[2023-03-17T20:22:00.972035+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-03-17T20:22:03.647484+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1438] in chat [ID:448470724]
+[2023-03-17T20:22:08.567876+0300] [DEBUG] [logging.py:11]  Received message [AQID:1441] from user [ID:448470724] in chat [ID:448470724] text "15:00"
+[2023-03-17T20:25:38.472370+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:25:44.124486+0300] [DEBUG] [logging.py:11]  Received message [AQID:1443] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:25:47.693523+0300] [DEBUG] [logging.py:11]  Received message [AQID:1445] from user [ID:448470724] in chat [ID:448470724] text "bfsyegf"
+[2023-03-17T20:25:49.366319+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1446] in chat [ID:448470724]
+[2023-03-17T20:25:54.951913+0300] [DEBUG] [logging.py:11]  Received message [AQID:1449] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:33:48.573102+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:33:53.607221+0300] [DEBUG] [logging.py:11]  Received message [AQID:1451] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:33:57.725988+0300] [DEBUG] [logging.py:11]  Received message [AQID:1453] from user [ID:448470724] in chat [ID:448470724] text "gph9wyg"
+[2023-03-17T20:33:59.344920+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1454] in chat [ID:448470724]
+[2023-03-17T20:34:03.833992+0300] [DEBUG] [logging.py:11]  Received message [AQID:1457] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:35:01.481212+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:35:02.715648+0300] [DEBUG] [logging.py:11]  Received message [AQID:1459] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:35:08.602698+0300] [DEBUG] [logging.py:11]  Received message [AQID:1461] from user [ID:448470724] in chat [ID:448470724] text "fiygwfy"
+[2023-03-17T20:35:10.407802+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1462] in chat [ID:448470724]
+[2023-03-17T20:35:14.501606+0300] [DEBUG] [logging.py:11]  Received message [AQID:1465] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T20:41:27.946799+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:41:44.934912+0300] [DEBUG] [logging.py:11]  Received message [AQID:1467] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:41:49.567249+0300] [DEBUG] [logging.py:11]  Received message [AQID:1469] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T20:41:52.545278+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:19"] from user [ID:448470724] for message [ID:1470] in chat [ID:448470724]
+[2023-03-17T20:41:56.506925+0300] [DEBUG] [logging.py:11]  Received message [AQID:1473] from user [ID:448470724] in chat [ID:448470724] text "13:00"
+[2023-03-17T20:41:57.994423+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1474] in chat [ID:448470724]
+[2023-03-17T20:41:58.262033+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917347, "callback_query": {"id": "1926167094253143129", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1474, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679085719, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 121, in process_periodicity
+    task_text = data['text']
+KeyError: 'text'
+
+NoneType: None
+[2023-03-17T20:47:28.789258+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:47:32.674838+0300] [DEBUG] [logging.py:11]  Received message [AQID:1476] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:47:36.263151+0300] [DEBUG] [logging.py:11]  Received message [AQID:1478] from user [ID:448470724] in chat [ID:448470724] text "fboiwhfg"
+[2023-03-17T20:47:38.062801+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1479] in chat [ID:448470724]
+[2023-03-17T20:47:41.824634+0300] [DEBUG] [logging.py:11]  Received message [AQID:1482] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:47:43.488212+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1483] in chat [ID:448470724]
+[2023-03-17T20:47:43.607436+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917352, "callback_query": {"id": "1926167093303857473", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1483, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679086065, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 122, in process_periodicity
+    task_date = datetime.strptime(data['date'], '%d.%m.%Y').date()
+KeyError: 'date'
+
+NoneType: None
+[2023-03-17T20:51:37.902887+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:51:42.915899+0300] [DEBUG] [logging.py:11]  Received message [AQID:1485] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:51:50.566269+0300] [DEBUG] [logging.py:11]  Received message [AQID:1487] from user [ID:448470724] in chat [ID:448470724] text "пнв8фун"
+[2023-03-17T20:51:52.867970+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:19"] from user [ID:448470724] for message [ID:1488] in chat [ID:448470724]
+[2023-03-17T20:52:00.359261+0300] [DEBUG] [logging.py:11]  Received message [AQID:1491] from user [ID:448470724] in chat [ID:448470724] text "12:50"
+[2023-03-17T20:52:01.964202+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1492] in chat [ID:448470724]
+[2023-03-17T20:52:02.041469+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917357, "callback_query": {"id": "1926167094724547811", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1492, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679086323, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 120, in process_periodicity
+    task_time = datetime.strptime(data['time'], '%H:%M').time()
+TypeError: strptime() argument 1 must be str, not datetime.time
+
+NoneType: None
+[2023-03-17T20:56:14.345541+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:56:14.898543+0300] [DEBUG] [logging.py:11]  Received message [AQID:1494] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:56:24.102763+0300] [DEBUG] [logging.py:11]  Received message [AQID:1496] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T20:56:25.964820+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1497] in chat [ID:448470724]
+[2023-03-17T20:56:30.856911+0300] [DEBUG] [logging.py:11]  Received message [AQID:1500] from user [ID:448470724] in chat [ID:448470724] text "12:30"
+[2023-03-17T20:56:33.925622+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1501] in chat [ID:448470724]
+[2023-03-17T20:56:34.089734+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917362, "callback_query": {"id": "1926167093652769476", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1501, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679086594, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 122, in process_periodicity
+    create_task(user.id, task_text, task_date.strftime("%d.%m.%Y"), task_time.strptime('%H:%M'), task_periodicity)
+AttributeError: 'str' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T20:59:31.475837+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T20:59:35.354732+0300] [DEBUG] [logging.py:11]  Received message [AQID:1503] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T20:59:41.584505+0300] [DEBUG] [logging.py:11]  Received message [AQID:1505] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T20:59:43.548598+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1506] in chat [ID:448470724]
+[2023-03-17T20:59:47.759302+0300] [DEBUG] [logging.py:11]  Received message [AQID:1509] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T20:59:49.117278+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1510] in chat [ID:448470724]
+[2023-03-17T20:59:49.207467+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917367, "callback_query": {"id": "1926167095177421833", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1510, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679086791, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 123, in process_periodicity
+    create_task(user.id, task_text, strftime(task_date, "%d.%m.%Y"), strptime(task_time, '%H:%M'), task_periodicity)
+TypeError: Tuple or struct_time argument required
+
+NoneType: None
+[2023-03-17T21:02:17.341779+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:02:19.858435+0300] [DEBUG] [logging.py:11]  Received message [AQID:1512] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:02:24.583731+0300] [DEBUG] [logging.py:11]  Received message [AQID:1514] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T21:02:26.720795+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1515] in chat [ID:448470724]
+[2023-03-17T21:02:33.178184+0300] [DEBUG] [logging.py:11]  Received message [AQID:1518] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:02:34.599536+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1519] in chat [ID:448470724]
+[2023-03-17T21:02:34.686304+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917372, "callback_query": {"id": "1926167094598781666", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1519, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679086956, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 120, in process_periodicity
+    task_date = data['date'].strftime("%d.%m.%Y")
+AttributeError: 'str' object has no attribute 'strftime'
+
+NoneType: None
+[2023-03-17T21:04:54.554328+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:04:58.853362+0300] [DEBUG] [logging.py:11]  Received message [AQID:1521] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:05:03.675669+0300] [DEBUG] [logging.py:11]  Received message [AQID:1523] from user [ID:448470724] in chat [ID:448470724] text "Task 3"
+[2023-03-17T21:05:05.828516+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1524] in chat [ID:448470724]
+[2023-03-17T21:05:09.664126+0300] [DEBUG] [logging.py:11]  Received message [AQID:1527] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:05:10.754849+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1528] in chat [ID:448470724]
+[2023-03-17T21:06:47.329683+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:06:49.805471+0300] [DEBUG] [logging.py:11]  Received message [AQID:1531] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:06:55.475279+0300] [DEBUG] [logging.py:11]  Received message [AQID:1533] from user [ID:448470724] in chat [ID:448470724] text "Task 4"
+[2023-03-17T21:06:57.137372+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1534] in chat [ID:448470724]
+[2023-03-17T21:07:05.290944+0300] [DEBUG] [logging.py:11]  Received message [AQID:1537] from user [ID:448470724] in chat [ID:448470724] text "12:17"
+[2023-03-17T21:07:08.787796+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1538] in chat [ID:448470724]
+[2023-03-17T21:07:08.951070+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917382, "callback_query": {"id": "1926167093322980553", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1538, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679087228, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "no"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 121, in process_periodicity
+    task_time = datetime.strptime(data['time'], '%H:%M')
+TypeError: strptime() argument 1 must be str, not datetime.time
+
+NoneType: None
+[2023-03-17T21:08:03.244720+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:08:09.309796+0300] [DEBUG] [logging.py:11]  Received message [AQID:1540] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:08:20.883127+0300] [DEBUG] [logging.py:11]  Received message [AQID:1542] from user [ID:448470724] in chat [ID:448470724] text "Task 4"
+[2023-03-17T21:08:22.809920+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:28"] from user [ID:448470724] for message [ID:1543] in chat [ID:448470724]
+[2023-03-17T21:08:26.942391+0300] [DEBUG] [logging.py:11]  Received message [AQID:1546] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T21:08:28.839085+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1547] in chat [ID:448470724]
+[2023-03-17T21:13:07.942430+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:13:11.924262+0300] [DEBUG] [logging.py:11]  Received message [AQID:1550] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T21:14:59.899033+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:15:01.241134+0300] [DEBUG] [logging.py:11]  Received message [AQID:1552] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-17T21:22:59.142707+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:23:07.581180+0300] [DEBUG] [logging.py:11]  Received message [AQID:1554] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T21:23:12.222774+0300] [DEBUG] [logging.py:11]  Received message [AQID:1556] from user [ID:448470724] in chat [ID:448470724] text "Task 5"
+[2023-03-17T21:23:15.282624+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1557] in chat [ID:448470724]
+[2023-03-17T21:23:18.991943+0300] [DEBUG] [logging.py:11]  Received message [AQID:1560] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:23:20.481850+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1561] in chat [ID:448470724]
+[2023-03-17T21:24:11.393943+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:24:17.262104+0300] [DEBUG] [logging.py:11]  Received message [AQID:1564] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:24:22.470666+0300] [DEBUG] [logging.py:11]  Received message [AQID:1566] from user [ID:448470724] in chat [ID:448470724] text "Task 6"
+[2023-03-17T21:24:24.300265+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:25"] from user [ID:448470724] for message [ID:1567] in chat [ID:448470724]
+[2023-03-17T21:24:29.015580+0300] [DEBUG] [logging.py:11]  Received message [AQID:1570] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T21:24:30.655222+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1571] in chat [ID:448470724]
+[2023-03-17T21:25:49.972868+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:26:28.463381+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:26:31.815617+0300] [DEBUG] [logging.py:11]  Received message [AQID:1574] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:26:36.023045+0300] [DEBUG] [logging.py:11]  Received message [AQID:1576] from user [ID:448470724] in chat [ID:448470724] text "Task 7"
+[2023-03-17T21:26:37.912004+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1577] in chat [ID:448470724]
+[2023-03-17T21:26:41.533754+0300] [DEBUG] [logging.py:11]  Received message [AQID:1580] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T21:26:42.849368+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1581] in chat [ID:448470724]
+[2023-03-17T21:27:32.663701+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:27:34.622147+0300] [DEBUG] [logging.py:11]  Received message [AQID:1584] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:27:51.315218+0300] [DEBUG] [logging.py:11]  Received message [AQID:1586] from user [ID:448470724] in chat [ID:448470724] text "Task 8"
+[2023-03-17T21:27:52.706093+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:1587] in chat [ID:448470724]
+[2023-03-17T21:27:58.792198+0300] [DEBUG] [logging.py:11]  Received message [AQID:1590] from user [ID:448470724] in chat [ID:448470724] text "12:09"
+[2023-03-17T21:28:01.366730+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1591] in chat [ID:448470724]
+[2023-03-17T21:35:07.994323+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:35:16.812665+0300] [DEBUG] [logging.py:11]  Received message [AQID:1594] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:35:27.361806+0300] [DEBUG] [logging.py:11]  Received message [AQID:1596] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:35:29.009312+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1597] in chat [ID:448470724]
+[2023-03-17T21:35:33.736517+0300] [DEBUG] [logging.py:11]  Received message [AQID:1600] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:35:35.753077+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1601] in chat [ID:448470724]
+[2023-03-17T21:38:45.292535+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:38:48.160690+0300] [DEBUG] [logging.py:11]  Received message [AQID:1604] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:38:56.929315+0300] [DEBUG] [logging.py:11]  Received message [AQID:1606] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:38:58.924738+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1607] in chat [ID:448470724]
+[2023-03-17T21:39:03.208894+0300] [DEBUG] [logging.py:11]  Received message [AQID:1610] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T21:39:05.681281+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1611] in chat [ID:448470724]
+[2023-03-17T21:39:14.313930+0300] [DEBUG] [logging.py:11]  Received message [AQID:1613] from user [ID:448470724] in chat [ID:448470724] text "1d 2h 30m"
+[2023-03-17T21:39:14.316947+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917421, "message": {"message_id": 1613, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679089157, "text": "1d 2h 30m"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 134, in process_periodicity_text
+    task_periodicity = data['periodicity']
+KeyError: 'periodicity'
+
+NoneType: None
+[2023-03-17T21:42:29.761674+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:42:33.668143+0300] [DEBUG] [logging.py:11]  Received message [AQID:1614] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:42:41.338516+0300] [DEBUG] [logging.py:11]  Received message [AQID:1616] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:42:44.114282+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1617] in chat [ID:448470724]
+[2023-03-17T21:42:51.008055+0300] [DEBUG] [logging.py:11]  Received message [AQID:1620] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:42:54.043033+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1621] in chat [ID:448470724]
+[2023-03-17T21:43:03.121145+0300] [DEBUG] [logging.py:11]  Received message [AQID:1623] from user [ID:448470724] in chat [ID:448470724] text "1d 2h 30m"
+[2023-03-17T21:43:03.123742+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917427, "message": {"message_id": 1623, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679089386, "text": "1d 2h 30m"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 135, in process_periodicity_text
+    task_periodicity = data['periodicity']
+KeyError: 'periodicity'
+
+NoneType: None
+[2023-03-17T21:45:19.034083+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:45:23.965242+0300] [DEBUG] [logging.py:11]  Received message [AQID:1624] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:45:32.522673+0300] [DEBUG] [logging.py:11]  Received message [AQID:1626] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:45:35.228979+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1627] in chat [ID:448470724]
+[2023-03-17T21:45:41.068036+0300] [DEBUG] [logging.py:11]  Received message [AQID:1630] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:45:44.341585+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1631] in chat [ID:448470724]
+[2023-03-17T21:45:57.042047+0300] [DEBUG] [logging.py:11]  Received message [AQID:1633] from user [ID:448470724] in chat [ID:448470724] text "1d 2h 30m"
+[2023-03-17T21:45:57.045597+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917433, "message": {"message_id": 1633, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679089559, "text": "1d 2h 30m"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 133, in process_periodicity_text
+    task_periodicity = data['periodicity']
+KeyError: 'periodicity'
+
+NoneType: None
+[2023-03-17T21:48:42.941956+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:48:47.704414+0300] [DEBUG] [logging.py:11]  Received message [AQID:1634] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:48:53.900535+0300] [DEBUG] [logging.py:11]  Received message [AQID:1636] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:48:55.432297+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1637] in chat [ID:448470724]
+[2023-03-17T21:49:02.356602+0300] [DEBUG] [logging.py:11]  Received message [AQID:1640] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:49:06.644999+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1641] in chat [ID:448470724]
+[2023-03-17T21:49:06.920861+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178917438, "callback_query": {"id": "1926167096951271017", "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "message": {"message_id": 1641, "from": {"id": 6237340947, "is_bot": true, "first_name": "ToDoList Bot", "username": "to_do_list_tg_bot"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1679089745, "text": "Do you want to set a periodicity?", "reply_markup": {"inline_keyboard": [[{"text": "No", "callback_data": "no"}], [{"text": "Yes", "callback_data": "yes"}]]}}, "chat_instance": "1646365164926244667", "data": "yes"}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\task_handler.py", line 105, in process_periodicity
+    task_periodicity = data['periodicity']
+KeyError: 'periodicity'
+
+NoneType: None
+[2023-03-17T21:57:01.504488+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T21:57:06.572847+0300] [DEBUG] [logging.py:11]  Received message [AQID:1643] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T21:57:12.966602+0300] [DEBUG] [logging.py:11]  Received message [AQID:1645] from user [ID:448470724] in chat [ID:448470724] text "Task_updated"
+[2023-03-17T21:57:14.815324+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1646] in chat [ID:448470724]
+[2023-03-17T21:57:19.748804+0300] [DEBUG] [logging.py:11]  Received message [AQID:1649] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T21:57:21.478208+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1650] in chat [ID:448470724]
+[2023-03-17T21:57:27.430697+0300] [DEBUG] [logging.py:11]  Received message [AQID:1652] from user [ID:448470724] in chat [ID:448470724] text "1d 2h 30m"
+[2023-03-17T22:02:39.119487+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:04:10.480890+0300] [DEBUG] [logging.py:11]  Received message [AQID:1654] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:04:19.658199+0300] [DEBUG] [logging.py:11]  Received message [AQID:1656] from user [ID:448470724] in chat [ID:448470724] text "Super task"
+[2023-03-17T22:04:22.078527+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:22"] from user [ID:448470724] for message [ID:1657] in chat [ID:448470724]
+[2023-03-17T22:04:26.677779+0300] [DEBUG] [logging.py:11]  Received message [AQID:1660] from user [ID:448470724] in chat [ID:448470724] text "12:20"
+[2023-03-17T22:04:28.604726+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1661] in chat [ID:448470724]
+[2023-03-17T22:06:33.723281+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:06:43.235259+0300] [DEBUG] [logging.py:11]  Received message [AQID:1663] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:06:50.018733+0300] [DEBUG] [logging.py:11]  Received message [AQID:1665] from user [ID:448470724] in chat [ID:448470724] text "Task_check"
+[2023-03-17T22:06:51.886373+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1666] in chat [ID:448470724]
+[2023-03-17T22:06:55.993075+0300] [DEBUG] [logging.py:11]  Received message [AQID:1669] from user [ID:448470724] in chat [ID:448470724] text "12:17"
+[2023-03-17T22:06:58.017382+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1670] in chat [ID:448470724]
+[2023-03-17T22:08:17.721340+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:08:25.085028+0300] [DEBUG] [logging.py:11]  Received message [AQID:1672] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:08:44.847311+0300] [DEBUG] [logging.py:11]  Received message [AQID:1674] from user [ID:448470724] in chat [ID:448470724] text "Task_check"
+[2023-03-17T22:08:46.240168+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:1675] in chat [ID:448470724]
+[2023-03-17T22:08:50.125133+0300] [DEBUG] [logging.py:11]  Received message [AQID:1678] from user [ID:448470724] in chat [ID:448470724] text "12:17"
+[2023-03-17T22:08:52.621112+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1679] in chat [ID:448470724]
+[2023-03-17T22:09:23.448925+0300] [DEBUG] [logging.py:11]  Received message [AQID:1681] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:09:32.358396+0300] [DEBUG] [logging.py:11]  Received message [AQID:1683] from user [ID:448470724] in chat [ID:448470724] text "Task_check2"
+[2023-03-17T22:09:34.495656+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:30"] from user [ID:448470724] for message [ID:1684] in chat [ID:448470724]
+[2023-03-17T22:09:46.921641+0300] [DEBUG] [logging.py:11]  Received message [AQID:1687] from user [ID:448470724] in chat [ID:448470724] text "13:40"
+[2023-03-17T22:09:50.978802+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1688] in chat [ID:448470724]
+[2023-03-17T22:10:00.837374+0300] [DEBUG] [logging.py:11]  Received message [AQID:1690] from user [ID:448470724] in chat [ID:448470724] text "1d 5h 49m"
+[2023-03-17T22:35:02.529160+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:35:08.158570+0300] [DEBUG] [logging.py:11]  Received message [AQID:1692] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T22:35:42.052596+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:1693] in chat [ID:448470724]
+[2023-03-17T22:37:17.454959+0300] [DEBUG] [logging.py:11]  Received message [AQID:1695] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-17T22:43:50.958291+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:43:56.156894+0300] [DEBUG] [logging.py:11]  Received message [AQID:1697] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-03-17T22:44:04.889651+0300] [DEBUG] [logging.py:11]  Received message [AQID:1699] from user [ID:448470724] in chat [ID:448470724] text "Task_check3"
+[2023-03-17T22:44:07.235129+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:24"] from user [ID:448470724] for message [ID:1700] in chat [ID:448470724]
+[2023-03-17T22:44:11.093893+0300] [DEBUG] [logging.py:11]  Received message [AQID:1703] from user [ID:448470724] in chat [ID:448470724] text "12:17"
+[2023-03-17T22:44:14.270062+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1704] in chat [ID:448470724]
+[2023-03-17T22:44:38.385571+0300] [DEBUG] [logging.py:11]  Received message [AQID:1707] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:44:46.988139+0300] [DEBUG] [logging.py:11]  Received message [AQID:1709] from user [ID:448470724] in chat [ID:448470724] text "Task_check4"
+[2023-03-17T22:44:49.248241+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1710] in chat [ID:448470724]
+[2023-03-17T22:44:54.430143+0300] [DEBUG] [logging.py:11]  Received message [AQID:1713] from user [ID:448470724] in chat [ID:448470724] text "12:15"
+[2023-03-17T22:44:55.588123+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:1714] in chat [ID:448470724]
+[2023-03-17T22:45:05.970368+0300] [DEBUG] [logging.py:11]  Received message [AQID:1716] from user [ID:448470724] in chat [ID:448470724] text "1d 12h 30m"
+[2023-03-17T22:52:24.867966+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:52:29.800802+0300] [DEBUG] [logging.py:11]  Received message [AQID:1718] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:52:40.066821+0300] [DEBUG] [logging.py:11]  Received message [AQID:1720] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:52:42.394701+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1721] in chat [ID:448470724]
+[2023-03-17T22:52:49.539364+0300] [DEBUG] [logging.py:11]  Received message [AQID:1724] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-03-17T22:53:11.398734+0300] [DEBUG] [logging.py:11]  Received message [AQID:1726] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T22:53:48.220392+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:53:50.100246+0300] [DEBUG] [logging.py:11]  Received message [AQID:1728] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:54:03.391892+0300] [DEBUG] [logging.py:11]  Received message [AQID:1730] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:54:05.545081+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:23"] from user [ID:448470724] for message [ID:1731] in chat [ID:448470724]
+[2023-03-17T22:54:10.831637+0300] [DEBUG] [logging.py:11]  Received message [AQID:1734] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T22:54:28.565903+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:54:33.922788+0300] [DEBUG] [logging.py:11]  Received message [AQID:1736] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:54:43.739063+0300] [DEBUG] [logging.py:11]  Received message [AQID:1738] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:54:45.587457+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:29"] from user [ID:448470724] for message [ID:1739] in chat [ID:448470724]
+[2023-03-17T22:54:49.166309+0300] [DEBUG] [logging.py:11]  Received message [AQID:1742] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T22:56:05.156259+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:56:09.974662+0300] [DEBUG] [logging.py:11]  Received message [AQID:1744] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:56:37.111471+0300] [DEBUG] [logging.py:11]  Received message [AQID:1746] from user [ID:448470724] in chat [ID:448470724] text "15:00"
+[2023-03-17T22:56:50.903649+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:56:53.085308+0300] [DEBUG] [logging.py:11]  Received message [AQID:1748] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:57:03.315531+0300] [DEBUG] [logging.py:11]  Received message [AQID:1750] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:57:13.762127+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1751] in chat [ID:448470724]
+[2023-03-17T22:57:21.762322+0300] [DEBUG] [logging.py:11]  Received message [AQID:1754] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T22:59:00.753344+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:59:03.129547+0300] [DEBUG] [logging.py:11]  Received message [AQID:1756] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:59:11.478085+0300] [DEBUG] [logging.py:11]  Received message [AQID:1758] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:59:13.470945+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:18"] from user [ID:448470724] for message [ID:1759] in chat [ID:448470724]
+[2023-03-17T22:59:17.961244+0300] [DEBUG] [logging.py:11]  Received message [AQID:1762] from user [ID:448470724] in chat [ID:448470724] text "14:00"
+[2023-03-17T22:59:25.842026+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T22:59:26.781202+0300] [DEBUG] [logging.py:11]  Received message [AQID:1764] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T22:59:35.178684+0300] [DEBUG] [logging.py:11]  Received message [AQID:1766] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T22:59:39.586003+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1767] in chat [ID:448470724]
+[2023-03-17T22:59:54.207265+0300] [DEBUG] [logging.py:11]  Received message [AQID:1770] from user [ID:448470724] in chat [ID:448470724] text "23:10"
+[2023-03-17T23:00:23.559765+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T23:00:24.447394+0300] [DEBUG] [logging.py:11]  Received message [AQID:1771] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T23:00:30.687582+0300] [DEBUG] [logging.py:11]  Received message [AQID:1773] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T23:00:32.883254+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1774] in chat [ID:448470724]
+[2023-03-17T23:00:37.333607+0300] [DEBUG] [logging.py:11]  Received message [AQID:1777] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T23:01:13.293221+0300] [DEBUG] [logging.py:11]  Received message [AQID:1779] from user [ID:448470724] in chat [ID:448470724] text "23:40"
+[2023-03-17T23:01:31.987780+0300] [DEBUG] [logging.py:11]  Received message [AQID:1780] from user [ID:448470724] in chat [ID:448470724] text "23:00"
+[2023-03-17T23:02:11.947888+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T23:02:14.470084+0300] [DEBUG] [logging.py:11]  Received message [AQID:1782] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T23:02:22.839112+0300] [DEBUG] [logging.py:11]  Received message [AQID:1784] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T23:02:25.253737+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1785] in chat [ID:448470724]
+[2023-03-17T23:02:34.178371+0300] [DEBUG] [logging.py:11]  Received message [AQID:1788] from user [ID:448470724] in chat [ID:448470724] text "23:33"
+[2023-03-17T23:03:49.340960+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T23:03:56.818715+0300] [DEBUG] [logging.py:11]  Received message [AQID:1789] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-03-17T23:04:04.661294+0300] [DEBUG] [logging.py:11]  Received message [AQID:1791] from user [ID:448470724] in chat [ID:448470724] text "Task_check_time"
+[2023-03-17T23:04:06.865737+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:3:17"] from user [ID:448470724] for message [ID:1792] in chat [ID:448470724]
+[2023-03-17T23:04:13.563980+0300] [DEBUG] [logging.py:11]  Received message [AQID:1795] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-03-17T23:04:18.217051+0300] [DEBUG] [logging.py:11]  Received message [AQID:1797] from user [ID:448470724] in chat [ID:448470724] text "23:33"
+[2023-03-17T23:04:23.648453+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:1798] in chat [ID:448470724]
+[2023-03-17T23:39:27.077112+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T23:39:38.976151+0300] [DEBUG] [logging.py:11]  Received message [AQID:1801] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-03-17T23:39:40.140177+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:1802] in chat [ID:448470724]
+[2023-03-17T23:39:41.913724+0300] [DEBUG] [logging.py:11]  Received message [AQID:1804] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-17T23:58:57.005290+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-17T23:59:02.167389+0300] [DEBUG] [logging.py:11]  Received message [AQID:1820] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2023-03-18T00:00:00.132409+0300] [INFO] [main.py:11]  Bot startup
+[2023-03-18T00:00:04.565947+0300] [DEBUG] [logging.py:11]  Received message [AQID:1822] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-03-18T00:00:09.220768+0300] [DEBUG] [logging.py:11]  Received message [AQID:1832] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
