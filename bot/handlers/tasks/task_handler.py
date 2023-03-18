@@ -1,6 +1,4 @@
-from datetime import datetime, timedelta, date, time
-from time import strftime, strptime
-from typing import List
+from datetime import datetime
 
 from aiogram.dispatcher import FSMContext
 
@@ -9,11 +7,12 @@ from aiogram_calendar import simple_cal_callback, SimpleCalendar
 
 from bot.forms.forms import TaskStateGroup
 from bot.handlers.tasks.calendar import _select_date, _process_simple_calendar
-from bot.keyboards.inline.task import get_yes_no_inline_markup, get_todo_inline_markup, get_completed_inline_markup
+from bot.keyboards.inline.task import get_yes_no_inline_markup
 from loader import dp, _
 from models import User
-from models.task import Task
-from services.tasks import create_task, get_tasks, get_to_do, get_completed
+from services.tasks import get_to_do, get_completed, change_is_done, delete_by_id
+from utils.task_helpers import _set_periodicity, _is_input_earlier_today, _view_tasks, _save_task, is_done_callback, \
+    delete_callback, to_do_done_callback, completed_done_callback
 
 
 @dp.message_handler(i18n_text='New task 🆕')
@@ -78,7 +77,6 @@ async def _process_time(message: Message, state: FSMContext):
         data = await state.get_data()
         input_time = datetime.strptime(message.text, '%H:%M').time()
         input_date = datetime.strptime(data['date'], '%d.%m.%Y').date()
-        print(input_date)
         if datetime.now().date() == input_date and datetime.now().time() > input_time:
             await message.answer(_("Selected time is earlier than current time. Please select a later time."))
             return
@@ -108,64 +106,47 @@ async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext,
 @dp.message_handler(state=TaskStateGroup.periodicity)
 async def _process_periodicity_text(message: Message, state: FSMContext, user: User):
     task_periodicity = message.text.strip()
-    try:
-        td = timedelta()
-        parts = task_periodicity.split()
-        for part in parts:
-            if part[-1] == 'd':
-                td += timedelta(days=int(part[:-1]))
-            elif part[-1] == 'h':
-                td += timedelta(hours=int(part[:-1]))
-            elif part[-1] == 'm':
-                td += timedelta(minutes=int(part[:-1]))
+    if task_periodicity == 'no':
         async with state.proxy() as data:
             data['periodicity'] = task_periodicity
-    except:
-        await message.answer(_('Invalid periodicity format. Please enter the correct format (for '
-                               'example, 1d 2h 30m) or enter "no" for a non-periodic task.'))
-        return
-    await _save_task(message, state, user)
-
-
-async def _is_input_earlier_today(input_date):
-    return datetime.now().date() > input_date.date()
-
-
-async def _is_input_time_earlier_now_time(input_date, input_time: time):
-    if datetime.now().date() == input_date:
-        return datetime.now().time() > input_time
+        await _save_task(message, state, user)
     else:
-        return False
+        try:
+            td = await _set_periodicity(task_periodicity)
+            async with state.proxy() as data:
+                data['periodicity'] = td
+        except:
+            await message.answer(_('Invalid periodicity format. Please enter the correct format (for '
+                                   'example, 1d 2h 30m) or enter "no" for a non-periodic task.'))
+            return
+        await _save_task(message, state, user)
 
 
-async def _view_tasks(message: Message, tasks: List[Task], param: str):
-    if not tasks:
-        await message.answer(_(f'No {param} tasks.'))
-        return
-    else:
-        await message.answer(_(f'Your {param} list:\n'))
-        for task in tasks:
-            await _view_task(message, task, param)
+@dp.callback_query_handler(to_do_done_callback.filter())
+async def mark_todo_done(callback_query: CallbackQuery, callback_data: dict, user: User):
+    task_id = int(callback_data['id'])
+    if callback_data['action'] == 'done':
+        change_is_done(task_id)
+        tasks = get_to_do(user.id)
+        await _view_tasks(callback_query.message, tasks, 'to-do')
+    await callback_query.answer()
 
 
-async def _view_task(message: Message, task: Task, param: str):
-    response = f"{task.id}. {task.text} - {task.date} at {task.time}"
-    if task.periodicity != 'no':
-        response += f", {task.periodicity}\n"
-    else:
-        response += "\n"
-    if param == 'to-do':
-        await message.answer(response, reply_markup=get_todo_inline_markup())
-    elif param == 'completed':
-        await message.answer(response, reply_markup=get_completed_inline_markup())
+@dp.callback_query_handler(completed_done_callback.filter())
+async def mark_completed_done(callback_query: CallbackQuery, callback_data: dict, user: User):
+    task_id = int(callback_data['id'])
+    if callback_data['action'] == 'not_done':
+        change_is_done(task_id)
+        tasks = get_completed(user.id)
+        await _view_tasks(callback_query.message, tasks, 'completed')
+    await callback_query.answer()
 
 
-async def _save_task(message: Message, state: FSMContext, user: User):
-    data = await state.get_data()
-    task_text = data['text']
-    task_date = data['date']
-    task_time = data['time']
-    task_periodicity = data.get('periodicity', None)
-    create_task(user.id, task_text, task_date, task_time, task_periodicity)
-    await state.finish()
-    await message.answer(_('Task added successfully.'))
+@dp.callback_query_handler(delete_callback.filter())
+async def delete_task(callback_query: CallbackQuery, callback_data: dict, user: User):
+    task_id = int(callback_data['id'])
+    if callback_data['action'] == 'delete':
+        delete_by_id(task_id)
+        tasks = get_to_do(user.id)
+        await _view_tasks(callback_query.message, tasks, 'to-do')
+    await callback_query.answer()
