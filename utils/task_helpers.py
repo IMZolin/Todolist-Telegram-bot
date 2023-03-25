@@ -1,28 +1,33 @@
 from datetime import timedelta, datetime, time
-from typing import List
+from typing import List, Optional
 
 from aiogram.dispatcher import FSMContext
+from aiogram_calendar import SimpleCalendar
 
-from bot.keyboards.inline.task import get_todo_inline_markup, get_completed_inline_markup, get_edit_task_markup
-from loader import _, dp
-from aiogram.types import Message, CallbackQuery, callback_query
+from bot.forms.forms import EditTaskStateGroup
+from bot.handlers.tasks.calendar import _process_simple_calendar
+from loader import _
+from aiogram.types import Message, CallbackQuery
 
 from models import User
 from models.task import Task
-from services.tasks import create_task, change_is_done, get_to_do, get_completed, get_task_by_id, delete_by_id
-from services.users import get_user
+from services.tasks import create_task, get_task_by_id, update_task
+import re
 
 
 async def _set_periodicity(periodicity):
     td = timedelta()
-    parts = periodicity.split()
-    for part in parts:
-        if part[-1] == 'd':
-            td += timedelta(days=int(part[:-1]))
-        elif part[-1] == 'h':
-            td += timedelta(hours=int(part[:-1]))
-        elif part[-1] == 'm':
-            td += timedelta(minutes=int(part[:-1]))
+    parts = re.findall(r'(\d+)\s*(\w)', periodicity)
+    for value, unit in parts:
+        value = int(value)
+        if unit == 'w':
+            td += timedelta(weeks=value)
+        elif unit == 'd':
+            td += timedelta(days=value)
+        elif unit == 'm':
+            td += timedelta(days=value*30)
+        elif unit == 'y':
+            td += timedelta(days=value*365)
     return td
 
 
@@ -31,68 +36,38 @@ async def _is_input_earlier_today(input_date):
 
 
 async def _is_input_time_earlier_now_time(input_date, input_time: time):
-    if datetime.now().date() == input_date:
-        return datetime.now().time() > input_time
-    else:
-        return False
+    return datetime.now().date() == input_date and datetime.now().time() > input_time
 
 
-async def _view_tasks(message: Message, tasks: List[Task], param: str):
-    if not tasks:
-        await message.answer(_(f'No {param} tasks.'))
-        return
-    else:
-        await message.answer(_(f'Your {param} list:\n'))
-        for task in tasks:
-            await _view_task(message, task, param)
-
-
-async def _view_task(message: Message, task: Task, param: str):
-    response = f"{task.id}. {task.text} - {task.date} at {task.time}"
-    if task.periodicity != 'no':
-        response += f", {task.periodicity}\n"
-    else:
-        response += "\n"
-    if param == 'to-do':
-        await message.answer(response, reply_markup=get_todo_inline_markup())
-    elif param == 'completed':
-        await message.answer(response, reply_markup=get_completed_inline_markup())
-    elif param == 'single':
-        await message.answer(response, reply_markup=get_edit_task_markup())
-
-
-async def _save_task(message: Message, state: FSMContext, user: User):
+async def _save_task(message: Message, state: FSMContext, user: User, param: str, task_id: Optional[int] = None) -> Task:
     data = await state.get_data()
-    task_text = data['text']
-    task_date = data['date']
-    task_time = data['time']
-    task_periodicity = data.get('periodicity', None)
-    create_task(user.id, task_text, task_date, task_time, task_periodicity)
-    await state.finish()
-    await message.answer(_('Task added successfully.'))
+    if param == "add":
+        task_text = data['text']
+        task_date = data['date']
+        task_time = data['time']
+        task_periodicity = data.get('periodicity', None)
+        created_id = create_task(user.id, task_text, task_date, task_time, task_periodicity)
+        task = get_task_by_id(created_id)
+        await state.finish()
+    else:
+        task = get_task_by_id(task_id)
+        await EditTaskStateGroup.inlineMenu.set()
+    if param == "add":
+        await message.answer(_('Task added successfully.'))
+    else:
+        await message.answer(_('Task edited successfully.'))
+    return task
 
 
-async def to_do_done_callback(query: CallbackQuery, callback_data: dict, user: User):
-    task_id = int(callback_data['task_id'])
-    change_is_done(task_id)
-    tasks = get_to_do(user.id)
-    await _view_tasks(query.message, tasks, 'to-do')
-    await callback_query.answer()
+async def _body_set_date(callback_query: CallbackQuery, callback_data: dict, state: FSMContext):
+    selected, date = await _process_simple_calendar(callback_query, callback_data)
 
+    async with state.proxy() as data:
+        data['date'] = date.strftime("%d.%m.%Y")
 
-async def completed_done_callback(query: CallbackQuery, callback_data: dict, user: User):
-    task_id = int(callback_data['task_id'])
-    task = get_task_by_id(task_id)
-    task.done_date = None
-    change_is_done(task_id)
-    tasks = get_completed(user.id)
-    await _view_tasks(query.message, tasks, 'completed')
-    await callback_query.answer()
+    while selected and await _is_input_earlier_today(date):
+        await callback_query.message.answer(_("Wrong date. Please enter the day before today"),
+                                            reply_markup=await SimpleCalendar().start_calendar())
+        selected, date = await _process_simple_calendar(callback_query, callback_data)
+    return selected, date
 
-
-async def delete_callback(query: CallbackQuery, callback_data: dict, user: User):
-    task_id = int(callback_data['task_id'])
-    delete_by_id(task_id)
-    tasks = get_to_do(user.id)
-    await _view_tasks(query.message, tasks, 'to-do')
-    await callback_query.answer()

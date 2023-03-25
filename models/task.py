@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import datetime
 from peewee import CharField, BooleanField, DateTimeField, ForeignKeyField, DateField, TimeField, \
     AutoField
 
@@ -16,10 +16,12 @@ class Task(BaseModel):
     time = TimeField(formats='%H:%M:%S', null=True)
     is_done = BooleanField(default=False, null=True)
     periodicity = CharField(default=None, null=True)
-    created_at = DateTimeField(default=lambda: datetime.utcnow())
+    created_at = DateTimeField(default=lambda: datetime.datetime.utcnow())
 
     def __repr__(self) -> str:
         return f'<Task {self.text}>'
 
     class Meta:
         table_name = 'tasks'
+
+

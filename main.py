@@ -1,17 +1,20 @@
+import asyncio
+
 from aiogram import Dispatcher
 from aiogram import executor
+from aiogram.types import Update
 
 from bot.commands import set_default_commands
 from loader import dp, bot
 from data.config import ADMINS
 from utils.misc.logging import logger
+from notifier import schedular
 
 
 async def on_startup(dispatcher: Dispatcher):
     logger.info('Bot startup')
     for admin_id in ADMINS:
         await bot.send_message(admin_id, 'bot started')
-
     await set_default_commands()
 
 
