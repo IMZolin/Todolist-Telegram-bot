@@ -6,6 +6,8 @@ class TaskStateGroup(StatesGroup):
     date = State()
     time = State()
     periodicity = State()
+    files = State()
+    file_name = State()
 
 
 class EditTaskStateGroup(StatesGroup):
@@ -15,17 +17,3 @@ class EditTaskStateGroup(StatesGroup):
     date = State()
     time = State()
     periodicity = State()
-
-
-class ToDoTaskStateGroup(StatesGroup):
-    chooseTask = State()
-    isDone = State()
-    delete = State()
-    edit = State()
-
-
-class CompletedTaskStateGroup(StatesGroup):
-    chooseTask = State()
-    isDone = State()
-    delete = State()
-    delete_all = State()

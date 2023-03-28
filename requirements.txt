@@ -9,3 +9,4 @@ psycopg2-binary
 aioschedule~=0.5.2
 python-dateutil~=2.8.2
 win10toast~=0.9
+PyDrive~=1.3.1

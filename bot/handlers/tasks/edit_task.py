@@ -3,15 +3,15 @@ from datetime import datetime
 from aiogram.dispatcher import FSMContext
 
 from bot.forms.forms import EditTaskStateGroup
-from bot.handlers.tasks.calendar import _select_date, _process_simple_calendar
+from bot.handlers.tasks.calendar import _select_date
 from bot.handlers.tasks.view_task import _view_task
 from loader import dp, _
 from aiogram.types import Message, CallbackQuery
 
 from models import User
 from services.tasks import get_task_by_id, update_task
-from utils.task_helpers import _save_task, _is_input_earlier_today, _set_periodicity, _body_set_date
-from aiogram_calendar import simple_cal_callback, SimpleCalendar
+from utils.task_helpers import _save_task, _set_periodicity, _body_set_date
+from aiogram_calendar import simple_cal_callback
 
 
 @dp.callback_query_handler(lambda c: c.data.startswith('edit_text_'), state=EditTaskStateGroup.inlineMenu)

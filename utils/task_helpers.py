@@ -1,5 +1,5 @@
 from datetime import timedelta, datetime, time
-from typing import List, Optional
+from typing import Optional
 
 from aiogram.dispatcher import FSMContext
 from aiogram_calendar import SimpleCalendar
@@ -11,7 +11,7 @@ from aiogram.types import Message, CallbackQuery
 
 from models import User
 from models.task import Task
-from services.tasks import create_task, get_task_by_id, update_task
+from services.tasks import create_task, get_task_by_id
 import re
 
 

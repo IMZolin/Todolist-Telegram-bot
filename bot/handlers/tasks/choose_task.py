@@ -1,6 +1,5 @@
 from typing import List
 
-from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, CallbackQuery
 
 from bot.forms.forms import EditTaskStateGroup

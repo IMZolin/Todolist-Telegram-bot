@@ -15,7 +15,13 @@ def get_yes_no_inline_markup():
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(_('No'), callback_data='no'))
     markup.add(InlineKeyboardButton(_('Yes'), callback_data='yes'))
+    return markup
 
+
+def get_upload_files_inline_markup():
+    markup = InlineKeyboardMarkup()
+    markup.add(InlineKeyboardButton(_('Add more files'), callback_data='add_more_files'))
+    markup.add(InlineKeyboardButton(_('Finish adding files'), callback_data='finish_add_files'))
     return markup
 
 
@@ -57,22 +63,22 @@ def get_delete_all_markup(param: str):
     return markup
 
 
-def get_ids_to_do(tasks: List[Task]):
-    markup = InlineKeyboardMarkup(row_width=3)
-    for task in tasks:
-        markup.add(InlineKeyboardButton(task.id, callback_data=f"task_to_do_{task.id}"))
+def _get_rows_task(param: str, tasks: List[Task]):
+    buttons = [InlineKeyboardButton(task.id, callback_data=f"{param}{task.id}") for task in tasks]
+    rows = [buttons[i:i + 5] for i in range(0, len(buttons), 5)]
+    markup = InlineKeyboardMarkup(row_width=5)
+    for row in rows:
+        markup.add(*row)
     return markup
+
+
+def get_ids_to_do(tasks: List[Task]):
+    return _get_rows_task('task_to_do_', tasks)
 
 
 def get_ids_edit(tasks: List[Task]):
-    markup = InlineKeyboardMarkup(row_width=5)
-    for task in tasks:
-        markup.add(InlineKeyboardButton(task.id, callback_data=f"task_edit_{task.id}"))
-    return markup
+    return _get_rows_task('task_edit_', tasks)
 
 
 def get_ids_completed(tasks: List[Task]):
-    markup = InlineKeyboardMarkup(row_width=5)
-    for task in tasks:
-        markup.add(InlineKeyboardButton(task.id, callback_data=f"task_completed_{task.id}"))
-    return markup
+    return _get_rows_task('task_completed_', tasks)

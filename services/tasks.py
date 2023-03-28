@@ -98,7 +98,6 @@ def delete_by_id(id: int) -> None:
 
 async def update_task(id: int, text: Optional[str] = None, date: Optional[datetime] = None,
                       time: Optional[datetime] = None, periodicity: Optional[str] = None) -> bool:
-    # from utils.task_helpers import _set_periodicity
     task = get_task_by_id(id)
     if task is None:
         return False
@@ -109,7 +108,6 @@ async def update_task(id: int, text: Optional[str] = None, date: Optional[dateti
     if time is not None:
         task.time = time.time()
     if periodicity is not None:
-        # td = await _set_periodicity(periodicity)
         task.periodicity = periodicity
     task.save()
     return True
