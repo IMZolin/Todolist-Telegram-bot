@@ -70,3 +70,18 @@
 [2023-04-04T20:02:43.165382+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:4"] from user [ID:448470724] for message [ID:4375] in chat [ID:448470724]
 [2023-04-04T20:02:50.439363+0300] [DEBUG] [logging.py:11]  Received message [AQID:4378] from user [ID:448470724] in chat [ID:448470724] text "20:03"
 [2023-04-04T20:02:51.908477+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:4379] in chat [ID:448470724]
+[2023-04-04T20:12:12.757765+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-04T20:13:22.406477+0300] [DEBUG] [logging.py:11]  Received message [AQID:4384] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-04-04T20:13:39.665370+0300] [DEBUG] [logging.py:11]  Received message [AQID:4386] from user [ID:448470724] in chat [ID:448470724] text "Task check periodicity"
+[2023-04-04T20:13:42.899692+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:4"] from user [ID:448470724] for message [ID:4387] in chat [ID:448470724]
+[2023-04-04T20:14:12.338695+0300] [DEBUG] [logging.py:11]  Received message [AQID:4390] from user [ID:448470724] in chat [ID:448470724] text "20:15"
+[2023-04-04T20:14:14.017400+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:4391] in chat [ID:448470724]
+[2023-04-04T20:14:16.817164+0300] [DEBUG] [logging.py:11]  Received message [AQID:4393] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-04T20:18:51.973194+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-04T20:19:00.240257+0300] [DEBUG] [logging.py:11]  Received message [AQID:4397] from user [ID:448470724] in chat [ID:448470724] text "/new_task"
+[2023-04-04T20:19:13.660016+0300] [DEBUG] [logging.py:11]  Received message [AQID:4399] from user [ID:448470724] in chat [ID:448470724] text "Task check notify periodicity 2"
+[2023-04-04T20:19:15.577382+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:4"] from user [ID:448470724] for message [ID:4400] in chat [ID:448470724]
+[2023-04-04T20:19:20.999987+0300] [DEBUG] [logging.py:11]  Received message [AQID:4403] from user [ID:448470724] in chat [ID:448470724] text "20:20"
+[2023-04-04T20:19:23.606194+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:4404] in chat [ID:448470724]
+[2023-04-04T20:19:25.445976+0300] [DEBUG] [logging.py:11]  Received message [AQID:4406] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-04T20:21:49.889847+0300] [DEBUG] [logging.py:19]  Received callback query [data:"is_done_task_28"] from user [ID:448470724] for message [ID:4409] in chat [ID:448470724]

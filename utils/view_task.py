@@ -47,5 +47,5 @@ async def _view_task(task: Task, param: str, response: str, message: Optional[Me
     elif param == 'notify':
         notify_text = _(f'❗NOTIFICATION❗\n\n' 
                         f'{task_message}\n<b>Deadline: {task.time}</b>')
-        await bot.send_message(chat_id=task.author, text=notify_text,  reply_markup=get_edit_task_markup(task), parse_mode='HTML')
+        await bot.send_message(chat_id=task.author, text=notify_text,  reply_markup=get_todo_inline_markup(task), parse_mode='HTML')
 
