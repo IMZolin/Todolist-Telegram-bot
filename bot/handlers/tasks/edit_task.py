@@ -4,7 +4,7 @@ from aiogram.dispatcher import FSMContext
 
 from bot.forms.forms import EditTaskStateGroup
 from bot.handlers.tasks.calendar import _select_date
-from bot.handlers.tasks.view_task import _view_task
+from utils.view_task import _view_task
 from loader import dp, _
 from aiogram.types import Message, CallbackQuery
 
@@ -30,7 +30,7 @@ async def _edit_task_text(message: Message, state: FSMContext, user: User) -> No
     task_text = message.text
     await update_task(task_id, task_text)
     await _save_task(message, state, user, 'edit', task_id)
-    await _view_task(message, get_task_by_id(task_id), 'edit', '')
+    await _view_task(get_task_by_id(task_id), 'edit', '', message)
 
 
 @dp.callback_query_handler(lambda c: c.data.startswith('edit_date_'), state=EditTaskStateGroup.inlineMenu)
@@ -50,7 +50,7 @@ async def _edit_task_date(callback_query: CallbackQuery, callback_data: dict, st
     if selected:
         await update_task(task_id, None, task_date)
         await _save_task(callback_query.message, state, user, 'edit', task_id)
-        await _view_task(callback_query.message, get_task_by_id(task_id), 'edit', '')
+        await _view_task(get_task_by_id(task_id), 'edit', '', callback_query.message)
 
 
 @dp.callback_query_handler(lambda c: c.data.startswith('edit_time_'), state=EditTaskStateGroup.inlineMenu)
@@ -76,7 +76,7 @@ async def _edit_task_time(message: Message, state: FSMContext, user: User) -> No
         else:
             await update_task(task_id, None, None, task_time)
             await _save_task(message, state, user, 'edit', task_id)
-            await _view_task(message, get_task_by_id(task_id), 'edit', '')
+            await _view_task(get_task_by_id(task_id), 'edit', '', message)
     except ValueError:
         await message.answer(_("Incorrect time format. Please enter in format hh:mm."))
 
@@ -99,7 +99,7 @@ async def _edit_task_text(message: Message, state: FSMContext, user: User) -> No
     if task_periodicity == 'no':
         await update_task(task_id, None, None, None, 'no')
         await _save_task(message, state, user, 'edit', task_id)
-        await _view_task(message, get_task_by_id(task_id), 'edit', '')
+        await _view_task(get_task_by_id(task_id), 'edit', '', message)
     else:
         try:
             td = await _set_periodicity(task_periodicity)
@@ -109,4 +109,4 @@ async def _edit_task_text(message: Message, state: FSMContext, user: User) -> No
             return
         await update_task(task_id, None, None, None, td)
         await _save_task(message, state, user, 'edit', task_id)
-        await _view_task(message, get_task_by_id(task_id), 'edit', '')
+        await _view_task(get_task_by_id(task_id), 'edit', '', message)

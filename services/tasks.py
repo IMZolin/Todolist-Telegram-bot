@@ -36,9 +36,9 @@ def get_task_by_id(id: int) -> Optional[Task]:
     return task
 
 
-def get_task_by_date(user_id: int, time: str) -> List[Task]:
-    tasks = get_tasks(user_id)
-    return [task for task in tasks if not task.is_done and task.date == datetime.now().date() and task.time == time]
+def get_task_by_date(time: str) -> List[Task]:
+    return Task.select().where((Task.time == time) & (Task.is_done == False))
+    # return [task for task in tasks if not task.is_done and task.date == datetime.now().date() and task.time == date]
 
 
 def change_is_done(id: int) -> None:

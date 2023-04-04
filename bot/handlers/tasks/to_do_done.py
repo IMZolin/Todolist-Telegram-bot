@@ -1,6 +1,6 @@
 from aiogram.types import CallbackQuery
 
-from bot.handlers.tasks.view_task import _view_tasks
+from utils.view_task import _view_tasks
 from loader import dp, _
 from models import User
 from services.tasks import get_task_by_id, delete_all_tasks, delete_by_id, get_to_do, change_is_done
@@ -22,7 +22,7 @@ async def _choose_task_delete(callback_query: CallbackQuery, user: User):
     tasks = get_to_do(user.id)
     await callback_query.message.delete()
     await callback_query.message.answer(_(f'Your task {task.text} was deleted'))
-    await _view_tasks(callback_query.message, tasks, 'to-do')
+    await _view_tasks(tasks, 'to-do', callback_query.message)
 
 
 @dp.callback_query_handler(lambda c: c.data.startswith('is_done_'))
@@ -33,4 +33,4 @@ async def _choose_task_is_done(callback_query: CallbackQuery, user: User):
     tasks = get_to_do(user.id)
     await callback_query.message.delete()
     await callback_query.message.answer(_(f'Your task {task.text} is done'))
-    await _view_tasks(callback_query.message, tasks, 'to-do')
+    await _view_tasks(tasks, 'to-do', callback_query.message)

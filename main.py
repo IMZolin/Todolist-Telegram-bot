@@ -8,7 +8,7 @@ from bot.commands import set_default_commands
 from loader import dp, bot
 from data.config import ADMINS
 from utils.misc.logging import logger
-from notifier import schedular
+from notifier import scheduler
 
 
 async def on_startup(dispatcher: Dispatcher):
@@ -16,6 +16,7 @@ async def on_startup(dispatcher: Dispatcher):
     for admin_id in ADMINS:
         await bot.send_message(admin_id, 'bot started')
     await set_default_commands()
+    asyncio.create_task(scheduler())
 
 
 async def on_shutdown(dispatcher: Dispatcher):
