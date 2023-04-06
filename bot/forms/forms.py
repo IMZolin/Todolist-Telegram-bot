@@ -8,6 +8,7 @@ class TaskStateGroup(StatesGroup):
     periodicity = State()
     files = State()
     file_name = State()
+    attachments = State()
 
 
 class EditTaskStateGroup(StatesGroup):
@@ -17,3 +18,4 @@ class EditTaskStateGroup(StatesGroup):
     date = State()
     time = State()
     periodicity = State()
+    attachments = State()

@@ -85,3 +85,12 @@
 [2023-04-04T20:19:23.606194+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:4404] in chat [ID:448470724]
 [2023-04-04T20:19:25.445976+0300] [DEBUG] [logging.py:11]  Received message [AQID:4406] from user [ID:448470724] in chat [ID:448470724] text "1d"
 [2023-04-04T20:21:49.889847+0300] [DEBUG] [logging.py:19]  Received callback query [data:"is_done_task_28"] from user [ID:448470724] for message [ID:4409] in chat [ID:448470724]
+[2023-04-06T09:44:44.623175+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-06T09:44:56.107538+0300] [DEBUG] [logging.py:11]  Received message [AQID:4413] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-04-06T09:45:31.213179+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-06T09:47:19.013753+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-06T09:48:00.409802+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-06T09:48:06.242894+0300] [DEBUG] [logging.py:11]  Received message [AQID:4417] from user [ID:448470724] in chat [ID:448470724] text "/start"
+[2023-04-06T09:48:08.123217+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:4418] in chat [ID:448470724]
+[2023-04-06T09:48:09.396314+0300] [DEBUG] [logging.py:11]  Received message [AQID:4420] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-04-06T09:48:17.103887+0300] [DEBUG] [logging.py:11]  Received message [AQID:4422] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
