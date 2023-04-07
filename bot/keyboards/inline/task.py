@@ -11,6 +11,19 @@ def get_cancel_inline_markup():
     return markup
 
 
+def get_add_file_inline_markup():
+    markup = InlineKeyboardMarkup()
+    markup.add(InlineKeyboardButton(_('No'), callback_data='no-adding'))
+    markup.add(InlineKeyboardButton(_('Yes'), callback_data='start-adding'))
+    return markup
+
+
+def get_finish_add_files_inline_markup():
+    markup = InlineKeyboardMarkup()
+    markup.add(InlineKeyboardButton(_('Finish adding'), callback_data='no-adding'))
+    return markup
+
+
 def get_yes_no_inline_markup():
     markup = InlineKeyboardMarkup()
     markup.add(InlineKeyboardButton(_('No'), callback_data='no'))

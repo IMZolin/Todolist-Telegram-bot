@@ -5,8 +5,8 @@ from aiogram.dispatcher import FSMContext
 from bot.forms.forms import TaskStateGroup
 from bot.handlers.tasks.calendar import _select_date
 from utils.view_task import _view_task
-from bot.keyboards.inline.task import get_yes_no_inline_markup
-from loader import dp, _
+from bot.keyboards.inline.task import get_add_file_inline_markup, get_finish_add_files_inline_markup, get_yes_no_inline_markup
+from loader import dp, _, bot
 from aiogram.types import Message, CallbackQuery
 from aiogram_calendar import simple_cal_callback
 
@@ -64,7 +64,9 @@ async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext,
         await callback_query.message.answer(_('OK, periodicity will not be set.'))
         async with state.proxy() as data:
             data['periodicity'] = 'no'
-        await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message)
+        # await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message)
+        await TaskStateGroup.attachments.set()
+        await callback_query.message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
 
 
 @dp.message_handler(state=TaskStateGroup.periodicity)
@@ -73,7 +75,9 @@ async def _process_periodicity_text(message: Message, state: FSMContext, user: U
     if task_periodicity == 'no':
         async with state.proxy() as data:
             data['periodicity'] = task_periodicity
-        await _view_task(await _save_task(message, state, user, 'add'), 'add', '', message)
+        # await _view_task(await _save_task(message, state, user, 'add'), 'add', '', message)
+        await TaskStateGroup.attachments.set()
+        await message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
     else:
         try:
             td = await _set_periodicity(task_periodicity)
@@ -83,4 +87,53 @@ async def _process_periodicity_text(message: Message, state: FSMContext, user: U
             await message.answer(_('Invalid periodicity format. Please enter the correct format (for '
                                    'example, 1y 1m 1w 1d) or enter "no" for a non-periodic task.'))
             return
-        await _view_task(await _save_task(message, state, user, 'add'), 'add', '', message)
+        # await _view_task(await _save_task(message, state, user, 'add'), 'add', '', message)
+        await TaskStateGroup.attachments.set()
+        await message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
+
+
+@dp.callback_query_handler(lambda callback_query: callback_query.data in ['start-adding', 'finish-adding', 'no-adding'],
+                           state=TaskStateGroup.attachments)
+async def _process_attachments(callback_query: CallbackQuery, state: FSMContext, user: User):
+    await callback_query.message.delete()
+    if callback_query.data == 'start-adding':
+        await callback_query.message.answer(_('Pick the files and send them to me.'))
+        await TaskStateGroup.attachments.set()
+    elif callback_query.data == 'no-adding':
+        await callback_query.message.answer(_('OK, no files were added.'))
+        async with state.proxy() as data:
+            if 'attachments' in data:
+                data['attachments'] += ''
+            else:
+                data['attachments'] = ''
+        await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message, bot)
+    # elif callback_query.data == 'finish-adding':
+    #     await callback_query.message.answer(_('OK, all the files are added.'))
+    #     async with state.proxy() as data:
+    #         data['attachments'] += ''
+    #     await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message)
+
+
+@dp.message_handler(state=TaskStateGroup.attachments, content_types=["document", "photo", "video", "audio", "voice"])
+async def _process_attachments_files(message: Message, state: FSMContext) -> None:
+    message_types = {
+        "document": "document",
+        "photo": "photo",
+        "video": "video",
+        "audio": "audio",
+        "voice": None,
+    }
+    message_type = next((t for t in message_types.keys() if getattr(message, t) is not None), None)
+    if message_type is None:
+        await message.answer(_("A file of this type cannot be saved."))
+        return
+    file = getattr(message, message_type)
+    file_type = message_types[message_type]
+    filename = file.file_id
+
+    async with state.proxy() as data:
+        if "attachments" not in data:
+            data["attachments"] = ""
+        data["attachments"] += f"{filename},{file_type};"
+    text = _("The file has been successfully uploaded.\nIf you don't want to upload any more files, click Finish.")
+    await message.answer(text, reply_markup=get_finish_add_files_inline_markup()) 

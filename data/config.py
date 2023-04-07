@@ -58,3 +58,5 @@ def load_config():
             database=os.getenv('DB_NAME')
         )
     )
+
+config = load_config().bot

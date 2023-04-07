@@ -22,9 +22,9 @@ def get_completed(user_id: int) -> List[Task]:
     return [task for task in tasks if task.is_done]
 
 
-def create_task(user_id: int, task_name: str, task_date: datetime, task_time: datetime, periodicity: str):
+def create_task(user_id: int, task_name: str, task_date: datetime, task_time: datetime, periodicity: str, attachments: str):
     user = User.get(User.id == user_id)
-    new_task = Task.create(author=user, text=task_name, date=task_date, time=task_time, periodicity=periodicity)
+    new_task = Task.create(author=user, text=task_name, date=task_date, time=task_time, periodicity=periodicity, attachments=attachments)
     new_task.save()
     return new_task.id
 

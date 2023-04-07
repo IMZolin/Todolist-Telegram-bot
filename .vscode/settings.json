@@ -1,0 +1,20 @@
+{
+    "workbench.colorCustomizations": {
+        "[Darcula Pycharm with Dark GUI]": {
+            "activityBar.activeBackground": "#a29c9c"
+        }
+    },
+    "editor.wordWrap": "off",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "todo_bot_db",
+            "username": "postgres",
+            "password": "sqlzim",
+            "database": "todolist_tgbot_db"
+        }
+    ]
+}

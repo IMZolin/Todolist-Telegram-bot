@@ -46,7 +46,8 @@ async def _save_task(message: Message, state: FSMContext, user: User, param: str
         task_date = data['date']
         task_time = data['time']
         task_periodicity = data.get('periodicity', None)
-        created_id = create_task(user.id, task_text, task_date, task_time, task_periodicity)
+        task_attachments = data['attachments']
+        created_id = create_task(user.id, task_text, task_date, task_time, task_periodicity, task_attachments)
         task = get_task_by_id(created_id)
         await state.finish()
     else:
