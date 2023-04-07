@@ -6,6 +6,7 @@ from models import User
 from models.task import Task
 from loader import _
 from dateutil.relativedelta import relativedelta
+from peewee import DoesNotExist
 
 
 def get_tasks(user_id: int) -> List[Task]:
@@ -130,3 +131,35 @@ def delete_all_tasks(user_id: int, param: str) -> None:
         print(_('No tasks to delete.'))
     else:
         print(f'{deleted_count} tasks have been deleted.')
+
+
+def add_attachment_by_id(task_id: int, attachment: str):
+    task = Task.get_or_none(Task.id == task_id)
+    if task is None:
+        raise ValueError(f"No Task found with id {task_id}")
+    
+    new_attachments = task.attachments + ";" + attachment
+    task.attachments = new_attachments
+    task.save()
+
+
+def delete_attachments_by_id(task_id: int, indices: List[int]) -> int:
+    try:
+        task = Task.get_by_id(task_id)
+    except DoesNotExist:
+        return -1
+    
+    attachments = task.attachments.split(';')
+    attachments.pop(-1)
+    
+    for index in indices:
+        if index < 0 or index >= len(attachments):
+            return -1
+    
+    new_attachments = [att for idx, att in enumerate(attachments) if idx not in indices]
+    new_attachments_str = ';'.join(new_attachments) + ';'
+    
+    task.attachments = new_attachments_str
+    task.save()
+    
+    return 0
