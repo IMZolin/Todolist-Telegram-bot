@@ -1663,3 +1663,21 @@ NoneType: None
 [2023-04-08T17:20:11.018067+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6594] in chat [ID:448470724]
 [2023-04-08T17:20:44.112306+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6596] in chat [ID:448470724]
 [2023-04-08T17:21:33.180381+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6599] in chat [ID:448470724]
+[2023-04-08T17:22:40.647860+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T17:26:24.696394+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T17:26:30.992731+0300] [DEBUG] [logging.py:11]  Received message [AQID:6608] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T17:26:33.755507+0300] [DEBUG] [logging.py:11]  Received message [AQID:6610] from user [ID:448470724] in chat [ID:448470724] text "task"
+[2023-04-08T17:26:36.262554+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:6"] from user [ID:448470724] for message [ID:6611] in chat [ID:448470724]
+[2023-04-08T17:26:36.877008+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-04-08T17:26:45.990493+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:15"] from user [ID:448470724] for message [ID:6613] in chat [ID:448470724]
+[2023-04-08T17:26:49.251451+0300] [DEBUG] [logging.py:11]  Received message [AQID:6616] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T17:27:02.185075+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6617] in chat [ID:448470724]
+[2023-04-08T17:27:04.731816+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6619] in chat [ID:448470724]
+[2023-04-08T17:27:37.831792+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6624] in chat [ID:448470724]
+[2023-04-08T17:27:42.674586+0300] [DEBUG] [logging.py:11]  Received message [AQID:6628] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-04-08T17:27:44.349478+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_to_do_79"] from user [ID:448470724] for message [ID:6630] in chat [ID:448470724]
+[2023-04-08T19:20:39.510976+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T19:20:50.792871+0300] [DEBUG] [logging.py:11]  Received message [AQID:6632] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-04-08T19:20:56.300768+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_to_do_78"] from user [ID:448470724] for message [ID:6634] in chat [ID:448470724]
+[2023-04-08T19:44:23.826785+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T19:45:13.573634+0300] [INFO] [main.py:15]  Bot startup

@@ -1,11 +1,12 @@
-version: "3"
+version: '3.1'
 
 services:
+
   bot:
     build: .
     restart: always
-    env_file:
-      - .env
+    entrypoint:
+      - ./bin/entrypoint.sh
     depends_on:
       - postgres
     image: ${IMAGE_NAME}:v1
