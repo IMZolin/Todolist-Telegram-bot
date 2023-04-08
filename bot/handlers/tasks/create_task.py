@@ -52,7 +52,7 @@ async def _process_time(message: Message, state: FSMContext):
 
 @dp.callback_query_handler(lambda callback_query: callback_query.data in ['yes', 'no'],
                            state=TaskStateGroup.periodicity)
-async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext, user: User):
+async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext):
     await callback_query.message.delete()
     text_files = _('Do you want to add files?')
     if callback_query.data == 'yes':
@@ -63,18 +63,18 @@ async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext,
         async with state.proxy() as data:
             data['periodicity'] = 'no'
         await TaskStateGroup.attachments.set()
-        await callback_query.message.answer({text_files}, reply_markup=get_add_file_inline_markup())
+        await callback_query.message.answer(text_files, reply_markup=get_add_file_inline_markup())
 
 
 @dp.message_handler(state=TaskStateGroup.periodicity)
-async def _process_periodicity_text(message: Message, state: FSMContext, user: User):
+async def _process_periodicity_text(message: Message, state: FSMContext):
     task_periodicity = message.text.strip()
     text_files = _('Do you want to add files?')
     if task_periodicity == 'no':
         async with state.proxy() as data:
             data['periodicity'] = task_periodicity
         await TaskStateGroup.attachments.set()
-        await message.answer({text_files}, reply_markup=get_add_file_inline_markup())
+        await message.answer(text_files, reply_markup=get_add_file_inline_markup())
     else:
         try:
             td = await _set_periodicity(task_periodicity)
@@ -86,7 +86,7 @@ async def _process_periodicity_text(message: Message, state: FSMContext, user: U
             await TaskStateGroup.periodicity.set()
             return
         await TaskStateGroup.attachments.set()
-        await message.answer({text_files}, reply_markup=get_add_file_inline_markup())
+        await message.answer(text_files, reply_markup=get_add_file_inline_markup())
 
 
 @dp.callback_query_handler(lambda callback_query: callback_query.data in ['start-adding', 'finish-adding', 'no-adding'],
@@ -99,10 +99,8 @@ async def _process_attachments(callback_query: CallbackQuery, state: FSMContext,
     elif callback_query.data == 'no-adding':
         text1 = _('No more files will be added ')
         text2 = _('OK, no files were added.')
-        await callback_query.message.answer(_('OK, no files were added.'))
         async with state.proxy() as data:
             if 'attachments' in data:
-                data['attachments'] += ''
                 await callback_query.message.answer(text1)
             else:
                 data['attachments'] = ''
@@ -124,6 +122,8 @@ async def _process_attachments_files(message: Message, state: FSMContext) -> Non
         await message.answer(_('A file of this type cannot be saved.'))
         return
     file = getattr(message, message_type)
+    if isinstance(file, list):  # If file is a list (e.g. video), get the first element
+        file = file[0]
     file_type = message_types[message_type]
     filename = file.file_id
 

@@ -1483,3 +1483,183 @@ NoneType: None
 [2023-04-08T15:13:31.146865+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6229] in chat [ID:448470724]
 [2023-04-08T15:13:40.336084+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6231] in chat [ID:448470724]
 [2023-04-08T15:13:48.492162+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6234] in chat [ID:448470724]
+[2023-04-08T16:00:01.423767+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:00:06.222969+0300] [DEBUG] [logging.py:11]  Received message [AQID:6241] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:00:12.287413+0300] [DEBUG] [logging.py:11]  Received message [AQID:6243] from user [ID:448470724] in chat [ID:448470724] text "еыиаауфш"
+[2023-04-08T16:00:13.992401+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:27"] from user [ID:448470724] for message [ID:6244] in chat [ID:448470724]
+[2023-04-08T16:00:18.501669+0300] [DEBUG] [logging.py:11]  Received message [AQID:6247] from user [ID:448470724] in chat [ID:448470724] text "11:00"
+[2023-04-08T16:01:15.991327+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6248] in chat [ID:448470724]
+[2023-04-08T16:01:20.663219+0300] [DEBUG] [logging.py:11]  Received message [AQID:6250] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-08T16:01:23.882928+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6251] in chat [ID:448470724]
+[2023-04-08T16:01:34.734470+0300] [DEBUG] [logging.py:11]  Received message [AQID:6256] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:01:37.794478+0300] [DEBUG] [logging.py:11]  Received message [AQID:6258] from user [ID:448470724] in chat [ID:448470724] text "fiygwe"
+[2023-04-08T16:01:40.699985+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:15"] from user [ID:448470724] for message [ID:6259] in chat [ID:448470724]
+[2023-04-08T16:01:44.093058+0300] [DEBUG] [logging.py:11]  Received message [AQID:6262] from user [ID:448470724] in chat [ID:448470724] text "12:12"
+[2023-04-08T16:01:50.298758+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6263] in chat [ID:448470724]
+[2023-04-08T16:02:21.934534+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6265] in chat [ID:448470724]
+[2023-04-08T16:02:40.058431+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6268] in chat [ID:448470724]
+[2023-04-08T16:09:34.053661+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:09:39.916477+0300] [DEBUG] [logging.py:11]  Received message [AQID:6275] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:09:45.048398+0300] [DEBUG] [logging.py:11]  Received message [AQID:6277] from user [ID:448470724] in chat [ID:448470724] text "Задача"
+[2023-04-08T16:09:47.382618+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:12"] from user [ID:448470724] for message [ID:6278] in chat [ID:448470724]
+[2023-04-08T16:09:50.727595+0300] [DEBUG] [logging.py:11]  Received message [AQID:6281] from user [ID:448470724] in chat [ID:448470724] text "12:12"
+[2023-04-08T16:09:55.979496+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6282] in chat [ID:448470724]
+[2023-04-08T16:10:02.528192+0300] [DEBUG] [logging.py:11]  Received message [AQID:6284] from user [ID:448470724] in chat [ID:448470724] text "1y"
+[2023-04-08T16:10:11.259296+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6285] in chat [ID:448470724]
+[2023-04-08T16:10:20.668677+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6288] in chat [ID:448470724]
+[2023-04-08T16:10:59.458843+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:11:02.132027+0300] [DEBUG] [logging.py:11]  Received message [AQID:6295] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:11:07.666912+0300] [DEBUG] [logging.py:11]  Received message [AQID:6297] from user [ID:448470724] in chat [ID:448470724] text "fiwgy"
+[2023-04-08T16:11:09.405665+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6298] in chat [ID:448470724]
+[2023-04-08T16:11:15.322186+0300] [DEBUG] [logging.py:11]  Received message [AQID:6301] from user [ID:448470724] in chat [ID:448470724] text "17:00"
+[2023-04-08T16:11:18.624261+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6302] in chat [ID:448470724]
+[2023-04-08T16:11:29.494325+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6304] in chat [ID:448470724]
+[2023-04-08T16:11:37.253203+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6307] in chat [ID:448470724]
+[2023-04-08T16:11:49.605420+0300] [DEBUG] [logging.py:11]  Received message [AQID:6312] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:11:52.621365+0300] [DEBUG] [logging.py:11]  Received message [AQID:6314] from user [ID:448470724] in chat [ID:448470724] text "feh"
+[2023-04-08T16:11:57.231298+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6315] in chat [ID:448470724]
+[2023-04-08T16:12:02.894312+0300] [DEBUG] [logging.py:11]  Received message [AQID:6318] from user [ID:448470724] in chat [ID:448470724] text "12:12"
+[2023-04-08T16:12:06.751777+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6319] in chat [ID:448470724]
+[2023-04-08T16:12:10.950218+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6321] in chat [ID:448470724]
+[2023-04-08T16:12:41.349479+0300] [DEBUG] [logging.py:11]  Received message [AQID:6325] from user [ID:448470724] in chat [ID:448470724] text "Редактировать задачу ✏"
+[2023-04-08T16:12:47.097157+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_edit_14"] from user [ID:448470724] for message [ID:6327] in chat [ID:448470724]
+[2023-04-08T16:12:50.481767+0300] [DEBUG] [logging.py:19]  Received callback query [data:"edit_text_14"] from user [ID:448470724] for message [ID:6328] in chat [ID:448470724]
+[2023-04-08T16:12:56.479250+0300] [DEBUG] [logging.py:11]  Received message [AQID:6331] from user [ID:448470724] in chat [ID:448470724] text "fuf"
+[2023-04-08T16:13:00.099013+0300] [DEBUG] [logging.py:19]  Received callback query [data:"edit_date_14"] from user [ID:448470724] for message [ID:6333] in chat [ID:448470724]
+[2023-04-08T16:13:03.079653+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:15"] from user [ID:448470724] for message [ID:6335] in chat [ID:448470724]
+[2023-04-08T16:13:05.833222+0300] [DEBUG] [logging.py:19]  Received callback query [data:"edit_time_14"] from user [ID:448470724] for message [ID:6338] in chat [ID:448470724]
+[2023-04-08T16:13:11.059755+0300] [DEBUG] [logging.py:11]  Received message [AQID:6341] from user [ID:448470724] in chat [ID:448470724] text "13:00"
+[2023-04-08T16:13:15.470407+0300] [DEBUG] [logging.py:19]  Received callback query [data:"edit_periodicity_14"] from user [ID:448470724] for message [ID:6343] in chat [ID:448470724]
+[2023-04-08T16:13:19.216047+0300] [DEBUG] [logging.py:11]  Received message [AQID:6346] from user [ID:448470724] in chat [ID:448470724] text "1m"
+[2023-04-08T16:14:45.195211+0300] [DEBUG] [logging.py:19]  Received callback query [data:"main_menu"] from user [ID:448470724] for message [ID:6348] in chat [ID:448470724]
+[2023-04-08T16:14:52.307508+0300] [DEBUG] [logging.py:11]  Received message [AQID:6351] from user [ID:448470724] in chat [ID:448470724] text "Помощь 🆘"
+[2023-04-08T16:14:59.759813+0300] [DEBUG] [logging.py:11]  Received message [AQID:6353] from user [ID:448470724] in chat [ID:448470724] text "Выполненные дела 🏆"
+[2023-04-08T16:15:02.727838+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_completed_24"] from user [ID:448470724] for message [ID:6355] in chat [ID:448470724]
+[2023-04-08T16:15:08.490950+0300] [DEBUG] [logging.py:19]  Received callback query [data:"main_menu"] from user [ID:448470724] for message [ID:6356] in chat [ID:448470724]
+[2023-04-08T16:17:19.813352+0300] [DEBUG] [logging.py:11]  Received message [AQID:6360] from user [ID:448470724] in chat [ID:448470724] text "Настройки 🛠"
+[2023-04-08T16:17:21.848491+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:6361] in chat [ID:448470724]
+[2023-04-08T16:18:02.504230+0300] [DEBUG] [logging.py:11]  Received message [AQID:6363] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:18:08.364840+0300] [DEBUG] [logging.py:11]  Received message [AQID:6365] from user [ID:448470724] in chat [ID:448470724] text "test"
+[2023-04-08T16:18:10.922905+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:15"] from user [ID:448470724] for message [ID:6366] in chat [ID:448470724]
+[2023-04-08T16:18:14.984248+0300] [DEBUG] [logging.py:11]  Received message [AQID:6369] from user [ID:448470724] in chat [ID:448470724] text "11:00"
+[2023-04-08T16:18:17.682624+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6370] in chat [ID:448470724]
+[2023-04-08T16:18:40.205298+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6372] in chat [ID:448470724]
+[2023-04-08T16:26:22.512014+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:26:25.498902+0300] [DEBUG] [logging.py:11]  Received message [AQID:6377] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:26:33.677088+0300] [DEBUG] [logging.py:11]  Received message [AQID:6379] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-04-08T16:26:37.324299+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:20"] from user [ID:448470724] for message [ID:6380] in chat [ID:448470724]
+[2023-04-08T16:26:44.026103+0300] [DEBUG] [logging.py:11]  Received message [AQID:6383] from user [ID:448470724] in chat [ID:448470724] text "11:00"
+[2023-04-08T16:27:38.406154+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6384] in chat [ID:448470724]
+[2023-04-08T16:27:42.707100+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6386] in chat [ID:448470724]
+[2023-04-08T16:27:47.990532+0300] [DEBUG] [logging.py:11]  Received message [AQID:6390] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-04-08T16:27:49.877918+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:6391] in chat [ID:448470724]
+[2023-04-08T16:27:59.305411+0300] [DEBUG] [logging.py:11]  Received message [AQID:6393] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:28:02.945834+0300] [DEBUG] [logging.py:11]  Received message [AQID:6395] from user [ID:448470724] in chat [ID:448470724] text "Задача"
+[2023-04-08T16:28:05.141928+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:21"] from user [ID:448470724] for message [ID:6396] in chat [ID:448470724]
+[2023-04-08T16:28:12.394211+0300] [DEBUG] [logging.py:11]  Received message [AQID:6399] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T16:28:55.612016+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6400] in chat [ID:448470724]
+[2023-04-08T16:29:08.581895+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6402] in chat [ID:448470724]
+[2023-04-08T16:29:16.395016+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6405] in chat [ID:448470724]
+[2023-04-08T16:29:49.169426+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:29:51.001146+0300] [DEBUG] [logging.py:11]  Received message [AQID:6410] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:29:51.622000+0300] [DEBUG] [logging.py:11]  Received message [AQID:6412] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:29:58.389771+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:6"] from user [ID:448470724] for message [ID:6414] in chat [ID:448470724]
+[2023-04-08T16:29:59.095725+0300] [DEBUG] [error_handler.py:19]  Message is not modified
+[2023-04-08T16:30:05.045682+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:15"] from user [ID:448470724] for message [ID:6416] in chat [ID:448470724]
+[2023-04-08T16:30:14.334969+0300] [DEBUG] [logging.py:11]  Received message [AQID:6419] from user [ID:448470724] in chat [ID:448470724] text "111:00"
+[2023-04-08T16:30:22.222206+0300] [DEBUG] [logging.py:11]  Received message [AQID:6421] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T16:30:57.585328+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6422] in chat [ID:448470724]
+[2023-04-08T16:30:59.110602+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6424] in chat [ID:448470724]
+[2023-04-08T16:31:07.501819+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6427] in chat [ID:448470724]
+[2023-04-08T16:31:16.528572+0300] [DEBUG] [logging.py:11]  Received message [AQID:6432] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-04-08T16:31:51.452619+0300] [DEBUG] [logging.py:11]  Received message [AQID:6435] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:31:56.141072+0300] [DEBUG] [logging.py:11]  Received message [AQID:6437] from user [ID:448470724] in chat [ID:448470724] text "пкыып"
+[2023-04-08T16:31:57.805271+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6438] in chat [ID:448470724]
+[2023-04-08T16:32:04.553343+0300] [DEBUG] [logging.py:11]  Received message [AQID:6441] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T16:32:07.413065+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6442] in chat [ID:448470724]
+[2023-04-08T16:32:11.199318+0300] [DEBUG] [logging.py:11]  Received message [AQID:6444] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-08T16:32:31.578283+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6445] in chat [ID:448470724]
+[2023-04-08T16:32:39.053788+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6448] in chat [ID:448470724]
+[2023-04-08T16:33:21.061395+0300] [DEBUG] [logging.py:11]  Received message [AQID:6453] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-04-08T16:35:05.180628+0300] [DEBUG] [logging.py:11]  Received message [AQID:6456] from user [ID:448470724] in chat [ID:448470724] text "Настройки 🛠"
+[2023-04-08T16:35:06.719250+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_en"] from user [ID:448470724] for message [ID:6457] in chat [ID:448470724]
+[2023-04-08T16:35:08.879468+0300] [DEBUG] [logging.py:11]  Received message [AQID:6459] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:35:12.157324+0300] [DEBUG] [logging.py:11]  Received message [AQID:6461] from user [ID:448470724] in chat [ID:448470724] text "fegsf8"
+[2023-04-08T16:35:13.886225+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:21"] from user [ID:448470724] for message [ID:6462] in chat [ID:448470724]
+[2023-04-08T16:35:17.584280+0300] [DEBUG] [logging.py:11]  Received message [AQID:6465] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T16:35:24.640731+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6466] in chat [ID:448470724]
+[2023-04-08T16:35:27.537355+0300] [DEBUG] [logging.py:11]  Received message [AQID:6468] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-08T16:35:29.446068+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6469] in chat [ID:448470724]
+[2023-04-08T16:35:33.542237+0300] [DEBUG] [logging.py:11]  Received message [AQID:6473] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-04-08T16:36:57.081979+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:36:58.649246+0300] [DEBUG] [logging.py:11]  Received message [AQID:6476] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:37:01.528923+0300] [DEBUG] [logging.py:11]  Received message [AQID:6479] from user [ID:448470724] in chat [ID:448470724] text "fef"
+[2023-04-08T16:37:03.258073+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:21"] from user [ID:448470724] for message [ID:6480] in chat [ID:448470724]
+[2023-04-08T16:37:07.111648+0300] [DEBUG] [logging.py:11]  Received message [AQID:6483] from user [ID:448470724] in chat [ID:448470724] text "11:00"
+[2023-04-08T16:37:11.034751+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6484] in chat [ID:448470724]
+[2023-04-08T16:37:12.874905+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6486] in chat [ID:448470724]
+[2023-04-08T16:37:20.763627+0300] [DEBUG] [logging.py:11]  Received message [AQID:6490] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-04-08T16:41:16.057437+0300] [DEBUG] [logging.py:11]  Received message [AQID:6493] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2023-04-08T16:41:18.353874+0300] [DEBUG] [logging.py:11]  Received message [AQID:6496] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:41:22.395988+0300] [DEBUG] [logging.py:11]  Received message [AQID:6498] from user [ID:448470724] in chat [ID:448470724] text "fwsrgs"
+[2023-04-08T16:41:23.864933+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6499] in chat [ID:448470724]
+[2023-04-08T16:41:28.285659+0300] [DEBUG] [logging.py:11]  Received message [AQID:6502] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T16:41:35.154893+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6503] in chat [ID:448470724]
+[2023-04-08T16:41:38.407598+0300] [DEBUG] [logging.py:11]  Received message [AQID:6505] from user [ID:448470724] in chat [ID:448470724] text "1w"
+[2023-04-08T16:45:25.731638+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:45:28.506452+0300] [DEBUG] [logging.py:11]  Received message [AQID:6508] from user [ID:448470724] in chat [ID:448470724] text "New task 🆕"
+[2023-04-08T16:45:32.457485+0300] [DEBUG] [logging.py:11]  Received message [AQID:6510] from user [ID:448470724] in chat [ID:448470724] text "egwg"
+[2023-04-08T16:45:34.035402+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:12"] from user [ID:448470724] for message [ID:6511] in chat [ID:448470724]
+[2023-04-08T16:45:38.337112+0300] [DEBUG] [logging.py:11]  Received message [AQID:6514] from user [ID:448470724] in chat [ID:448470724] text "12:12"
+[2023-04-08T16:45:39.659243+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6515] in chat [ID:448470724]
+[2023-04-08T16:45:43.794760+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6517] in chat [ID:448470724]
+[2023-04-08T16:45:49.564284+0300] [DEBUG] [logging.py:11]  Received message [AQID:6521] from user [ID:448470724] in chat [ID:448470724] text "Settings 🛠"
+[2023-04-08T16:45:51.238473+0300] [DEBUG] [logging.py:19]  Received callback query [data:"lang_ru"] from user [ID:448470724] for message [ID:6522] in chat [ID:448470724]
+[2023-04-08T16:45:53.555262+0300] [DEBUG] [logging.py:11]  Received message [AQID:6524] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:45:57.814063+0300] [DEBUG] [logging.py:11]  Received message [AQID:6526] from user [ID:448470724] in chat [ID:448470724] text "wdth"
+[2023-04-08T16:46:01.432726+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:14"] from user [ID:448470724] for message [ID:6527] in chat [ID:448470724]
+[2023-04-08T16:46:06.044988+0300] [DEBUG] [logging.py:11]  Received message [AQID:6530] from user [ID:448470724] in chat [ID:448470724] text "17:17"
+[2023-04-08T16:46:08.024782+0300] [DEBUG] [logging.py:19]  Received callback query [data:"yes"] from user [ID:448470724] for message [ID:6531] in chat [ID:448470724]
+[2023-04-08T16:46:11.151522+0300] [DEBUG] [logging.py:11]  Received message [AQID:6533] from user [ID:448470724] in chat [ID:448470724] text "1d"
+[2023-04-08T16:46:18.070113+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6534] in chat [ID:448470724]
+[2023-04-08T16:46:30.766134+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6537] in chat [ID:448470724]
+[2023-04-08T16:46:56.981629+0300] [DEBUG] [logging.py:11]  Received message [AQID:6542] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:46:59.600026+0300] [DEBUG] [logging.py:11]  Received message [AQID:6544] from user [ID:448470724] in chat [ID:448470724] text "grg"
+[2023-04-08T16:47:00.876131+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6545] in chat [ID:448470724]
+[2023-04-08T16:47:04.159735+0300] [DEBUG] [logging.py:11]  Received message [AQID:6548] from user [ID:448470724] in chat [ID:448470724] text "12:12"
+[2023-04-08T16:47:05.797729+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6549] in chat [ID:448470724]
+[2023-04-08T16:47:08.749330+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6551] in chat [ID:448470724]
+[2023-04-08T16:47:44.476995+0300] [DEBUG] [logging.py:11]  Received message [AQID:6555] from user [ID:448470724] in chat [ID:448470724] text "Список текущих дел 📃"
+[2023-04-08T16:50:43.733917+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:51:10.731065+0300] [DEBUG] [logging.py:11]  Received message [AQID:6559] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:51:13.967246+0300] [DEBUG] [logging.py:11]  Received message [AQID:6561] from user [ID:448470724] in chat [ID:448470724] text "fg8yegy"
+[2023-04-08T16:51:16.769751+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:8"] from user [ID:448470724] for message [ID:6562] in chat [ID:448470724]
+[2023-04-08T16:51:25.557488+0300] [DEBUG] [logging.py:11]  Received message [AQID:6565] from user [ID:448470724] in chat [ID:448470724] text "16:52"
+[2023-04-08T16:51:27.214713+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6566] in chat [ID:448470724]
+[2023-04-08T16:51:28.754789+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6568] in chat [ID:448470724]
+[2023-04-08T16:54:05.406913+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T16:54:08.090014+0300] [DEBUG] [logging.py:11]  Received message [AQID:6574] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T16:54:11.358644+0300] [DEBUG] [logging.py:11]  Received message [AQID:6576] from user [ID:448470724] in chat [ID:448470724] text "fsagrrg"
+[2023-04-08T16:54:12.702540+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:12"] from user [ID:448470724] for message [ID:6577] in chat [ID:448470724]
+[2023-04-08T16:54:16.023436+0300] [DEBUG] [logging.py:11]  Received message [AQID:6580] from user [ID:448470724] in chat [ID:448470724] text "11:00"
+[2023-04-08T16:55:00.640507+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6581] in chat [ID:448470724]
+[2023-04-08T16:55:03.385732+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6583] in chat [ID:448470724]
+[2023-04-08T16:59:14.484647+0300] [ERROR] [error_handler.py:56]  Update: {"update_id": 178919909, "message": {"message_id": 6585, "from": {"id": 448470724, "is_bot": false, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "language_code": "ru"}, "chat": {"id": 448470724, "first_name": "Ivan", "last_name": "Zolin", "username": "zolin5269", "type": "private"}, "date": 1680973162, "video": {"duration": 342, "width": 1920, "height": 1080, "file_name": "calculator.mp4", "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQEAAhm5ZDFzOuLqgVZRif25ctXMxqquRZoAAkYqAAKRuohJ2ysnI60haDcBAAdtAAMvBA", "file_unique_id": "AQADRioAApG6iEly", "file_size": 9370, "width": 320, "height": 180}, "thumb": {"file_id": "AAMCAgADGQEAAhm5ZDFzOuLqgVZRif25ctXMxqquRZoAAkYqAAKRuohJ2ysnI60haDcBAAdtAAMvBA", "file_unique_id": "AQADRioAApG6iEly", "file_size": 9370, "width": 320, "height": 180}, "file_id": "BAACAgIAAxkBAAIZuWQxczri6oFWUYn9uXLVzMaqrkWaAAJGKgACkbqISdsrJyOtIWg3LwQ", "file_unique_id": "AgADRioAApG6iEk", "file_size": 742583092}}} 
+Traceback (most recent call last):
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\errors\error_handler.py", line 52, in errors_handler
+    raise exception
+  File "c:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 1394, in process_response
+    response = task.result()
+  File "C:\Users\zolin\University\API\miniLabs\2 semester\Todolist-Telegram-bot\bot\handlers\tasks\create_task.py", line 126, in _process_attachments_files
+    filename = file.file_id
+AttributeError: 'list' object has no attribute 'file_id'
+
+NoneType: None
+[2023-04-08T17:19:27.769073+0300] [INFO] [main.py:15]  Bot startup
+[2023-04-08T17:19:32.470072+0300] [DEBUG] [logging.py:11]  Received message [AQID:6587] from user [ID:448470724] in chat [ID:448470724] text "Новая задача 🆕"
+[2023-04-08T17:19:38.545825+0300] [DEBUG] [logging.py:11]  Received message [AQID:6589] from user [ID:448470724] in chat [ID:448470724] text "task"
+[2023-04-08T17:19:40.317332+0300] [DEBUG] [logging.py:19]  Received callback query [data:"simple_calendar:DAY:2023:4:13"] from user [ID:448470724] for message [ID:6590] in chat [ID:448470724]
+[2023-04-08T17:19:43.986176+0300] [DEBUG] [logging.py:11]  Received message [AQID:6593] from user [ID:448470724] in chat [ID:448470724] text "12:00"
+[2023-04-08T17:20:11.018067+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no"] from user [ID:448470724] for message [ID:6594] in chat [ID:448470724]
+[2023-04-08T17:20:44.112306+0300] [DEBUG] [logging.py:19]  Received callback query [data:"start-adding"] from user [ID:448470724] for message [ID:6596] in chat [ID:448470724]
+[2023-04-08T17:21:33.180381+0300] [DEBUG] [logging.py:19]  Received callback query [data:"no-adding"] from user [ID:448470724] for message [ID:6599] in chat [ID:448470724]

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-08 15:10+0300\n"
+"POT-Creation-Date: 2023-04-08 16:44+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -123,15 +123,15 @@ msgstr ""
 msgid "No more files will be added "
 msgstr ""
 
-#: bot/handlers/tasks/create_task.py:101 bot/handlers/tasks/create_task.py:102
+#: bot/handlers/tasks/create_task.py:101
 msgid "OK, no files were added."
 msgstr ""
 
-#: bot/handlers/tasks/create_task.py:124
+#: bot/handlers/tasks/create_task.py:122
 msgid "A file of this type cannot be saved."
 msgstr ""
 
-#: bot/handlers/tasks/create_task.py:134
+#: bot/handlers/tasks/create_task.py:132
 msgid ""
 "The file has been successfully uploaded.\n"
 "If you don`t want to upload any more files, click Finish."

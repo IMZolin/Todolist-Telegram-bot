@@ -35,10 +35,10 @@ async def _view_tasks(tasks: List[Task], param: str, message: Optional[Message] 
 
 
 async def _view_task(task: Task, param: str, response: str, message: Optional[Message] = None, bot: Optional[Bot] = None):
-    task_message = f"<b>{task.id}. {task.text}</b>\n<u>{task.date}</u> at <u>{task.time}</u>"
+    task_message = (f"<b>{task.id}. {task.text}</b>\n<u>{task.date}</u> at <u>{task.time}</u>")
     if task.periodicity != 'no':
         text_period = _("periodicity")
-        task_message += f"\n<i>{text_period}: {task.periodicity}\n\n</i>"
+        task_message += (f"\n<i>{text_period}: {task.periodicity}\n\n</i>")
     else:
         task_message += "\n\n"
     response += task_message

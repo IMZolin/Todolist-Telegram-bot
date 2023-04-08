@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-08 15:10+0300\n"
+"POT-Creation-Date: 2023-04-08 16:44+0300\n"
 "PO-Revision-Date: 2023-02-25 10:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: bot/handlers/tasks/create_task.py:62
 msgid "OK, periodicity will not be set."
-msgstr "Хорошо, периодичность установлена не будет\"
+msgstr "Хорошо, периодичность установлена не будет."
 
 #: bot/handlers/tasks/create_task.py:85 bot/handlers/tasks/edit_task.py:105
 msgid ""
@@ -128,19 +128,18 @@ msgid "Pick the files and send them to me."
 msgstr "Выберите файлы и пришлите их мне."
 
 #: bot/handlers/tasks/create_task.py:100
-#, fuzzy
 msgid "No more files will be added "
 msgstr "Хорошо, файлы больше добавляться не будут."
 
-#: bot/handlers/tasks/create_task.py:101 bot/handlers/tasks/create_task.py:102
+#: bot/handlers/tasks/create_task.py:101
 msgid "OK, no files were added."
 msgstr "Хорошо, файлы добавлены не были."
 
-#: bot/handlers/tasks/create_task.py:124
+#: bot/handlers/tasks/create_task.py:122
 msgid "A file of this type cannot be saved."
 msgstr "Файл этого типа не может быть сохранен."
 
-#: bot/handlers/tasks/create_task.py:134
+#: bot/handlers/tasks/create_task.py:132
 msgid ""
 "The file has been successfully uploaded.\n"
 "If you don`t want to upload any more files, click Finish."
@@ -183,15 +182,15 @@ msgstr "Все задачи были удалены\""
 
 #: bot/handlers/tasks/to_do_done.py:24 bot/handlers/tasks/to_do_done.py:37
 msgid "Your task"
-msgstr ""
+msgstr "Ваша задача"
 
 #: bot/handlers/tasks/to_do_done.py:25
 msgid "was deleted"
-msgstr "Нет задач для удаления."
+msgstr "удалена"
 
 #: bot/handlers/tasks/to_do_done.py:38
 msgid "is done"
-msgstr ""
+msgstr "выполнена"
 
 #: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
