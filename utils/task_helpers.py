@@ -30,8 +30,7 @@ async def _set_periodicity(periodicity):
             td += timedelta(days=value*365)
 
     if td == timedelta():  # Input was not correctly processed
-        raise ValueError('Invalid periodicity format. Please enter the correct format (for '
-                         'example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter "no" for a non-periodic task.')
+        raise ValueError('Invalid periodicity format. Please enter the correct format (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter no for a non-periodic task.')
     return td
 
 

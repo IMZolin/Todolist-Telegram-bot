@@ -1,5 +1,3 @@
-import datetime
-
 from aiogram.types import Message
 
 from bot.forms.forms import TaskStateGroup
@@ -7,7 +5,7 @@ from bot.handlers.tasks.choose_task import _choose_task
 from utils.view_task import _view_tasks
 from loader import dp, _, bot
 from models import User
-from services.tasks import get_to_do, get_completed, get_task_by_date
+from services.tasks import get_to_do, get_completed
 
 
 @dp.message_handler(i18n_text='New task 🆕')
@@ -42,13 +40,3 @@ async def completed_cases(message: Message, user: User):
     await _view_tasks(tasks, 'completed', message, bot)
     if tasks:
         await _choose_task(message, tasks, 'completed')
-
-
-@dp.message_handler(i18n_text='Time cases')
-@dp.message_handler(commands=['time-todo'])
-async def time_cases(message: Message):
-    local_time = str(datetime.datetime.now())[:-9] + "00"
-    tasks = get_task_by_date(local_time)
-    await _view_tasks(tasks, 'to-do', message)
-    if tasks:
-        await _choose_task(message, tasks, 'to-do')

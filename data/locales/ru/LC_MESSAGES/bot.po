@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-08 00:09+0300\n"
+"POT-Creation-Date: 2023-04-08 15:10+0300\n"
 "PO-Revision-Date: 2023-02-25 10:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -63,28 +63,135 @@ msgstr "добавить задачу"
 msgid "edit the specific task"
 msgstr "редактировать конкретную задачу"
 
-#: bot/handlers/tasks/helpers.py:8
-msgid "Please select a date: "
-msgstr "Пожалуйста выберете дату: "
+#: bot/handlers/tasks/calendar.py:9
+msgid "When should the task be done?"
+msgstr "Когда эта задача должна быть выполнена?"
 
-#: bot/handlers/tasks/helpers.py:17
+#: bot/handlers/tasks/calendar.py:18
 msgid "You selected "
 msgstr "Вы выбрали "
 
-#: bot/handlers/tasks/task_handler.py:11 bot/handlers/tasks/task_handler.py:17
-#, fuzzy
-msgid "Your new task"
-msgstr "добавить задачу"
+#: bot/handlers/tasks/choose_task.py:14
+msgid "Choose id of task"
+msgstr "Выберите идентификатор задачи"
 
-#: bot/handlers/tasks/task_handler.py:23
-#, fuzzy
-msgid "Your to-do list"
-msgstr "Посмотреть список текущих дел"
+#: bot/handlers/tasks/create_task.py:31 bot/handlers/tasks/edit_task.py:60
+msgid ""
+"At what time should the task be done?\n"
+"Please enter in format H:M."
+msgstr ""
+"В какое время должно быть выполнено задание?\n"
+"Пожалуйста, введите в формате H:M."
 
-#: bot/handlers/tasks/task_handler.py:31
+#: bot/handlers/tasks/create_task.py:42 bot/handlers/tasks/edit_task.py:73
+msgid "Selected time is earlier than current time. Please select a later time."
+msgstr "Выбранное время раньше текущего. Пожалуйста, выберите более позднее время."
+
+#: bot/handlers/tasks/create_task.py:48
+msgid "Do you want to set a periodicity?"
+msgstr "Вы хотите установить периодичность?"
+
+#: bot/handlers/tasks/create_task.py:50 bot/handlers/tasks/edit_task.py:80
+msgid "Incorrect time format. Please enter in format H:M."
+msgstr "Неправильный формат времени. Пожалуйста, введите в формате чч:мм."
+
+#: bot/handlers/tasks/create_task.py:57 bot/handlers/tasks/create_task.py:72
+msgid "Do you want to add files?"
+msgstr "Вы хотите добавить файлы?"
+
+#: bot/handlers/tasks/create_task.py:59
+msgid ""
+"Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a "
+"number (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter \"no\""
+" for a non-periodic task."
+msgstr ""
+"Введите частоту выполнения вашей задачи в формате Xy Xm Xw Xd, где X - "
+"число (например, 1y или(и) 1m или(и) 1w или(и) 1d) или введите нет для "
+"непериодического задание\""
+
+#: bot/handlers/tasks/create_task.py:62
+msgid "OK, periodicity will not be set."
+msgstr "Хорошо, периодичность установлена не будет\"
+
+#: bot/handlers/tasks/create_task.py:85 bot/handlers/tasks/edit_task.py:105
+msgid ""
+"Invalid periodicity format. Please enter the correct format (for example,"
+" 1y or(and) 1m or(and) 1w or(and) 1d) or enter no for a non-periodic "
+"task."
+msgstr ""
+"Недопустимый формат периодичности. Пожалуйста, введите правильный формат "
+"(например, 1y или (и) 1m или (и) 1w или (и) 1d) или введите \"нет\" для "
+"непериодического задание\""
+
+#: bot/handlers/tasks/create_task.py:97
+msgid "Pick the files and send them to me."
+msgstr "Выберите файлы и пришлите их мне."
+
+#: bot/handlers/tasks/create_task.py:100
 #, fuzzy
-msgid "Your list of completed cases"
-msgstr "Посмотреть список выполненных дел"
+msgid "No more files will be added "
+msgstr "Хорошо, файлы больше добавляться не будут."
+
+#: bot/handlers/tasks/create_task.py:101 bot/handlers/tasks/create_task.py:102
+msgid "OK, no files were added."
+msgstr "Хорошо, файлы добавлены не были."
+
+#: bot/handlers/tasks/create_task.py:124
+msgid "A file of this type cannot be saved."
+msgstr "Файл этого типа не может быть сохранен."
+
+#: bot/handlers/tasks/create_task.py:134
+msgid ""
+"The file has been successfully uploaded.\n"
+"If you don`t want to upload any more files, click Finish."
+msgstr ""
+"Файл был успешно загружен.\n"
+"Если вы не хотите больше загружать файлы, нажмите кнопку Закончить "
+"добавление\""
+
+#: bot/handlers/tasks/edit_task.py:21
+msgid "Enter new description of your task"
+msgstr "Введите новое описание вашей задачи"
+
+#: bot/handlers/tasks/edit_task.py:87
+msgid ""
+"Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a "
+"number (for example, 1y 1m 1w 1d) or enter non-periodic task."
+msgstr ""
+"Введите частоту выполнения вашей задачи в формате Xy Xm Xw Xd, где X - "
+"число(например, 1y 1m 1w 1d) или введите непериодическую задачу\""
+
+#: bot/handlers/tasks/state_handlers.py:11
+msgid "You have returned to the main menu."
+msgstr "Вы вернулись в главное меню."
+
+#: bot/handlers/tasks/state_handlers.py:22
+msgid "Action cancelled."
+msgstr "Акция отменена."
+
+#: bot/handlers/tasks/task_handler.py:15
+msgid ""
+"Your new task:\n"
+"Enter description of your task"
+msgstr ""
+"Ваша новая задача:\n"
+"Введите описание вашей задачи"
+
+#: bot/handlers/tasks/to_do_done.py:13
+msgid "All tasks have been deleted."
+msgstr "Все задачи были удалены\""
+
+#: bot/handlers/tasks/to_do_done.py:24 bot/handlers/tasks/to_do_done.py:37
+msgid "Your task"
+msgstr ""
+
+#: bot/handlers/tasks/to_do_done.py:25
+msgid "was deleted"
+msgstr "Нет задач для удаления."
+
+#: bot/handlers/tasks/to_do_done.py:38
+msgid "is done"
+msgstr ""
 
 #: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
 msgid "Total users: {count}"
@@ -150,9 +257,131 @@ msgstr "Количество пользователей 👥"
 msgid "Count active users 👥"
 msgstr "Количество активных пользователей 👥"
 
+#: bot/keyboards/inline/task.py:10
+msgid "Cancel"
+msgstr "Отмена"
+
+#: bot/keyboards/inline/task.py:16 bot/keyboards/inline/task.py:36
+#: utils/view_task.py:17
+msgid "No"
+msgstr "Нет"
+
+#: bot/keyboards/inline/task.py:17 bot/keyboards/inline/task.py:37
+msgid "Yes"
+msgstr "Да"
+
+#: bot/keyboards/inline/task.py:23
+msgid "Finish adding"
+msgstr "Закончить добавление"
+
+#: bot/keyboards/inline/task.py:29
+msgid "Delete"
+msgstr "Удалить"
+
+#: bot/keyboards/inline/task.py:30
+msgid "Add"
+msgstr "Добавить"
+
+#: bot/keyboards/inline/task.py:43
+msgid "Add more files"
+msgstr "Добавить больше файлов"
+
+#: bot/keyboards/inline/task.py:44
+msgid "Finish adding files"
+msgstr "Закончить добавление"
+
+#: bot/keyboards/inline/task.py:50
+msgid "Done ✅"
+msgstr "Сделано ✅"
+
+#: bot/keyboards/inline/task.py:51 bot/keyboards/inline/task.py:60
+msgid "Delete 🗑️"
+msgstr "Удалить 🗑️"
+
+#: bot/keyboards/inline/task.py:52
+msgid "Edit ✏"
+msgstr "Редактировать ✏"
+
+#: bot/keyboards/inline/task.py:53 bot/keyboards/inline/task.py:61
+#: bot/keyboards/inline/task.py:72 bot/keyboards/inline/task.py:83
+msgid "Main menu 🔙"
+msgstr "Главное меню 🔙"
+
+#: bot/keyboards/inline/task.py:59
+msgid "Not done ❌"
+msgstr "Не сделано ❌"
+
+#: bot/keyboards/inline/task.py:67
+msgid "Text 📄"
+msgstr "Текст 📄"
+
+#: bot/keyboards/inline/task.py:68
+msgid "Date 📅"
+msgstr "Дата 📅"
+
+#: bot/keyboards/inline/task.py:69
+msgid "Time ⌚"
+msgstr "Время ⌚"
+
+#: bot/keyboards/inline/task.py:70
+msgid "Periodicity 🔄️"
+msgstr "Периодичность 🔄️"
+
+#: bot/keyboards/inline/task.py:71
+msgid "Attachments 📁"
+msgstr "Вложения 📁"
+
+#: bot/keyboards/inline/task.py:82
+msgid "Delete all tasks 🗑️"
+msgstr "Удалить все файлы 🗑️"
+
+#: utils/task_helpers.py:60
+msgid "Task added successfully."
+msgstr "Задача успешно добавлена."
+
+#: utils/task_helpers.py:62
+msgid "Task edited successfully."
+msgstr "Задание успешно отредактировано."
+
+#: utils/task_helpers.py:73
+msgid "Wrong date. Please enter the day before today"
+msgstr "Ошиблись датой. Пожалуйста, выберите дату не раньше сегодняшней"
+
+#: utils/view_task.py:18
+msgid "tasks"
+msgstr "задачи"
+
+#: utils/view_task.py:24
+msgid "📃Your"
+msgstr "📃Ваш"
+
+#: utils/view_task.py:25
+msgid "list📃"
+msgstr "список📃"
+
+#: utils/view_task.py:28
+msgid "🏆Your"
+msgstr "🏆Ваш"
+
+#: utils/view_task.py:29
+msgid "list🏆"
+msgstr "список🏆"
+
+#: utils/view_task.py:40
+msgid "periodicity"
+msgstr "периодичность"
+
+#: utils/view_task.py:58
+msgid "❗NOTIFICATION❗"
+msgstr ""
+
+#: utils/view_task.py:59
+msgid "Deadline"
+msgstr "Крайний срок"
+
 #: venv/Lib/site-packages/click/_termui_impl.py:496
 msgid "{editor}: Editing failed"
-msgstr ""
+msgstr "{editor}: Ошибка редактирования"
 
 #: venv/Lib/site-packages/click/_termui_impl.py:500
 msgid "{editor}: Editing failed: {e}"
@@ -417,32 +646,32 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:404
+#: venv/Lib/site-packages/httplib2/__init__.py:408
 #, python-format
 msgid "Content purported to be compressed with %s but failed to decompress."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:568
+#: venv/Lib/site-packages/httplib2/__init__.py:572
 #, python-format
 msgid "Unsupported value for qop: %s."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:572
-#: venv/Lib/site-packages/httplib2/__init__.py:650
+#: venv/Lib/site-packages/httplib2/__init__.py:576
+#: venv/Lib/site-packages/httplib2/__init__.py:654
 #, python-format
 msgid "Unsupported value for algorithm: %s.algorithm"
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:645
+#: venv/Lib/site-packages/httplib2/__init__.py:649
 msgid "The challenge doesn't contain a server nonce, or this one is empty."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:655
+#: venv/Lib/site-packages/httplib2/__init__.py:659
 #, python-format
 msgid "Unsupported value for pw-algorithm: %s.pw-algorithm"
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:1464
+#: venv/Lib/site-packages/httplib2/__init__.py:1468
 msgid "Redirected but the response is missing a Location: header."
 msgstr ""
 
@@ -451,4 +680,40 @@ msgstr ""
 
 #~ msgid "Choose an action from the menu 👇"
 #~ msgstr "Выберите действие в меню 👇"
+
+#~ msgid "Please select a date: "
+#~ msgstr "Пожалуйста выберете дату: "
+
+#~ msgid "Your new task"
+#~ msgstr "добавить задачу"
+
+#~ msgid "Your to-do list"
+#~ msgstr "Посмотреть список текущих дел"
+
+#~ msgid "Your list of completed cases"
+#~ msgstr "Посмотреть список выполненных дел"
+
+#~ msgid ""
+#~ "Invalid periodicity format. Please enter "
+#~ "the correct format (for example,1y "
+#~ "or(and) 1m or(and) 1w or(and) 1d "
+#~ "or enter \n"
+#~ "o\\ for a non-periodic task."
+#~ msgstr ""
+#~ "Недопустимый формат периодичности. Пожалуйста, "
+#~ "введите правильный формат (например, 1y "
+#~ "или (и) 1m или (и) 1w или "
+#~ "(и) 1d или введите нет для "
+#~ "непериодического задание\""
+
+#~ msgid "Invalid parameter."
+#~ msgstr "Недопустимый параметр."
+
+#~ msgid ""
+#~ "❗NOTIFICATION❗\n"
+#~ "\n"
+#~ msgstr "❗УВЕДОМЛЕНИЕ❗"
+
+#~ msgid "NOTIFICATION❗"
+#~ msgstr "❗УВЕДОМЛЕНИЕ❗"
 

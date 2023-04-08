@@ -5,7 +5,7 @@ from aiogram.dispatcher import FSMContext
 from bot.forms.forms import TaskStateGroup
 from bot.handlers.tasks.calendar import _select_date
 from utils.view_task import _view_task
-from bot.keyboards.inline.task import get_add_file_inline_markup, get_finish_add_files_inline_markup, get_yes_no_inline_markup
+from bot.keyboards.inline import get_add_file_inline_markup, get_finish_add_files_inline_markup, get_yes_no_inline_markup
 from loader import dp, _, bot
 from aiogram.types import Message, CallbackQuery
 from aiogram_calendar import simple_cal_callback
@@ -28,8 +28,7 @@ async def _process_date(callback_query: CallbackQuery, callback_data: dict, stat
     async with state.proxy() as data:
         data['date'] = date.strftime("%d.%m.%Y")
     if selected:
-        await callback_query.message.answer('At what time should the task be done?\nPlease enter in format '
-                                            f'H:M.')
+        await callback_query.message.answer(_('At what time should the task be done?\nPlease enter in format H:M.'))
         await TaskStateGroup.time.set()
 
 
@@ -40,42 +39,42 @@ async def _process_time(message: Message, state: FSMContext):
         input_time = datetime.strptime(message.text, '%H:%M').time()
         input_date = datetime.strptime(data['date'], '%d.%m.%Y').date()
         if datetime.now().date() == input_date and datetime.now().time() > input_time:
-            await message.answer(_("Selected time is earlier than current time. Please select a later time."))
+            await message.answer(_('Selected time is earlier than current time. Please select a later time.'))
             return
         else:
             async with state.proxy() as data:
                 data['time'] = input_time
             await TaskStateGroup.periodicity.set()
-            await message.answer("Do you want to set a periodicity?", reply_markup=get_yes_no_inline_markup())
+            await message.answer(_('Do you want to set a periodicity?'), reply_markup=get_yes_no_inline_markup())
     except ValueError:
-        await message.answer(_("Incorrect time format. Please enter in format hh:mm."))
+        await message.answer(_('Incorrect time format. Please enter in format H:M.'))
 
 
 @dp.callback_query_handler(lambda callback_query: callback_query.data in ['yes', 'no'],
                            state=TaskStateGroup.periodicity)
 async def _process_periodicity(callback_query: CallbackQuery, state: FSMContext, user: User):
     await callback_query.message.delete()
+    text_files = _('Do you want to add files?')
     if callback_query.data == 'yes':
-        await callback_query.message.answer(_('Enter the frequency of your task in the format Xy Xm Xw Xd, where X is '
-                                              'a number (for example, 1y 1m 1w 1d) or enter "no" for a '
-                                              'non-periodic task.'))
+        await callback_query.message.answer(_('Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a number (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter "no" for a non-periodic task.'))
         await TaskStateGroup.periodicity.set()
     elif callback_query.data == 'no':
         await callback_query.message.answer(_('OK, periodicity will not be set.'))
         async with state.proxy() as data:
             data['periodicity'] = 'no'
         await TaskStateGroup.attachments.set()
-        await callback_query.message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
+        await callback_query.message.answer({text_files}, reply_markup=get_add_file_inline_markup())
 
 
 @dp.message_handler(state=TaskStateGroup.periodicity)
 async def _process_periodicity_text(message: Message, state: FSMContext, user: User):
     task_periodicity = message.text.strip()
+    text_files = _('Do you want to add files?')
     if task_periodicity == 'no':
         async with state.proxy() as data:
             data['periodicity'] = task_periodicity
         await TaskStateGroup.attachments.set()
-        await message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
+        await message.answer({text_files}, reply_markup=get_add_file_inline_markup())
     else:
         try:
             td = await _set_periodicity(task_periodicity)
@@ -83,12 +82,11 @@ async def _process_periodicity_text(message: Message, state: FSMContext, user: U
                 data['periodicity'] = td
             print(td)
         except ValueError:
-            await message.answer(_('Invalid periodicity format. Please enter the correct format (for '
-                         'example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter "no" for a non-periodic task.'))
+            await message.answer(_('Invalid periodicity format. Please enter the correct format (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter no for a non-periodic task.'))
             await TaskStateGroup.periodicity.set()
             return
         await TaskStateGroup.attachments.set()
-        await message.answer("Do you want to add files?", reply_markup=get_add_file_inline_markup())
+        await message.answer({text_files}, reply_markup=get_add_file_inline_markup())
 
 
 @dp.callback_query_handler(lambda callback_query: callback_query.data in ['start-adding', 'finish-adding', 'no-adding'],
@@ -99,18 +97,17 @@ async def _process_attachments(callback_query: CallbackQuery, state: FSMContext,
         await callback_query.message.answer(_('Pick the files and send them to me.'))
         await TaskStateGroup.attachments.set()
     elif callback_query.data == 'no-adding':
+        text1 = _('No more files will be added ')
+        text2 = _('OK, no files were added.')
         await callback_query.message.answer(_('OK, no files were added.'))
         async with state.proxy() as data:
             if 'attachments' in data:
                 data['attachments'] += ''
+                await callback_query.message.answer(text1)
             else:
                 data['attachments'] = ''
+                await callback_query.message.answer(text2)
         await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message, bot)
-    # elif callback_query.data == 'finish-adding':
-    #     await callback_query.message.answer(_('OK, all the files are added.'))
-    #     async with state.proxy() as data:
-    #         data['attachments'] += ''
-    #     await _view_task(await _save_task(callback_query.message, state, user, 'add'), 'add', '', callback_query.message)
 
 
 @dp.message_handler(state=TaskStateGroup.attachments, content_types=["document", "photo", "video", "audio", "voice"])
@@ -124,7 +121,7 @@ async def _process_attachments_files(message: Message, state: FSMContext) -> Non
     }
     message_type = next((t for t in message_types.keys() if getattr(message, t) is not None), None)
     if message_type is None:
-        await message.answer(_("A file of this type cannot be saved."))
+        await message.answer(_('A file of this type cannot be saved.'))
         return
     file = getattr(message, message_type)
     file_type = message_types[message_type]
@@ -134,5 +131,5 @@ async def _process_attachments_files(message: Message, state: FSMContext) -> Non
         if "attachments" not in data:
             data["attachments"] = ""
         data["attachments"] += f"{filename},{file_type};"
-    text = _("The file has been successfully uploaded.\nIf you don't want to upload any more files, click Finish.")
+    text = _('The file has been successfully uploaded.\nIf you don`t want to upload any more files, click Finish.')
     await message.answer(text, reply_markup=get_finish_add_files_inline_markup()) 

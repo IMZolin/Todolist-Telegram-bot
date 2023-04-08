@@ -1,7 +1,7 @@
 import calendar
 from datetime import datetime, timedelta
 from typing import List, Optional
-
+from utils.misc.logging import logger
 from models import User
 from models.task import Task
 from loader import _
@@ -33,13 +33,14 @@ def create_task(user_id: int, task_name: str, task_date: datetime, task_time: da
 def get_task_by_id(id: int) -> Optional[Task]:
     task = Task.get_or_none(Task.id == id)
     if task is None:
-        raise ValueError(_(f"No task found with id {id}"))
+        logger.exception(f'No task found with id {id}')
+        # raise ValueError(_(f"No task found with id {id}"))
+    
     return task
 
 
 def get_task_by_date(time: str) -> List[Task]:
     return Task.select().where((Task.time == time) & (Task.is_done == False))
-    # return [task for task in tasks if not task.is_done and task.date == datetime.now().date() and task.time == date]
 
 
 def change_is_done(id: int) -> None:
@@ -75,7 +76,7 @@ def change_is_done(id: int) -> None:
                     task.date = next_month.replace(day=days)
                     days = 0
         except ValueError as e:
-            print(_(f"Invalid periodicity format: {task.periodicity}"))
+            logger.exception(f"Invalid periodicity format: {task.periodicity}")
             return
     task.done_date = datetime.now() if task.is_done else None
     task.save()
@@ -121,22 +122,22 @@ def delete_all_tasks(user_id: int, param: str) -> None:
     elif param == 'completed':
         tasks_del = tasks.where(Task.is_done == True)
     else:
-        print(_('Invalid parameter.'))
+        logger.exception(f'Invalid parameter.')
         return
     deleted_count = 0
     for task in tasks_del:
         task.delete_instance()
         deleted_count += 1
     if deleted_count == 0:
-        print(_('No tasks to delete.'))
+        logger.exception(f'No tasks to delete.')
     else:
-        print(f'{deleted_count} tasks have been deleted.')
+        logger.exception(f'{deleted_count} tasks have been deleted.')
 
 
 def add_attachment_by_id(task_id: int, attachment: str):
     task = Task.get_or_none(Task.id == task_id)
     if task is None:
-        raise ValueError(f"No Task found with id {task_id}")
+        logger.exception(f"No Task found with id {task_id}")
     
     new_attachments = task.attachments + ";" + attachment
     task.attachments = new_attachments

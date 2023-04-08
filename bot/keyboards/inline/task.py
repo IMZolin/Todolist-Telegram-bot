@@ -68,7 +68,7 @@ def get_edit_task_markup(task: Task):
     markup.add(InlineKeyboardButton(_('Date 📅'), callback_data=f'edit_date_{task.id}'))
     markup.add(InlineKeyboardButton(_('Time ⌚'), callback_data=f'edit_time_{task.id}'))
     markup.add(InlineKeyboardButton(_('Periodicity 🔄️'), callback_data=f'edit_periodicity_{task.id}'))
-    # markup.add(InlineKeyboardButton(_('Attachments 📁'), callback_data=f'edit_att_{task.id}'))
+    markup.add(InlineKeyboardButton(_('Attachments 📁'), callback_data=f'edit_att_{task.id}'))
     markup.add(InlineKeyboardButton(_('Main menu 🔙'), callback_data='main_menu'))
     return markup
 

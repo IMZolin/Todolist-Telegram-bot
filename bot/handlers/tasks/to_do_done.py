@@ -21,7 +21,9 @@ async def _choose_task_delete(callback_query: CallbackQuery, user: User):
     delete_by_id(task_id)
     tasks = get_to_do(user.id)
     await callback_query.message.delete()
-    await callback_query.message.answer(_(f'Your task {task.text} was deleted'))
+    text1 = _("Your task")
+    text2 = _("was deleted")
+    await callback_query.message.answer(f'{text1} {task.text} {text2}')
     await _view_tasks(tasks, 'to-do', callback_query.message)
 
 
@@ -32,5 +34,7 @@ async def _choose_task_is_done(callback_query: CallbackQuery, user: User):
     change_is_done(task_id)
     tasks = get_to_do(user.id)
     await callback_query.message.delete()
-    await callback_query.message.answer(_(f'Your task {task.text} is done'))
+    text1 = _("Your task")
+    text2 = _("is done")
+    await callback_query.message.answer(f'{text1} {task.text} {text2}')
     await _view_tasks(tasks, 'to-do', callback_query.message)

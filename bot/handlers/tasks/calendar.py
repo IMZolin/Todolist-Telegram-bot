@@ -1,8 +1,7 @@
 from aiogram.types import Message, CallbackQuery
 
-# from bot.handlers.tasks.aiogram_calendar.simple_calendar import calendar_callback, SimpleCalendar
 from loader import dp, _
-from aiogram_calendar import simple_cal_callback, SimpleCalendar, dialog_cal_callback, DialogCalendar
+from aiogram_calendar import simple_cal_callback, SimpleCalendar
 
 
 @dp.message_handler(commands=['date'])

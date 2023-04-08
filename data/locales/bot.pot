@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bot VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-08 00:09+0300\n"
+"POT-Creation-Date: 2023-04-08 15:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,24 +61,118 @@ msgstr ""
 msgid "edit the specific task"
 msgstr ""
 
-#: bot/handlers/tasks/helpers.py:8
-msgid "Please select a date: "
+#: bot/handlers/tasks/calendar.py:9
+msgid "When should the task be done?"
 msgstr ""
 
-#: bot/handlers/tasks/helpers.py:17
+#: bot/handlers/tasks/calendar.py:18
 msgid "You selected "
 msgstr ""
 
-#: bot/handlers/tasks/task_handler.py:11 bot/handlers/tasks/task_handler.py:17
-msgid "Your new task"
+#: bot/handlers/tasks/choose_task.py:14
+msgid "Choose id of task"
 msgstr ""
 
-#: bot/handlers/tasks/task_handler.py:23
-msgid "Your to-do list"
+#: bot/handlers/tasks/create_task.py:31 bot/handlers/tasks/edit_task.py:60
+msgid ""
+"At what time should the task be done?\n"
+"Please enter in format H:M."
 msgstr ""
 
-#: bot/handlers/tasks/task_handler.py:31
-msgid "Your list of completed cases"
+#: bot/handlers/tasks/create_task.py:42 bot/handlers/tasks/edit_task.py:73
+msgid "Selected time is earlier than current time. Please select a later time."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:48
+msgid "Do you want to set a periodicity?"
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:50 bot/handlers/tasks/edit_task.py:80
+msgid "Incorrect time format. Please enter in format H:M."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:57 bot/handlers/tasks/create_task.py:72
+msgid "Do you want to add files?"
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:59
+msgid ""
+"Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a "
+"number (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter \"no\""
+" for a non-periodic task."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:62
+msgid "OK, periodicity will not be set."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:85 bot/handlers/tasks/edit_task.py:105
+msgid ""
+"Invalid periodicity format. Please enter the correct format (for example,"
+" 1y or(and) 1m or(and) 1w or(and) 1d) or enter no for a non-periodic "
+"task."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:97
+msgid "Pick the files and send them to me."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:100
+msgid "No more files will be added "
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:101 bot/handlers/tasks/create_task.py:102
+msgid "OK, no files were added."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:124
+msgid "A file of this type cannot be saved."
+msgstr ""
+
+#: bot/handlers/tasks/create_task.py:134
+msgid ""
+"The file has been successfully uploaded.\n"
+"If you don`t want to upload any more files, click Finish."
+msgstr ""
+
+#: bot/handlers/tasks/edit_task.py:21
+msgid "Enter new description of your task"
+msgstr ""
+
+#: bot/handlers/tasks/edit_task.py:87
+msgid ""
+"Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a "
+"number (for example, 1y 1m 1w 1d) or enter non-periodic task."
+msgstr ""
+
+#: bot/handlers/tasks/state_handlers.py:11
+msgid "You have returned to the main menu."
+msgstr ""
+
+#: bot/handlers/tasks/state_handlers.py:22
+msgid "Action cancelled."
+msgstr ""
+
+#: bot/handlers/tasks/task_handler.py:15
+msgid ""
+"Your new task:\n"
+"Enter description of your task"
+msgstr ""
+
+#: bot/handlers/tasks/to_do_done.py:13
+msgid "All tasks have been deleted."
+msgstr ""
+
+#: bot/handlers/tasks/to_do_done.py:24 bot/handlers/tasks/to_do_done.py:37
+msgid "Your task"
+msgstr ""
+
+#: bot/handlers/tasks/to_do_done.py:25
+msgid "was deleted"
+msgstr ""
+
+#: bot/handlers/tasks/to_do_done.py:38
+msgid "is done"
 msgstr ""
 
 #: bot/handlers/users/admin_menu.py:25 bot/handlers/users/admin_menu.py:33
@@ -139,6 +233,128 @@ msgstr ""
 
 #: bot/keyboards/default/default.py:15
 msgid "Count active users 👥"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:10
+msgid "Cancel"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:16 bot/keyboards/inline/task.py:36
+#: utils/view_task.py:17
+msgid "No"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:17 bot/keyboards/inline/task.py:37
+msgid "Yes"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:23
+msgid "Finish adding"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:29
+msgid "Delete"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:30
+msgid "Add"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:43
+msgid "Add more files"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:44
+msgid "Finish adding files"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:50
+msgid "Done ✅"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:51 bot/keyboards/inline/task.py:60
+msgid "Delete 🗑️"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:52
+msgid "Edit ✏"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:53 bot/keyboards/inline/task.py:61
+#: bot/keyboards/inline/task.py:72 bot/keyboards/inline/task.py:83
+msgid "Main menu 🔙"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:59
+msgid "Not done ❌"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:67
+msgid "Text 📄"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:68
+msgid "Date 📅"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:69
+msgid "Time ⌚"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:70
+msgid "Periodicity 🔄️"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:71
+msgid "Attachments 📁"
+msgstr ""
+
+#: bot/keyboards/inline/task.py:82
+msgid "Delete all tasks 🗑️"
+msgstr ""
+
+#: utils/task_helpers.py:60
+msgid "Task added successfully."
+msgstr ""
+
+#: utils/task_helpers.py:62
+msgid "Task edited successfully."
+msgstr ""
+
+#: utils/task_helpers.py:73
+msgid "Wrong date. Please enter the day before today"
+msgstr ""
+
+#: utils/view_task.py:18
+msgid "tasks"
+msgstr ""
+
+#: utils/view_task.py:24
+msgid "📃Your"
+msgstr ""
+
+#: utils/view_task.py:25
+msgid "list📃"
+msgstr ""
+
+#: utils/view_task.py:28
+msgid "🏆Your"
+msgstr ""
+
+#: utils/view_task.py:29
+msgid "list🏆"
+msgstr ""
+
+#: utils/view_task.py:40
+msgid "periodicity"
+msgstr ""
+
+#: utils/view_task.py:58
+msgid "❗NOTIFICATION❗"
+msgstr ""
+
+#: utils/view_task.py:59
+msgid "Deadline"
 msgstr ""
 
 #: venv/Lib/site-packages/click/_termui_impl.py:496
@@ -401,32 +617,32 @@ msgid_plural "{len_type} values are required, but {len_value} were given."
 msgstr[0] ""
 msgstr[1] ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:404
+#: venv/Lib/site-packages/httplib2/__init__.py:408
 #, python-format
 msgid "Content purported to be compressed with %s but failed to decompress."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:568
+#: venv/Lib/site-packages/httplib2/__init__.py:572
 #, python-format
 msgid "Unsupported value for qop: %s."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:572
-#: venv/Lib/site-packages/httplib2/__init__.py:650
+#: venv/Lib/site-packages/httplib2/__init__.py:576
+#: venv/Lib/site-packages/httplib2/__init__.py:654
 #, python-format
 msgid "Unsupported value for algorithm: %s.algorithm"
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:645
+#: venv/Lib/site-packages/httplib2/__init__.py:649
 msgid "The challenge doesn't contain a server nonce, or this one is empty."
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:655
+#: venv/Lib/site-packages/httplib2/__init__.py:659
 #, python-format
 msgid "Unsupported value for pw-algorithm: %s.pw-algorithm"
 msgstr ""
 
-#: venv/Lib/site-packages/httplib2/__init__.py:1464
+#: venv/Lib/site-packages/httplib2/__init__.py:1468
 msgid "Redirected but the response is missing a Location: header."
 msgstr ""
 

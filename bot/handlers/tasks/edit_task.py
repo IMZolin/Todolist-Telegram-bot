@@ -57,8 +57,7 @@ async def _edit_task_date(callback_query: CallbackQuery, callback_data: dict, st
 async def _edit_time(callback_query: CallbackQuery, state: FSMContext) -> None:
     await callback_query.message.delete()
     task_id = int(callback_query.data.split('_')[-1])
-    await callback_query.message.answer(_('At what time should the task be done?\nPlease enter in format '
-                                          f'H:M.'))
+    await callback_query.message.answer(_('At what time should the task be done?\nPlease enter in format H:M.'))
     await EditTaskStateGroup.time.set()
     async with state.proxy() as data:
         data['task_id'] = task_id
@@ -78,15 +77,14 @@ async def _edit_task_time(message: Message, state: FSMContext, user: User) -> No
             await _save_task(message, state, user, 'edit', task_id)
             await _view_task(get_task_by_id(task_id), 'edit', '', message, bot)
     except ValueError:
-        await message.answer(_("Incorrect time format. Please enter in format hh:mm."))
+        await message.answer(_("Incorrect time format. Please enter in format H:M."))
 
 
 @dp.callback_query_handler(lambda c: c.data.startswith('edit_periodicity_'), state=EditTaskStateGroup.inlineMenu)
 async def _edit_periodicity(callback_query: CallbackQuery, state: FSMContext) -> None:
     await callback_query.message.delete()
     task_id = int(callback_query.data.split('_')[-1])
-    await callback_query.message.answer(_('Enter the frequency of your task in the format Xy Xm Xw Xd, where X is '
-                                          'a number (for example, 1y 1m 1w 1d) or enter non-periodic task.'))
+    await callback_query.message.answer(_('Enter the frequency of your task in the format Xy Xm Xw Xd, where X is a number (for example, 1y 1m 1w 1d) or enter non-periodic task.'))
     await EditTaskStateGroup.periodicity.set()
     async with state.proxy() as data:
         data['task_id'] = task_id
@@ -104,8 +102,7 @@ async def _edit_task_text(message: Message, state: FSMContext, user: User) -> No
         try:
             td = await _set_periodicity(task_periodicity)
         except ValueError:
-            await message.answer(_('Invalid periodicity format. Please enter the correct format (for '
-                         'example, 1y or(and) 1m or(and) 1w or(and) 1d or enter "no" for a non-periodic task.'))
+            await message.answer(_('Invalid periodicity format. Please enter the correct format (for example, 1y or(and) 1m or(and) 1w or(and) 1d) or enter no for a non-periodic task.'))
             await EditTaskStateGroup.periodicity.set()
             return
         await update_task(task_id, None, None, None, td)

@@ -1,3 +1,5 @@
 /.idea
 *.docx
 /__pycache__
+.env
+client_secrets.json
