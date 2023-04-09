@@ -1,7 +1,7 @@
-from typing import List, Optional
+from typing import List, Optional, Union
 
 from aiogram import Bot
-from aiogram.types import Message
+from aiogram.types import Message, MediaGroup, File, InputFile
 
 from bot.keyboards.inline.task import get_delete_all_markup, get_todo_inline_markup, get_completed_inline_markup, \
     get_edit_task_markup
@@ -60,6 +60,28 @@ async def _view_task(task: Task, param: str, response: str, message: Optional[Me
         notify_text = f'{notify_prefix}\n\n {task_message}\n<b>{deadline}: {task.time}</b>'
         await bot.send_message(chat_id=task.author, text=notify_text,  reply_markup=get_todo_inline_markup(task), parse_mode='HTML')   
     await _view_files(task=task, bot=bot)
+
+
+class MediaGroup:
+    def __init__(self, bot: Bot):
+        self.bot = bot
+        self.media_group = MediaGroup()
+
+    def add_file(self, file: Union[str, bytes, File]):
+        if isinstance(file, str):
+            media = {"type": "video", "media": file}
+        elif isinstance(file, bytes):
+            media = {"type": "photo", "media": InputFile(file)}
+        elif isinstance(file, File):
+            media = {"type": file.mime_type, "media": file.file_id}
+        else:
+            raise ValueError(f"Invalid file type: {type(file)}")
+        self.media_group.attach(media)
+
+    async def send(self, chat_id: Union[int, str], **kwargs) -> List[Message]:
+        messages = await self.bot.send_media_group(chat_id=chat_id, media=self.media_group, **kwargs)
+        self.media_group = MediaGroup()
+        return messages
 
 
 async def _view_files(task: Task, bot: Bot):
