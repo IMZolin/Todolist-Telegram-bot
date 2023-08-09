@@ -6,7 +6,7 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-RUN apt-get update && \
+RUN apt-get update && apt-get install -y dos2unix && \
     apt-get install -y --no-install-recommends gcc libc-dev libffi-dev python3-dev musl-dev
 
 RUN pip install virtualenv
@@ -14,7 +14,7 @@ RUN pip install virtualenv
 RUN virtualenv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-COPY requirements.txt .
+COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 
 # final stage
@@ -34,4 +34,5 @@ RUN chown -R app:app ./* && chmod -R 777 ./*
 
 USER app
 
+# RUN dos2unix ./bin/entrypoint.sh
 ENTRYPOINT ["./bin/entrypoint.sh"]

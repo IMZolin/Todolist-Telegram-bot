@@ -1,2 +1,9 @@
+#!/bin/bash
 pw_migrate migrate --database $(python _get_database_url.py) --directory ./migrations
-python main.py
+
+if [ -z "$WEBHOOK_PATH" ]
+then
+      python app.py
+else
+      python webhook.py
+fi
