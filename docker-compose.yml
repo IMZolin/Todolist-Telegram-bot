@@ -1,70 +1,29 @@
 version: '3.1'
 
 services:
-  grafana:
-    image: grafana/grafana:8.0.6
-    container_name: grafana
-    restart: unless-stopped
-    volumes:
-      - grafana-data:/var/lib/grafana
-    ports:
-      - 3000:3000
-  loki:
-    image: grafana/loki:2.0.0
-    container_name: loki
-    restart: unless-stopped
-    volumes:
-      - ./loki-config.yml:/mnt/config/loki-config.yml
-      - loki-data:/loki
-    ports:
-      - 3100:3100
-    command:
-      - '-config.file=/mnt/config/loki-config.yml'
-  nginx:
-    image: nginx
-    container_name: nginx
-    restart: unless-stopped
-    logging:
-      driver: loki
-      options:
-        loki-url: "http://localhost:3100/loki/api/v1/push"
-    ports:
-      - 80:80
+
   bot:
-    build: ./
+    build: .
     restart: always
     entrypoint:
       - ./bin/entrypoint.sh
     depends_on:
       - postgres
-      - redis
     image: ${IMAGE_NAME}:v1
     container_name: ${CONTAINER_NAME}
-    env_file:
-      - .env
     environment:
       ADMINS: ${ADMINS}
       BOT_TOKEN: ${BOT_TOKEN}
       RATE_LIMIT: ${RATE_LIMIT:-0.5}
+
       DATABASE_USER: ${DB_USER}
       DATABASE_PASS: ${DB_PASSWORD}
       DATABASE_HOST: ${DB_HOST}
       DATABASE_PORT: ${DB_PORT}
       DATABASE_NAME: ${DB_NAME}
-      REDIS_HOST: redis
-      REDIS_PORT: 6379
-      REDIS_DB: 5
-    networks:
-      webc:
-  
-  redis:
-    image: redis:alpine
-    command: redis-server
-    environment:
-      - REDIS_REPLICATION_MODE=master
 
   postgres:
-    image: postgres
+    image: postgres:latest
     container_name: ${CONTAINER_DB_NAME}
     restart: always
     env_file:
@@ -73,13 +32,6 @@ services:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    networks:
-      webc:
-
-networks:
-  webc:
 
 volumes:
-  grafana-data:
-  loki-data:
   postgres_data:

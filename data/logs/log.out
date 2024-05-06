@@ -1,2 +1,16 @@
-[2023-06-04T10:19:13.878669+0300] [INFO] [main.py:15]  Bot startup
-[2023-06-04T10:19:25.962190+0300] [DEBUG] [logging.py:11]  Received message [AQID:7075] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2024-01-25T20:17:01.220653+0300] [INFO] [main.py:15]  Bot startup
+[2024-01-25T20:17:10.558895+0300] [DEBUG] [logging.py:11]  Received message [AQID:7270] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2024-01-25T20:17:16.452354+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_to_do_5"] from user [ID:448470724] for message [ID:7272] in chat [ID:448470724]
+[2024-01-25T20:17:28.892621+0300] [DEBUG] [logging.py:11]  Received message [AQID:7275] from user [ID:448470724] in chat [ID:448470724] text "Completed cases 🏆"
+[2024-01-25T20:17:36.464272+0300] [DEBUG] [logging.py:19]  Received callback query [data:"main_menu"] from user [ID:448470724] for message [ID:7276] in chat [ID:448470724]
+[2024-01-25T20:17:40.189898+0300] [DEBUG] [logging.py:11]  Received message [AQID:7279] from user [ID:448470724] in chat [ID:448470724] text "Help 🆘"
+[2024-01-25T20:50:59.002179+0300] [INFO] [main.py:15]  Bot startup
+[2024-01-25T20:51:08.239934+0300] [DEBUG] [logging.py:11]  Received message [AQID:7283] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2024-01-25T20:52:03.924455+0300] [INFO] [main.py:15]  Bot startup
+[2024-01-25T20:52:10.359250+0300] [DEBUG] [logging.py:11]  Received message [AQID:7286] from user [ID:448470724] in chat [ID:448470724] text "Edit task ✏"
+[2024-01-25T20:52:13.083423+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_edit_40"] from user [ID:448470724] for message [ID:7288] in chat [ID:448470724]
+[2024-01-25T20:52:21.152362+0300] [DEBUG] [logging.py:19]  Received callback query [data:"edit_text_40"] from user [ID:448470724] for message [ID:7289] in chat [ID:448470724]
+[2024-01-25T20:52:29.573329+0300] [DEBUG] [logging.py:11]  Received message [AQID:7291] from user [ID:448470724] in chat [ID:448470724] text "assa"
+[2024-01-25T20:52:33.385448+0300] [DEBUG] [logging.py:19]  Received callback query [data:"main_menu"] from user [ID:448470724] for message [ID:7293] in chat [ID:448470724]
+[2024-01-25T20:52:35.062052+0300] [DEBUG] [logging.py:11]  Received message [AQID:7295] from user [ID:448470724] in chat [ID:448470724] text "To-do list 📃"
+[2024-01-25T20:52:38.001196+0300] [DEBUG] [logging.py:19]  Received callback query [data:"task_to_do_40"] from user [ID:448470724] for message [ID:7297] in chat [ID:448470724]
